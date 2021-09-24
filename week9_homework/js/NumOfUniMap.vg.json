@@ -7,7 +7,7 @@
     "type": "equirectangular"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Week%209%20Homework/js/map.geo.json",
+    "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/week9_homework/js/map.geo.json",
     "format": {
       "type": "topojson",
       "feature": "custom.geo"
