@@ -1,0 +1,211 @@
+University,Year,World rank,Key,Value
+Harvard University,2016,1,Total score,100
+Harvard University,2017,1,Total score,100
+Harvard University,2018,1,Total score,100
+Stanford University,2016,2,Total score,74.7
+Stanford University,2017,2,Total score,76.5
+Stanford University,2018,2,Total score,75.6
+"University of California, Berkeley",2016,3,Total score,70.1
+University of Cambridge,2017,3,Total score,70.9
+University of Cambridge,2018,3,Total score,71.8
+University of Cambridge,2016,4,Total score,69.6
+Massachusetts Institute of Technology (MIT),2017,4,Total score,70.4
+Massachusetts Institute of Technology (MIT),2018,4,Total score,69.9
+Massachusetts Institute of Technology (MIT),2016,5,Total score,69.2
+"University of California, Berkeley",2017,5,Total score,69.1
+"University of California, Berkeley",2018,5,Total score,68.3
+Princeton University,2016,6,Total score,62
+Princeton University,2017,6,Total score,61.1
+Princeton University,2018,6,Total score,61
+University of Oxford,2016,7,Total score,58.9
+University of Oxford,2017,7,Total score,60.1
+University of Oxford,2018,7,Total score,60
+California Institute of Technology,2016,8,Total score,57.8
+Columbia University,2017,8,Total score,58.8
+Columbia University,2018,8,Total score,58.2
+Columbia University,2016,9,Total score,56.7
+California Institute of Technology,2017,9,Total score,57.3
+California Institute of Technology,2018,9,Total score,57.4
+University of Chicago,2016,10,Total score,54.2
+University of Chicago,2017,10,Total score,53.9
+University of Chicago,2018,10,Total score,55.5
+Harvard University,2016,1,Alumni,100
+Harvard University,2017,1,Alumni,100
+Harvard University,2018,1,Alumni,100
+Stanford University,2016,2,Alumni,42.9
+Stanford University,2017,2,Alumni,44.5
+Stanford University,2018,2,Alumni,44.5
+"University of California, Berkeley",2016,3,Alumni,65.1
+University of Cambridge,2017,3,Alumni,81.4
+University of Cambridge,2018,3,Alumni,82.3
+University of Cambridge,2016,4,Alumni,78.3
+Massachusetts Institute of Technology (MIT),2017,4,Alumni,68.7
+Massachusetts Institute of Technology (MIT),2018,4,Alumni,70.9
+Massachusetts Institute of Technology (MIT),2016,5,Alumni,69.4
+"University of California, Berkeley",2017,5,Alumni,64.4
+"University of California, Berkeley",2018,5,Alumni,65.6
+Princeton University,2016,6,Alumni,53.3
+Princeton University,2017,6,Alumni,54.4
+Princeton University,2018,6,Alumni,55.8
+University of Oxford,2016,7,Alumni,49.7
+University of Oxford,2017,7,Alumni,50.8
+University of Oxford,2018,7,Alumni,50.8
+California Institute of Technology,2016,8,Alumni,51
+Columbia University,2017,8,Alumni,62.8
+Columbia University,2018,8,Alumni,62.8
+Columbia University,2016,9,Alumni,63.5
+California Institute of Technology,2017,9,Alumni,50.5
+California Institute of Technology,2018,9,Alumni,53.5
+University of Chicago,2016,10,Alumni,59.8
+University of Chicago,2017,10,Alumni,59.2
+University of Chicago,2018,10,Alumni,59.2
+Harvard University,2016,1,Award,100
+Harvard University,2017,1,Award,100
+Harvard University,2018,1,Award,100
+Stanford University,2016,2,Award,89.6
+Stanford University,2017,2,Award,88.5
+Stanford University,2018,2,Award,88.5
+"University of California, Berkeley",2016,3,Award,79.4
+University of Cambridge,2017,3,Award,95.4
+University of Cambridge,2018,3,Award,95.4
+University of Cambridge,2016,4,Award,96.6
+Massachusetts Institute of Technology (MIT),2017,4,Award,82.3
+Massachusetts Institute of Technology (MIT),2018,4,Award,83.6
+Massachusetts Institute of Technology (MIT),2016,5,Award,80.7
+"University of California, Berkeley",2017,5,Award,78.4
+"University of California, Berkeley",2018,5,Award,78.4
+Princeton University,2016,6,Award,98
+Princeton University,2017,6,Award,97.9
+Princeton University,2018,6,Award,97.9
+University of Oxford,2016,7,Award,54.9
+University of Oxford,2017,7,Award,54.2
+University of Oxford,2018,7,Award,54.2
+California Institute of Technology,2016,8,Award,66.7
+Columbia University,2017,8,Award,65.1
+Columbia University,2018,8,Award,67.2
+Columbia University,2016,9,Award,65.9
+California Institute of Technology,2017,9,Award,65.8
+California Institute of Technology,2018,9,Award,67.5
+University of Chicago,2016,10,Award,86.3
+University of Chicago,2017,10,Award,85.1
+University of Chicago,2018,10,Award,90.1
+Harvard University,2016,1,PUB,100
+Harvard University,2017,1,PUB,100
+Harvard University,2018,1,PUB,100
+Stanford University,2016,2,PUB,73.1
+Stanford University,2017,2,PUB,73.7
+Stanford University,2018,2,PUB,76.5
+"University of California, Berkeley",2016,3,PUB,68.4
+University of Cambridge,2017,3,PUB,69.8
+University of Cambridge,2018,3,PUB,70.9
+University of Cambridge,2016,4,PUB,67.8
+Massachusetts Institute of Technology (MIT),2017,4,PUB,63.5
+Massachusetts Institute of Technology (MIT),2018,4,PUB,64.4
+Massachusetts Institute of Technology (MIT),2016,5,PUB,61.7
+"University of California, Berkeley",2017,5,PUB,66.7
+"University of California, Berkeley",2018,5,PUB,65.1
+Princeton University,2016,6,PUB,42.9
+Princeton University,2017,6,PUB,43.3
+Princeton University,2018,6,PUB,44.2
+University of Oxford,2016,7,PUB,74.5
+University of Oxford,2017,7,PUB,75.8
+University of Oxford,2018,7,PUB,77.1
+California Institute of Technology,2016,8,PUB,43.6
+Columbia University,2017,8,PUB,70.3
+Columbia University,2018,8,PUB,71.5
+Columbia University,2016,9,PUB,68.9
+California Institute of Technology,2017,9,PUB,44
+California Institute of Technology,2018,9,PUB,45
+University of Chicago,2016,10,PUB,50.2
+University of Chicago,2017,10,PUB,50.3
+University of Chicago,2018,10,PUB,52
+Harvard University,2016,1,N&S,100
+Harvard University,2017,1,N&S,100
+Harvard University,2018,1,N&S,100
+Stanford University,2016,2,N&S,73.6
+Stanford University,2017,2,N&S,74.4
+Stanford University,2018,2,N&S,78.6
+"University of California, Berkeley",2016,3,N&S,68.7
+University of Cambridge,2017,3,N&S,57.3
+University of Cambridge,2018,3,N&S,57.6
+University of Cambridge,2016,4,N&S,56.7
+Massachusetts Institute of Technology (MIT),2017,4,N&S,72.4
+Massachusetts Institute of Technology (MIT),2018,4,N&S,71.4
+Massachusetts Institute of Technology (MIT),2016,5,N&S,71.7
+"University of California, Berkeley",2017,5,N&S,68.1
+"University of California, Berkeley",2018,5,N&S,67.8
+Princeton University,2016,6,N&S,47.2
+Princeton University,2017,6,N&S,46.6
+Princeton University,2018,6,N&S,47.1
+University of Oxford,2016,7,N&S,55
+University of Oxford,2017,7,N&S,52.5
+University of Oxford,2018,7,N&S,52.6
+California Institute of Technology,2016,8,N&S,57.3
+Columbia University,2017,8,N&S,53.8
+Columbia University,2018,8,N&S,56.4
+Columbia University,2016,9,N&S,53.3
+California Institute of Technology,2017,9,N&S,56
+California Institute of Technology,2018,9,N&S,57.6
+University of Chicago,2016,10,N&S,42.7
+University of Chicago,2017,10,N&S,41.1
+University of Chicago,2018,10,N&S,42.5
+Harvard University,2016,1,Hi Ci,100
+Harvard University,2017,1,Hi Ci,100
+Harvard University,2018,1,Hi Ci,100
+Stanford University,2016,2,Hi Ci,80.1
+Stanford University,2017,2,Hi Ci,87.3
+Stanford University,2018,2,Hi Ci,76.6
+"University of California, Berkeley",2016,3,Hi Ci,64.9
+University of Cambridge,2017,3,Hi Ci,54.6
+University of Cambridge,2018,3,Hi Ci,56.7
+University of Cambridge,2016,4,Hi Ci,51.3
+Massachusetts Institute of Technology (MIT),2017,4,Hi Ci,56.7
+Massachusetts Institute of Technology (MIT),2018,4,Hi Ci,52.5
+Massachusetts Institute of Technology (MIT),2016,5,Hi Ci,55.3
+"University of California, Berkeley",2017,5,Hi Ci,63.6
+"University of California, Berkeley",2018,5,Hi Ci,61.3
+Princeton University,2016,6,Hi Ci,51.3
+Princeton University,2017,6,Hi Ci,47.6
+Princeton University,2018,6,Hi Ci,44.9
+University of Oxford,2016,7,Hi Ci,56.2
+University of Oxford,2017,7,Hi Ci,62.7
+University of Oxford,2018,7,Hi Ci,61.3
+California Institute of Technology,2016,8,Hi Ci,39.7
+Columbia University,2017,8,Hi Ci,50
+Columbia University,2018,8,Hi Ci,41.8
+Columbia University,2016,9,Hi Ci,41
+California Institute of Technology,2017,9,Hi Ci,39.3
+California Institute of Technology,2018,9,Hi Ci,34.5
+University of Chicago,2016,10,Hi Ci,34
+University of Chicago,2017,10,Hi Ci,36.2
+University of Chicago,2018,10,Hi Ci,35.8
+Harvard University,2016,1,PCP,79.2
+Harvard University,2017,1,PCP,79.5
+Harvard University,2018,1,PCP,79.6
+Stanford University,2016,2,PCP,55.8
+Stanford University,2017,2,PCP,56.8
+Stanford University,2018,2,PCP,56
+"University of California, Berkeley",2016,3,PCP,59
+University of Cambridge,2017,3,PCP,59.1
+University of Cambridge,2018,3,PCP,59.5
+University of Cambridge,2016,4,PCP,58.5
+Massachusetts Institute of Technology (MIT),2017,4,PCP,70.8
+Massachusetts Institute of Technology (MIT),2018,4,PCP,70.3
+Massachusetts Institute of Technology (MIT),2016,5,PCP,69.7
+"University of California, Berkeley",2017,5,PCP,58.7
+"University of California, Berkeley",2018,5,PCP,58.2
+Princeton University,2016,6,PCP,74.4
+Princeton University,2017,6,PCP,73.5
+Princeton University,2018,6,PCP,73.3
+University of Oxford,2016,7,PCP,46.1
+University of Oxford,2017,7,PCP,47.2
+University of Oxford,2018,7,PCP,46.8
+California Institute of Technology,2016,8,PCP,100
+Columbia University,2017,8,PCP,34.3
+Columbia University,2018,8,PCP,33.7
+Columbia University,2016,9,PCP,33.3
+California Institute of Technology,2017,9,PCP,100
+California Institute of Technology,2018,9,PCP,100
+University of Chicago,2016,10,PCP,44.5
+University of Chicago,2017,10,PCP,43.1
+University of Chicago,2018,10,PCP,44.2
