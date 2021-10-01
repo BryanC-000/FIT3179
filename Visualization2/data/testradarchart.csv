@@ -2,21 +2,63 @@ university,year,world_rank,key,value
 Harvard University,2016,1,Total score,100
 Harvard University,2017,1,Total score,100
 Harvard University,2018,1,Total score,100
+Stanford University,2016,2,Total score,74.7
+Stanford University,2017,2,Total score,76.5
+Stanford University,2018,2,Total score,75.6
+"University of California, Berkeley",2016,3,Total score,70.1
+University of Cambridge,2017,3,Total score,70.9
+University of Cambridge,2018,3,Total score,71.8
 Harvard University,2016,1,Alumni,100
 Harvard University,2017,1,Alumni,100
 Harvard University,2018,1,Alumni,100
+Stanford University,2016,2,Alumni,42.9
+Stanford University,2017,2,Alumni,44.5
+Stanford University,2018,2,Alumni,44.5
+"University of California, Berkeley",2016,3,Alumni,65.1
+University of Cambridge,2017,3,Alumni,81.4
+University of Cambridge,2018,3,Alumni,82.3
 Harvard University,2016,1,Award,100
 Harvard University,2017,1,Award,100
 Harvard University,2018,1,Award,100
+Stanford University,2016,2,Award,89.6
+Stanford University,2017,2,Award,88.5
+Stanford University,2018,2,Award,88.5
+"University of California, Berkeley",2016,3,Award,79.4
+University of Cambridge,2017,3,Award,95.4
+University of Cambridge,2018,3,Award,95.4
 Harvard University,2016,1,PUB,100
 Harvard University,2017,1,PUB,100
 Harvard University,2018,1,PUB,100
+Stanford University,2016,2,PUB,73.1
+Stanford University,2017,2,PUB,73.7
+Stanford University,2018,2,PUB,76.5
+"University of California, Berkeley",2016,3,PUB,68.4
+University of Cambridge,2017,3,PUB,69.8
+University of Cambridge,2018,3,PUB,70.9
 Harvard University,2016,1,N&S,100
 Harvard University,2017,1,N&S,100
 Harvard University,2018,1,N&S,100
+Stanford University,2016,2,N&S,73.6
+Stanford University,2017,2,N&S,74.4
+Stanford University,2018,2,N&S,78.6
+"University of California, Berkeley",2016,3,N&S,68.7
+University of Cambridge,2017,3,N&S,57.3
+University of Cambridge,2018,3,N&S,57.6
 Harvard University,2016,1,Hi Ci,100
 Harvard University,2017,1,Hi Ci,100
 Harvard University,2018,1,Hi Ci,100
+Stanford University,2016,2,Hi Ci,80.1
+Stanford University,2017,2,Hi Ci,87.3
+Stanford University,2018,2,Hi Ci,76.6
+"University of California, Berkeley",2016,3,Hi Ci,64.9
+University of Cambridge,2017,3,Hi Ci,54.6
+University of Cambridge,2018,3,Hi Ci,56.7
 Harvard University,2016,1,PCP,79.2
 Harvard University,2017,1,PCP,79.5
 Harvard University,2018,1,PCP,79.6
+Stanford University,2016,2,PCP,55.8
+Stanford University,2017,2,PCP,56.8
+Stanford University,2018,2,PCP,56
+"University of California, Berkeley",2016,3,PCP,59
+University of Cambridge,2017,3,PCP,59.1
+University of Cambridge,2018,3,PCP,59.5
