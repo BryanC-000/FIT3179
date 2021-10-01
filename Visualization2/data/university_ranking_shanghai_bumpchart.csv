@@ -16,7 +16,7 @@ The University of Western Australia,153,2005,Australia
 University of Canterbury,401,2006,New Zealand
 City University of Hong Kong,301,2006,"Hong Kong, China"
 University of Vienna,151,2006,Austria
-"University of California, Berkeley",4,2006,United States
+Harvard University,1,2006,United States
 University of Sydney,102,2006,Australia
 University of Waterloo,201,2006,Canada
 Howard University,401,2006,United States
@@ -291,7 +291,7 @@ University of Bradford,401,2005,United Kingdom
 University of Innsbruck,203,2005,Austria
 National Taiwan University,151,2006,"Taiwan, China"
 State University of New York at Albany,201,2006,United States
-California Institute of Technology,6,2006,United States
+University of Cambridge,2,2006,United Kingdom
 London School of Economics and Political Science,201,2006,United Kingdom
 University of Birmingham,90,2006,United Kingdom
 Ghent University,102,2006,Belgium
@@ -693,7 +693,7 @@ University of Rostock,401,2017,Germany
 University of Cincinnati,201,2011,United States
 Queen's University,201,2014,Canada
 University of Rennes 1,401,2014,France
-Princeton University,6,2014,United States
+Harvard University,1,2014,United States
 The Ohio State University - Columbus,64,2014,United States
 University of South Florida,201,2014,United States
 Pohang University of Science and Technology,301,2014,"Korea, Republic of"
@@ -948,7 +948,7 @@ University of Virginia,102,2006,United States
 The University of Connecticut - Storrs,151,2006,United States
 University of Ulm,301,2006,Germany
 University of Rochester,74,2006,United States
-Massachusetts Institute of Technology (MIT),5,2006,United States
+Stanford University,3,2006,United States
 Newcastle University,151,2006,United Kingdom
 Clemson University,301,2006,United States
 Loughborough University,401,2006,United Kingdom
@@ -1429,7 +1429,7 @@ Stockholm University,81,2011,Sweden
 Medical University of Graz,401,2011,Austria
 University of Versailles,401,2011,France
 University of Milan - Bicocca,401,2011,Italy
-California Institute of Technology,7,2014,United States
+Massachusetts Institute of Technology (MIT),3,2014,United States
 University of Turku,301,2014,Finland
 Rice University,82,2014,United States
 University of Bergen,201,2014,Norway
@@ -1655,7 +1655,7 @@ Utah State University,401,2014,United States
 George Mason University,151,2014,United States
 Lanzhou University,301,2014,China
 "University of California, Santa Barbara",41,2014,United States
-Massachusetts Institute of Technology (MIT),3,2014,United States
+"University of California, Berkeley",4,2014,United States
 RWTH Aachen University,201,2014,Germany
 Xiamen University,301,2014,China
 King Fahd University of Petroleum & Minerals,401,2014,Saudi Arabia
@@ -1954,7 +1954,7 @@ The University of Texas Medical Branch at Galveston,201,2006,United States
 Vanderbilt University,41,2006,United States
 Case Western Reserve University,70,2006,United States
 University of Warwick,201,2006,United Kingdom
-University of Cambridge,2,2006,United Kingdom
+"University of California, Berkeley",4,2006,United States
 University of Roma - Tor Vergata,401,2006,Italy
 Swiss Federal Institute of Technology Zurich,27,2006,Switzerland
 University of Lausanne,201,2006,Switzerland
@@ -2026,7 +2026,7 @@ University of Iowa,102,2011,United States
 Ecole Polytechnique,301,2011,France
 University of Marburg,201,2014,Germany
 University of Southern Denmark,301,2014,Denmark
-Harvard University,1,2014,United States
+University of Cambridge,5,2014,United Kingdom
 University of Alberta,101,2014,Canada
 University of Malaya,301,2014,Malaysia
 University of Vienna,151,2014,Austria
@@ -2292,7 +2292,7 @@ University of Science and Technology of China,151,2014,China
 Drexel University,301,2014,United States
 The University of Western Australia,88,2014,Australia
 Yonsei University,201,2014,"Korea, Republic of"
-University of Cambridge,5,2014,United Kingdom
+Princeton University,6,2014,United States
 University of Guelph,201,2014,Canada
 The University of Edinburgh,45,2014,United Kingdom
 University of Milan,151,2014,Italy
@@ -3438,7 +3438,7 @@ McMaster University,90,2006,Canada
 Medical University of Graz,401,2006,Austria
 University of Tasmania,401,2006,Australia
 Baylor College of Medicine,102,2006,United States
-Harvard University,1,2006,United States
+Massachusetts Institute of Technology (MIT),5,2006,United States
 Kumamoto University,401,2006,Japan
 University of Houston,203,2007,United States
 University of British Columbia,36,2007,Canada
@@ -3524,7 +3524,7 @@ The University of Glasgow,102,2006,United Kingdom
 VU University Amsterdam,151,2006,Netherlands
 University of Halle-Wittenberg,201,2006,Germany
 University of Perugia,301,2006,Italy
-University of Chicago,8,2006,United States
+California Institute of Technology,6,2006,United States
 Nihon University,301,2006,Japan
 University of Bath,201,2006,United Kingdom
 University of Paris Diderot (Paris 7),102,2007,France
@@ -3611,7 +3611,7 @@ University of Leipzig,201,2010,Germany
 University of Virginia,96,2010,United States
 University of Roma - Tor Vergata,301,2011,Italy
 King Saud University,201,2011,Saudi Arabia
-Yale University,11,2014,United States
+California Institute of Technology,7,2014,United States
 Queen's University,201,2014,United Kingdom
 Oklahoma State University,401,2014,United States
 Heidelberg University,49,2014,Germany
@@ -4122,7 +4122,7 @@ University of Maine,401,2006,United States
 Florida State University,151,2006,United States
 University of Duisburg-Essen,301,2006,Finland
 University of Florida,53,2006,United States
-Princeton University,8,2006,United States
+Columbia University,7,2006,United States
 University of Surrey,401,2006,United Kingdom
 Lund University,90,2006,Sweden
 Catholic University of Leuven,102,2006,Belgium
@@ -4191,7 +4191,7 @@ Texas A&M University - College Station,100,2011,United States
 Kent State University,401,2011,United States
 Vienna University of Technology,401,2011,Austria
 The University of Texas at San Antonio,401,2011,United States
-University of California-Berkeley,4,2014,United States
+Columbia University,8,2014,United States
 University of Pompeu Fabra,301,2014,Spain
 Federal University of Rio Grande do Sul,401,2014,Brazil
 Erasmus University Rotterdam,151,2014,Netherlands
@@ -4750,7 +4750,7 @@ University of Bremen,401,2015,Germany
 University of Pisa,102,2011,Italy
 Okayama University,301,2011,Japan
 University of Graz,301,2011,Austria
-Columbia University,8,2014,United States
+Yale University,11,2014,United States
 National Tsing Hua University,201,2014,"Taiwan, China"
 "University of Maryland, College Park",43,2014,United States
 University of Tennessee - Knoxville,201,2014,United States
@@ -4825,7 +4825,7 @@ University of Otago,201,2006,New Zealand
 University of Twente,301,2006,Netherlands
 University of Idaho,401,2006,United States
 University of Leicester,151,2006,United Kingdom
-Columbia University,7,2006,United States
+University of Chicago,8,2006,United States
 Western University,203,2007,Canada
 Simon Fraser University,305,2007,Canada
 University of Perugia,305,2007,Italy
@@ -5053,7 +5053,7 @@ Bar-Ilan University,301,2005,Israel
 University of Alberta,101,2005,Canada
 University of Science and Technology of China,301,2005,China
 University of Roma - Tor Vergata,301,2005,Italy
-Stanford University,3,2006,United States
+Princeton University,8,2006,United States
 University of Sao Paulo,102,2006,Brazil
 Nara Institute of Science and Technology,401,2006,Japan
 Aarhus University,102,2006,Denmark
@@ -5777,7 +5777,7 @@ Pohang University of Science and Technology,303,2009,"Korea, Republic of"
 University of Szeged,301,2011,Hungary
 University of Florence,201,2011,Italy
 University of KwaZulu-Natal,401,2014,South Africa
-University of Oxford,9,2014,United Kingdom
+University of Oxford,col,2014,United Kingdom
 University of Innsbruck,201,2014,Austria
 "University of Maryland, Baltimore",201,2014,United States
 National University of Singapore,101,2014,Singapore
