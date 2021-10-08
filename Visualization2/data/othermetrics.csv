@@ -1,0 +1,11 @@
+university_name,country,num_students,student_staff_ratio,international_students,female_male_ratio
+California Institute of Technology,United States,"2,243",6.9,27%,33%
+Columbia University,United States,"25,055",5.9,28%,49%
+Harvard University,United States,"20,152",8.9,25%,51%
+Massachusetts Institute of Technology,United States,"11,074",9,33%,37%
+Princeton University,United States,"7,929",8.4,27%,45%
+Stanford University,United States,"15,596",7.8,22%,42%
+"University of California, Berkeley",United States,"36,186",16.4,15%,50%
+University of Cambridge,United Kingdom,"18,812",11.8,34%,46%
+University of Chicago,United States,"14,221",6.9,21%,42%
+University of Oxford,United Kingdom,"19,919",11.6,34%,46%
