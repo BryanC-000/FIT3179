@@ -21,18 +21,15 @@
 
 <body>
     <div class="page">
-        <h1>FIT3179: Data Visualisation 2</h1>
+        <h1>FIT3179: Homework week 10</h1>
         
         <div class="pure-g">
             <div class="pure-u-1">
-                <div id="choropleth_map" class="vis"></div> 
+                <div id="bump_chart" class="vis"></div>  
             </div>
             
             <div class="pure-u-1-1">
-                <div id="bump_chart" class = "vis"></div>
-            </div>
-            <div class="pure-u-1-1">
-                <div id="radar_chart" class = "vis"></div>
+                <div id="choropleth_map" class = "vis"></div>
             </div>
         </div>
     </div>
@@ -43,10 +40,6 @@
 
         var bump_spec = "js/pie_chart.vg.json";
         vegaEmbed('#bump_chart', bump_spec, { "actions": false }).then(function (result) {
-        }).catch(console.error);
-
-        var radar_spec = "js/metrics_radarchart.vg.json";
-        vegaEmbed('#radar_chart', radar_spec, { "actions": false }).then(function (result) {
         }).catch(console.error);
     </script>
 </body>
