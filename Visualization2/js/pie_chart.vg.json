@@ -1,0 +1,317 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "TITLE HERE",
+        "fontSize": 16
+    },
+    "params": [
+        {
+            "name": "University_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Harvard University",
+                    "Stanford University",
+                    "University of Cambridge",
+                    "Massachusetts Institute of Technology",
+                    "University of California, Berkeley",
+                    "Princeton University",
+                    "University of Oxford",
+                    "Columbia University",
+                    "California Institute of Technology",
+                    "University of Chicago"
+                ],
+                "labels": [
+                    "No university selected",
+                    "Harvard University",
+                    "Stanford University",
+                    "University of Cambridge",
+                    "Massachusetts Institute of Technology",
+                    "University of California, Berkeley",
+                    "Princeton University",
+                    "University of Oxford",
+                    "Columbia University",
+                    "California Institute of Technology",
+                    "University of Chicago"
+                ],
+                "name": "University Selection: "
+            }
+        }
+    ],
+    "vconcat": [
+        {
+            "title": {
+                "text": "Top 10 ranked universities since 2005",
+                "fontSize": 16
+            },
+            "width": 750,
+            "height": 400,
+            "data": {
+                "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.WorldRank <= 10"
+                }
+            ],
+            "layer": [
+                {
+                    "selection": {
+                        "university_highlight": {
+                            "type": "multi",
+                            "fields": [
+                                "University"
+                            ],
+                            "bind": "legend"
+                        }
+                    },
+                    "mark": {
+                        "type": "line",
+                        "point": {
+                            "size": 300
+                        },
+                        "size": 5
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "Year",
+                            "type": "ordinal",
+                            "axis": {
+                                "title": "Year",
+                                "titleFontSize": 14,
+                                "tickCount": 14,
+                                "values": [
+                                    2005,
+                                    2006,
+                                    2007,
+                                    2008,
+                                    2009,
+                                    2010,
+                                    2011,
+                                    2012,
+                                    2013,
+                                    2014,
+                                    2015,
+                                    2016,
+                                    2017,
+                                    2018
+                                ],
+                                "labelAngle": -45,
+                                "labelFontSize": 14
+                            }
+                        },
+                        "y": {
+                            "field": "WorldRank",
+                            "type": "quantitative",
+                            "sort": "descending",
+                            "scale": {
+                                "domain": [
+                                    0,
+                                    11
+                                ]
+                            },
+                            "axis": {
+                                "title": "World Rank",
+                                "titleFontSize": 14,
+                                "tickCount": 10,
+                                "values": [
+                                    1,
+                                    2,
+                                    3,
+                                    4,
+                                    5,
+                                    6,
+                                    7,
+                                    8,
+                                    9,
+                                    10
+                                ],
+                                "labelFontSize": 14
+                            }
+                        },
+                        "order": {
+                            "field": "Year",
+                            "type": "quantitative"
+                        },
+                        "color": {
+                            "field": "University",
+                            "scale": {
+                                "scheme": "category20c"
+                            },
+                            "legend": {
+                                "labelFontSize": 12,
+                                "titleFontSize": 14,
+                                "values": [
+                                    "Harvard University",
+                                    "Stanford University",
+                                    "University of Cambridge",
+                                    "Massachusetts Institute of Technology",
+                                    "University of California, Berkeley",
+                                    "Princeton University",
+                                    "University of Oxford",
+                                    "Columbia University",
+                                    "California Institute of Technology",
+                                    "University of Chicago"
+                                ]
+                            }
+                        },
+                        "opacity": {
+                            "condition": {
+                                "test": "datum.University == University_selection || University_selection == null",
+                                "value": 1
+                            },
+                            "value": 0.1
+                        },
+                        "tooltip": [
+                            {
+                                "field": "Year",
+                                "type": "ordinal",
+                                "title": "Year"
+                            },
+                            {
+                                "field": "University",
+                                "type": "nominal",
+                                "title": "University"
+                            },
+                            {
+                                "field": "WorldRank",
+                                "type": "quantitative",
+                                "title": "World rank"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "hconcat": [
+                {
+                    "title": "Proportion of female students",
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/gender_pie.csv",
+                        "format": {
+                            "type": "csv"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "filter": "datum.university_name == University_selection"
+                        },
+                        {
+                            "calculate": "datum.female_male_ratio * 100 + '%'",
+                            "as": "percent_text"
+                        }
+                    ],
+                    "width": 250,
+                    "height": 200,
+                    "layer": [
+                        {
+                            "mark": {
+                                "type": "arc",
+                                "innerRadius": 50
+                            },
+                            "encoding": {
+                                "theta": {
+                                    "field": "gender_percent",
+                                    "type": "quantitative"
+                                },
+                                "color": {
+                                    "field": "gender",
+                                    "type": "nominal"
+                                }
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "fontSize": 20
+                            },
+                            "encoding": {
+                                "text": {
+                                    "field": "percent_text"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Proportion of international students",
+                    "data": {
+                        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/international_pie.csv",
+                        "format": {
+                            "type": "csv"
+                        }
+                    },
+                    "transform": [
+                        {
+                            "filter": "datum.university_name == University_selection"
+                        },
+                        {
+                            "calculate": "datum.international_students * 100 + '%'",
+                            "as": "percent_text"
+                        }
+                    ],
+                    "width": 200,
+                    "height": 200,
+                    "layer": [
+                        {
+                            "mark": {
+                                "type": "arc",
+                                "innerRadius": 50
+                            },
+                            "encoding": {
+                                "theta": {
+                                    "field": "international_percent",
+                                    "type": "quantitative"
+                                },
+                                "color": {
+                                    "field": "international_type",
+                                    "type": "nominal"
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "university_name",
+                                        "type": "nominal",
+                                        "title": "University"
+                                    },
+                                    {
+                                        "field": "international_type",
+                                        "type": "nominal",
+                                        "title": "Type"
+                                    },
+                                    {
+                                        "field": "international_percent",
+                                        "type": "quantitative",
+                                        "title": "Percent"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "fontSize": 20
+                            },
+                            "encoding": {
+                                "text": {
+                                    "field": "percent_text"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    }
+}

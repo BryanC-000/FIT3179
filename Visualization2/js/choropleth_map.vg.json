@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Number of top universities by country",
+        "fontSize": 16
+    },
+    "width": 650,
+    "height": 360,
+    "projection": {
+      "type": "equirectangular"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/week9_homework/js/map.geo.json",
+      "format": {
+        "type": "topojson",
+        "feature": "custom.geo"
+      }
+    },
+    "layer": [
+      {
+        "transform": [
+          {
+            "calculate": "'Data is not available in ' + datum.properties.name",
+            "as": "note"
+          }
+        ],
+        "mark": {
+          "type": "geoshape",
+          "fill": "lightgray",
+          "stroke": "white",
+          "strokeWidth": 0.5
+        },
+        "encoding": {
+          "tooltip": {
+            "field": "note"
+          }
+        }
+      },
+      {
+        "transform": [
+          {
+            "lookup": "properties.name",
+            "from": {
+              "data": {
+                "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/week9_homework/data/university_count_by_country.csv"
+              },
+              "key": "Country",
+              "fields": [
+                "university_count"
+              ]
+            }
+          }
+        ],
+        "mark": {
+          "type": "geoshape",
+          "stroke": "white",
+          "strokeWidth": 0.5
+        },
+        "encoding": {
+          "color": {
+            "field": "university_count",
+            "type": "quantitative",
+            "scale": {
+              "type": "log",
+              "scheme": "reds"
+            },
+            "legend": {
+              "title": "Number Of Universities",
+              "direction": "horizontal",
+              "orient": "bottom-right"
+            }
+          },
+          "tooltip": [
+            {
+              "field": "properties.name",
+              "type": "nominal",
+              "title": "Country"
+            },
+            {
+              "field": "university_count",
+              "type": "quantitative",
+              "title": "Number of top universities"
+            }
+          ]
+        }
+      }
+    ]
+  }
