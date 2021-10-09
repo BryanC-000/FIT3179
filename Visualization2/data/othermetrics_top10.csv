@@ -1,0 +1,21 @@
+university_name,country,num_students,student_staff_ratio,international_students,female_male_ratio,gender,percent
+Harvard University,United States,20152,8.90,0.25,0.51,female,51
+University of Cambridge,United Kingdom,18812,11.80,0.34,0.46,female,46
+California Institute of Technology,United States,2243,6.90,0.27,0.33,female,33
+"University of California, Berkeley",United States,36186,16.40,0.15,0.50,female,50
+Princeton University,United States,7929,8.40,0.27,0.45,female,45
+University of Chicago,United States,14221,6.90,0.21,0.42,female,42
+Stanford University,United States,15596,7.80,0.22,0.42,female,42
+Massachusetts Institute of Technology,United States,11074,9.00,0.33,0.37,female,37
+University of Oxford,United Kingdom,19919,11.60,0.34,0.46,female,46
+Columbia University,United States,25055,5.90,0.28,0.49,female,49
+Harvard University,United States,20152,8.90,0.25,0.51,male,49
+University of Cambridge,United Kingdom,18812,11.80,0.34,0.46,male,54
+California Institute of Technology,United States,2243,6.90,0.27,0.33,male,67
+"University of California, Berkeley",United States,36186,16.40,0.15,0.50,male,50
+Princeton University,United States,7929,8.40,0.27,0.45,male,55
+University of Chicago,United States,14221,6.90,0.21,0.42,male,58
+Stanford University,United States,15596,7.80,0.22,0.42,male,58
+Massachusetts Institute of Technology,United States,11074,9.00,0.33,0.37,male,63
+University of Oxford,United Kingdom,19919,11.60,0.34,0.46,male,54
+Columbia University,United States,25055,5.90,0.28,0.49,male,51
