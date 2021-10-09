@@ -1,1 +1,12 @@
+.page {
+    width: 1024px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 10px;
+}
 
+.vis {
+    width: 100%;
+    padding-top: 10px;
+}
