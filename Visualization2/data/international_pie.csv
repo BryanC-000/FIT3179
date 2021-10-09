@@ -1,21 +1,21 @@
 university_name,country,international_students,international_type,international_percent
-Harvard University,United States,0.25,international,25
-University of Cambridge,United Kingdom,0.34,international,34
-California Institute of Technology,United States,0.27,international,27
-"University of California, Berkeley",United States,0.15,international,15
-Princeton University,United States,0.27,international,27
-University of Chicago,United States,0.21,international,21
-Stanford University,United States,0.22,international,22
-Massachusetts Institute of Technology,United States,0.33,international,33
-University of Oxford,United Kingdom,0.34,international,34
-Columbia University,United States,0.28,international,28
-Harvard University,United States,0.25,local,75
-University of Cambridge,United Kingdom,0.34,local,66
-California Institute of Technology,United States,0.27,local,73
-"University of California, Berkeley",United States,0.15,local,85
-Princeton University,United States,0.27,local,73
-University of Chicago,United States,0.21,local,79
-Stanford University,United States,0.22,local,78
-Massachusetts Institute of Technology,United States,0.33,local,67
-University of Oxford,United Kingdom,0.34,local,66
-Columbia University,United States,0.28,local,72
+Harvard University,United States,0.25,International,25
+University of Cambridge,United Kingdom,0.34,International,34
+California Institute of Technology,United States,0.27,International,27
+"University of California, Berkeley",United States,0.15,International,15
+Princeton University,United States,0.27,International,27
+University of Chicago,United States,0.21,International,21
+Stanford University,United States,0.22,International,22
+Massachusetts Institute of Technology,United States,0.33,International,33
+University of Oxford,United Kingdom,0.34,International,34
+Columbia University,United States,0.28,International,28
+Harvard University,United States,0.25,Local,75
+University of Cambridge,United Kingdom,0.34,Local,66
+California Institute of Technology,United States,0.27,Local,73
+"University of California, Berkeley",United States,0.15,Local,85
+Princeton University,United States,0.27,Local,73
+University of Chicago,United States,0.21,Local,79
+Stanford University,United States,0.22,Local,78
+Massachusetts Institute of Technology,United States,0.33,Local,67
+University of Oxford,United Kingdom,0.34,Local,66
+Columbia University,United States,0.28,Local,72
