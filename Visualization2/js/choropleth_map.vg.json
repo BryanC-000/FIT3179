@@ -4,8 +4,8 @@
         "text": "Number of top universities by country",
         "fontSize": 16
     },
-    "width": 650,
-    "height": 360,
+    "width": "container",
+    "height": 500,
     "projection": {
       "type": "equirectangular"
     },

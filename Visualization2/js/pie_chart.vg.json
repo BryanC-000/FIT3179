@@ -45,7 +45,7 @@
                 "text": "Top 10 ranked universities since 2005",
                 "fontSize": 16
             },
-            "width": 750,
+            "width": 800,
             "height": 400,
             "data": {
                 "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
@@ -143,6 +143,7 @@
                                 "scheme": "category20c"
                             },
                             "legend": {
+                                "title": "University",
                                 "labelFontSize": 12,
                                 "titleFontSize": 14,
                                 "values": [
@@ -222,7 +223,24 @@
                                 "color": {
                                     "field": "gender",
                                     "type": "nominal"
-                                }
+                                },
+                                "tooltip": [
+                                    {
+                                        "field": "university_name",
+                                        "type": "nominal",
+                                        "title": "University"
+                                    },
+                                    {
+                                        "field": "gender",
+                                        "type": "nominal",
+                                        "title": "Type"
+                                    },
+                                    {
+                                        "field": "gender_percent",
+                                        "type": "quantitative",
+                                        "title": "Percent"
+                                    }
+                                ]
                             }
                         },
                         {
