@@ -1,0 +1,137 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "hconcat": [
+        {
+            "title": "Proportion of female students",
+            "data": {
+                "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/gender_pie.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.university_name == 'Harvard University'"
+                },
+                {
+                    "calculate": "datum.female_male_ratio * 100 + '%'",
+                    "as": "percent_text"
+                }
+            ],
+            "width": 250,
+            "height": 200,
+            "layer": [
+                {
+                    "mark": {
+                        "type": "arc",
+                        "innerRadius": 50
+                    },
+                    "encoding": {
+                        "theta": {
+                            "field": "gender_percent",
+                            "type": "quantitative"
+                        },
+                        "color": {
+                            "field": "gender",
+                            "type": "nominal"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "university_name",
+                                "type": "nominal",
+                                "title": "University"
+                            },
+                            {
+                                "field": "gender",
+                                "type": "nominal",
+                                "title": "Type"
+                            },
+                            {
+                                "field": "gender_percent",
+                                "type": "quantitative",
+                                "title": "Percent"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "fontSize": 20
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "percent_text"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "title": "Proportion of international students",
+            "data": {
+                "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/international_pie.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.university_name == 'Harvard University'"
+                },
+                {
+                    "calculate": "datum.international_students * 100 + '%'",
+                    "as": "percent_text"
+                }
+            ],
+            "width": 200,
+            "height": 200,
+            "layer": [
+                {
+                    "mark": {
+                        "type": "arc",
+                        "innerRadius": 50
+                    },
+                    "encoding": {
+                        "theta": {
+                            "field": "international_percent",
+                            "type": "quantitative"
+                        },
+                        "color": {
+                            "field": "international_type",
+                            "type": "nominal"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "university_name",
+                                "type": "nominal",
+                                "title": "University"
+                            },
+                            {
+                                "field": "international_type",
+                                "type": "nominal",
+                                "title": "Type"
+                            },
+                            {
+                                "field": "international_percent",
+                                "type": "quantitative",
+                                "title": "Percent"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "fontSize": 20
+                    },
+                    "encoding": {
+                        "text": {
+                            "field": "percent_text"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
