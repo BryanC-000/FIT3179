@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "title": "Metrics of top 10 universities in 2018",
+    "title": "Metrics of top 10 universities (2005 - 2018)",
     "width": 550,
     "height": 400,
     "padding": 50,
@@ -12,15 +12,108 @@
         {
             "name": "radius",
             "update": "150"
+        },
+        {
+            "name": "Year_selection",
+            "value": 2018,
+            "bind": {
+                "input": "range",
+                "min": 2005,
+                "max": 2018,
+                "step": 1,
+                "name": "Year selection: "
+            }
+        },
+        {
+            "name": "Harvard_select",
+            "value": 1,
+            "bind": {
+                "input": "checkbox",
+                "name": "Harvard University "
+            }
+        },
+        {
+            "name": "Stanford_select",
+            "value": 1,
+            "bind": {
+                "input": "checkbox",
+                "name": "Stanford University "
+            }
+        },
+        {
+            "name": "Cambridge_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "University of Cambridge "
+            }
+        },
+        {
+            "name": "Massachusetts_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "Massachusetts Institute of Technology "
+            }
+        },
+        {
+            "name": "California_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "University of California, Berkeley "
+            }
+        },
+        {
+            "name": "Princeton_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "Princeton University "
+            }
+        },
+        {
+            "name": "Oxford_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "University of Oxford "
+            }
+        },
+        {
+            "name": "Columbia_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "Columbia University "
+            }
+        },
+        {
+            "name": "California2_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "California Institute of Technology "
+            }
+        },
+        {
+            "name": "Chicago_select",
+            "bind": {
+                "input": "checkbox",
+                "name": "University of Chicago "
+            }
         }
     ],
     "data": [
         {
             "name": "table",
-            "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/testradarchart.csv",
+            "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/radarchart.csv",
             "format": {
                 "type": "csv"
-            }
+            },
+            "transform": [
+                {
+                    "type": "filter",
+                    "expr": "datum.year == Year_selection"
+                },
+                {
+                    "type": "filter",
+                    "expr": "(datum.include == Harvard_select && datum.university == 'Harvard University')||(datum.include == Stanford_select && datum.university == 'Stanford University')||(datum.include == Cambridge_select && datum.university == 'University of Cambridge')||(datum.include == Massachusetts_select && datum.university == 'Massachusetts Institute of Technology')||(datum.include == California_select && datum.university == 'University of California, Berkeley')||(datum.include == Princeton_select && datum.university == 'Princeton University')||(datum.include == Oxford_select && datum.university == 'University of Oxford')||(datum.include == Columbia_select && datum.university == 'Columbia University')||(datum.include == California2_select && datum.university == 'California Institute of Technology')||(datum.include == Chicago_select && datum.university == 'University of Chicago')"
+                }
+            ]
         },
         {
             "name": "keys",
@@ -232,7 +325,7 @@
                         "field": "y2"
                     },
                     "stroke": {
-                        "value": "lightgray"
+                        "value": "gray"
                     },
                     "strokeWidth": {
                         "value": 1
