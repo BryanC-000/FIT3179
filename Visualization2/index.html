@@ -44,7 +44,9 @@
         vegaEmbed('#bump_chart', bump_spec, { "actions": false }).then(function (result) {
         }).catch(console.error);
 
-        
+        var radar_spec = "js/metrics_radarchart.vg.json";
+        vegaEmbed('#radar_chart', radar_spec, { "actions": false }).then(function (result) {
+        }).catch(console.error);
     </script>
 </body>
 
