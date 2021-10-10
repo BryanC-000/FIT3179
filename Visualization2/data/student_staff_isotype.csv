@@ -1,11 +1,11 @@
 university_name,country,num_students,student_staff_ratio
-Harvard University,United States,20152,8.9
-University of Cambridge,United Kingdom,18812,11.8
-California Institute of Technology,United States,2243,6.9
-"University of California, Berkeley",United States,36186,16.4
-Princeton University,United States,7929,8.4
-University of Chicago,United States,14221,6.9
-Stanford University,United States,15596,7.8
+Harvard University,United States,20152,9
+University of Cambridge,United Kingdom,18812,12
+California Institute of Technology,United States,2243,7
+"University of California, Berkeley",United States,36186,16
+Princeton University,United States,7929,8
+University of Chicago,United States,14221,7
+Stanford University,United States,15596,8
 Massachusetts Institute of Technology,United States,11074,9
-University of Oxford,United Kingdom,19919,11.6
-Columbia University,United States,25055,5.9
+University of Oxford,United Kingdom,19919,12
+Columbia University,United States,25055,6
