@@ -1,9 +1,8 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "title": "Metrics of top 10 universities (2005 - 2018)",
-    "width": 550,
-    "height": 400,
-    "padding": 50,
+    "width": 900,
+    "height": 410,
+    "padding": 62,
     "autosize": {
         "type": "none",
         "contains": "padding"
@@ -11,7 +10,7 @@
     "signals": [
         {
             "name": "radius",
-            "update": "150"
+            "update": "160"
         },
         {
             "name": "Year_selection",
@@ -162,9 +161,18 @@
                 "data": "table",
                 "field": "university"
             },
-            "range": {
-                "scheme": "category10"
-            }
+            "range": [
+                "#3182BD",
+                "#EA202D",
+                "#2F4858",
+                "#FF6600",
+                "#F9F871",
+                "#00A2CE",
+                "#00BCAB",
+                "#008092",
+                "#9BDE7E",
+                "#00C0C7"
+            ]
         }
     ],
     "encode": {
@@ -214,14 +222,17 @@
                                 "field": "university"
                             },
                             "strokeWidth": {
-                                "value": 1
+                                "value": 2.5
                             },
                             "fill": {
                                 "scale": "color",
                                 "field": "university"
                             },
                             "fillOpacity": {
-                                "value": 0.1
+                                "value": 0.2
+                            },
+                            "tooltip": {
+                                "signal": "{title: datum.university, 'Indicator': datum.key, 'Score': datum.value, 'Year': datum.year}"
                             }
                         }
                     }
@@ -301,8 +312,14 @@
                     "fill": {
                         "value": "black"
                     },
+                    "font": {
+                        "value": "Open Sans"
+                    },
                     "fontWeight": {
                         "value": "bold"
+                    },
+                    "fontSize": {
+                        "value": 14
                     }
                 }
             }
@@ -345,7 +362,7 @@
                 "symbols": {
                     "enter": {
                         "fillOpacity": {
-                            "value": 0.5
+                            "value": 1
                         }
                     }
                 },
@@ -356,7 +373,11 @@
                         }
                     }
                 }
-            }
+            },
+            "labelFontSize": 14,
+            "titleFontSize": 16,
+            "labelFont": "Open Sans",
+            "titleFont": "Open Sans"
         }
     ]
 }

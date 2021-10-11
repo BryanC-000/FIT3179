@@ -1,9 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-        "text": "TITLE HERE",
-        "fontSize": 16
-    },
+    "background": "#BFFCFB",
     "params": [
         {
             "name": "University_selection",
@@ -43,10 +40,11 @@
     "vconcat": [
         {
             "title": {
-                "text": "Top 10 ranked universities since 2005",
-                "fontSize": 16
+                "text": "Ranking of top 10 universities (2005 - 2018)",
+                "fontSize": 18,
+                "font": "Open Sans"
             },
-            "width": 800,
+            "width": 810,
             "height": 400,
             "data": {
                 "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
@@ -61,15 +59,6 @@
             ],
             "layer": [
                 {
-                    "selection": {
-                        "university_highlight": {
-                            "type": "multi",
-                            "fields": [
-                                "University"
-                            ],
-                            "bind": "legend"
-                        }
-                    },
                     "mark": {
                         "type": "line",
                         "point": {
@@ -84,6 +73,7 @@
                             "axis": {
                                 "title": "Year",
                                 "titleFontSize": 14,
+                                "titleFont": "Open Sans",
                                 "tickCount": 14,
                                 "values": [
                                     2005,
@@ -118,6 +108,7 @@
                             "axis": {
                                 "title": "World Rank",
                                 "titleFontSize": 14,
+                                "titleFont": "Open Sans",
                                 "tickCount": 10,
                                 "values": [
                                     1,
@@ -141,12 +132,37 @@
                         "color": {
                             "field": "University",
                             "scale": {
-                                "scheme": "category20c"
+                                "domain": [
+                                    "Harvard University",
+                                    "Stanford University",
+                                    "University of Cambridge",
+                                    "Massachusetts Institute of Technology",
+                                    "University of California, Berkeley",
+                                    "Princeton University",
+                                    "University of Oxford",
+                                    "Columbia University",
+                                    "California Institute of Technology",
+                                    "University of Chicago"
+                                ],
+                                "range": [
+                                    "#3182BD",
+                                    "#EA202D",
+                                    "#2F4858",
+                                    "#FF6600",
+                                    "#F9F871",
+                                    "#00A2CE",
+                                    "#00BCAB",
+                                    "#008092",
+                                    "#9BDE7E",
+                                    "#00C0C7"
+                                ]
                             },
                             "legend": {
                                 "title": "University",
-                                "labelFontSize": 12,
-                                "titleFontSize": 14,
+                                "labelFontSize": 14,
+                                "titleFontSize": 16,
+                                "titleFont": "Open Sans",
+                                "labelFont": "Open Sans",
                                 "values": [
                                     "Harvard University",
                                     "Stanford University",
@@ -158,7 +174,8 @@
                                     "Columbia University",
                                     "California Institute of Technology",
                                     "University of Chicago"
-                                ]
+                                ],
+                                "offset": 0
                             }
                         },
                         "opacity": {
@@ -192,7 +209,12 @@
         {
             "hconcat": [
                 {
-                    "title": "Proportion of female students",
+                    "title": {
+                        "text": "Proportion of female students",
+                        "font": "Open Sans",
+                        "fontSize": 16,
+                        "offset": 10
+                    },
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/gender_pie.csv",
                         "format": {
@@ -208,8 +230,8 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 250,
-                    "height": 200,
+                    "width": 270,
+                    "height": 180,
                     "layer": [
                         {
                             "mark": {
@@ -223,7 +245,13 @@
                                 },
                                 "color": {
                                     "field": "gender",
-                                    "type": "nominal"
+                                    "type": "nominal",
+                                    "scale": {
+                                        "domain": [
+                                            "Male",
+                                            "Female"
+                                        ]
+                                    }
                                 },
                                 "tooltip": [
                                     {
@@ -254,13 +282,58 @@
                                     "field": "percent_text"
                                 }
                             }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 30,
+                                "y": 30,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "color": "#3182BD",
+                                "fontWeight":"bold"
+                            },
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.gender == 'Male'",
+                                        "value": "Male"
+                                    },
+                                    "value": ""
+                                }
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 240,
+                                "y": 30,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "fontWeight":"bold",
+                                "color": "#EA202D"
+                            },
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.gender == 'Female'",
+                                        "value": "Female"
+                                    },
+                                    "value": ""
+                                }
+                            }
                         }
                     ]
                 },
                 {
-                    "title": "Staff to student ratio",
-                    "width": 230,
-                    "height": 150,
+                    "title": {
+                        "text": "Staff to student ratio",
+                        "font": "Open Sans",
+                        "fontSize": 16,
+                        "offset": 10
+                    },
+                    "width": 270,
+                    "height": 200,
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/student_staff_isotype_v2.csv",
                         "format": {
@@ -280,42 +353,92 @@
                             "as": "row"
                         }
                     ],
-                    "mark": {
-                        "type": "point",
-                        "filled": true
-                    },
-                    "encoding": {
-                        "x": {
-                            "field": "col",
-                            "type": "ordinal",
-                            "axis": null
-                        },
-                        "y": {
-                            "field": "row",
-                            "type": "ordinal",
-                            "axis": null
-                        },
-                        "shape": {
-                            "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"
-                        },
-                        "color": {
-                            "condition": {
-                                "test": "datum.id == 1",
-                                "value": "red"
+                    "layer": [
+                        {
+                            "mark": {
+                                "type": "point",
+                                "filled": true
                             },
-                            "value": "rgb(167,165,156)"
+                            "encoding": {
+                                "x": {
+                                    "field": "col",
+                                    "type": "ordinal",
+                                    "axis": null
+                                },
+                                "y": {
+                                    "field": "row",
+                                    "type": "ordinal",
+                                    "axis": null
+                                },
+                                "shape": {
+                                    "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"
+                                },
+                                "color": {
+                                    "condition": {
+                                        "test": "datum.id == 1",
+                                        "value": "#0047AB"
+                                    },
+                                    "value": "#808080"
+                                },
+                                "size": {
+                                    "condition": {
+                                        "test": "datum.student_staff_ratio > 12",
+                                        "value": 220
+                                    },
+                                    "value": 320
+                                }
+                            }
                         },
-                        "size": {
-                            "condition": {
-                                "test": "datum.student_staff_ratio > 12",
-                                "value": 200
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 30,
+                                "y": 8,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "color":"#0047AB",
+                                "fontWeight":"bold"
                             },
-                            "value": 300
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.id == 1",
+                                        "value": "Staff"
+                                    },
+                                    "value": ""
+                                }
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 150,
+                                "y": 8,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "color":"#808080",
+                                "fontWeight":"bold"
+                            },
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.id == 1",
+                                        "value": "Student"
+                                    },
+                                    "value": ""
+                                }
+                            }
                         }
-                    }
+                        
+                    ]
                 },
                 {
-                    "title": "Proportion of international students",
+                    "title": {
+                        "text": "Proportion of international students",
+                        "font": "Open Sans",
+                        "fontSize": 16,
+                        "offset": 10
+                    },
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/international_pie.csv",
                         "format": {
@@ -331,8 +454,8 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 200,
-                    "height": 200,
+                    "width": 270,
+                    "height": 180,
                     "layer": [
                         {
                             "mark": {
@@ -346,7 +469,13 @@
                                 },
                                 "color": {
                                     "field": "international_type",
-                                    "type": "nominal"
+                                    "type": "nominal",
+                                    "scale": {
+                                        "domain": [
+                                            "Local",
+                                            "International"
+                                        ]
+                                    }
                                 },
                                 "tooltip": [
                                     {
@@ -375,6 +504,46 @@
                             "encoding": {
                                 "text": {
                                     "field": "percent_text"
+                                }
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 30,
+                                "y": 30,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "color":"#2F4858",
+                                "fontWeight":"bold"
+                            },
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.international_type == 'Local'",
+                                        "value": "Local"
+                                    },
+                                    "value": ""
+                                }
+                            }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 260,
+                                "y": 30,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "fontWeight":"bold",
+                                "color": "#ff6600"
+                            },
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.international_type == 'International'",
+                                        "value": "International"
+                                    },
+                                    "value": ""
                                 }
                             }
                         }

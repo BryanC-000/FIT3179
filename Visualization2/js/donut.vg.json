@@ -18,8 +18,8 @@
                     "as": "percent_text"
                 }
             ],
-            "width": 250,
-            "height": 200,
+            "width": 270,
+            "height": 180,
             "layer": [
                 {
                     "mark": {
@@ -33,7 +33,13 @@
                         },
                         "color": {
                             "field": "gender",
-                            "type": "nominal"
+                            "type": "nominal",
+                            "scale": {
+                                "domain": [
+                                    "Male",
+                                    "Female"
+                                ]
+                            }
                         },
                         "tooltip": [
                             {
@@ -62,6 +68,42 @@
                     "encoding": {
                         "text": {
                             "field": "percent_text"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "x": 20,
+                        "y": 30,
+                        "fontSize": 14,
+                        "font": "Open Sans"
+                    },
+                    "encoding": {
+                        "text": {
+                            "condition":{
+                                "test": "datum.gender == 'Male'",
+                                "value": "Male"
+                            },
+                            "value": ""
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "text",
+                        "x": 240,
+                        "y": 30,
+                        "fontSize": 14,
+                        "font": "Open Sans"
+                    },
+                    "encoding": {
+                        "text": {
+                            "condition":{
+                                "test": "datum.gender == 'Female'",
+                                "value": "Female"
+                            },
+                            "value": ""
                         }
                     }
                 }
@@ -99,7 +141,13 @@
                         },
                         "color": {
                             "field": "international_type",
-                            "type": "nominal"
+                            "type": "nominal",
+                            "scale": {
+                                "domain": [
+                                    "International",
+                                    "Local"
+                                ]
+                            }
                         },
                         "tooltip": [
                             {
