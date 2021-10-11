@@ -286,7 +286,7 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 30,
+                                "x": 45,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
@@ -306,7 +306,7 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 240,
+                                "x": 255,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
@@ -392,7 +392,7 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 30,
+                                "x": 35,
                                 "y": 8,
                                 "fontSize": 14,
                                 "font": "Open Sans",
@@ -412,7 +412,7 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 150,
+                                "x": 160,
                                 "y": 8,
                                 "fontSize": 14,
                                 "font": "Open Sans",
@@ -510,7 +510,7 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 30,
+                                "x": 40,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
@@ -530,7 +530,7 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 260,
+                                "x": 270,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
