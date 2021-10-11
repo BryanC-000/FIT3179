@@ -44,8 +44,8 @@
                 "fontSize": 18,
                 "font": "Open Sans"
             },
-            "width": 810,
-            "height": 400,
+            "width": 750,
+            "height": 380,
             "data": {
                 "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
                 "format": {
@@ -175,7 +175,7 @@
                                     "California Institute of Technology",
                                     "University of Chicago"
                                 ],
-                                "offset": 0
+                                "offset": -140
                             }
                         },
                         "opacity": {
@@ -213,7 +213,7 @@
                         "text": "Proportion of female students",
                         "font": "Open Sans",
                         "fontSize": 16,
-                        "offset": 10
+                        "offset": 20
                     },
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/gender_pie.csv",
@@ -230,7 +230,7 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 270,
+                    "width": 300,
                     "height": 180,
                     "layer": [
                         {
@@ -330,9 +330,9 @@
                         "text": "Staff to student ratio",
                         "font": "Open Sans",
                         "fontSize": 16,
-                        "offset": 10
+                        "offset": 20
                     },
-                    "width": 270,
+                    "width": 300,
                     "height": 200,
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/student_staff_isotype_v2.csv",
@@ -437,7 +437,7 @@
                         "text": "Proportion of international students",
                         "font": "Open Sans",
                         "fontSize": 16,
-                        "offset": 10
+                        "offset": 20
                     },
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/international_pie.csv",
@@ -454,7 +454,7 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 270,
+                    "width": 300,
                     "height": 180,
                     "layer": [
                         {
