@@ -1,6 +1,6 @@
 .page {
-    width: 1024px;
-    background-color: white;
+    width: 1080px;
+    background-color: #BFFCFB;
     margin: auto;
     padding: 50px;
     padding-top: 10px;
@@ -8,5 +8,33 @@
 
 .vis {
     width: 100%;
+    padding-top: 0px;
+}
+
+#title {
+    font-size: 70px;
+    font-weight: bold;  
+    font-family: 'Open Sans';
+    text-align: center; 
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Open Sans';
+    text-align: justify;
+}
+
+h2{
+    font-size: 30px;
     padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.boldtext{
+    font-weight: bolder;
+}
+
+.harvard {
+    font-weight: bolder;
+    color: #3182BD;
 }
