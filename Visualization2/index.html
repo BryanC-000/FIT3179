@@ -16,23 +16,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="page">
-        <h1>FIT3179: Data Visualization 2</h1>
-        
+        <h1 id="title">World University Rankings</h1>
+        <p>
+            paragraph here
+        </p>
+
+
         <div class="pure-g">
             <div class="pure-u-1-1">
-                <div id="choropleth_map" class = "vis"></div>
+                <h2>Where are the top universities from?</h2>
+                <p>Here we have a map showing the distribution of top universities around the workd and where they are located in. At a glance, it is observable that majority of the top universities come from 2 countries that is United States and United Kingdom.</p>
+                <div id="choropleth_map" class="vis"></div>
             </div>
+
             <div class="pure-u-1">
-                <div id="bump_chart" class="vis"></div>  
+                <h2>Which are the top 10 univeristies?</h2>
+                <p>The following idiom shows us the <span class='boldtext'>top 10 ranked univeristies</span> since 2005
+                    based off the Shanghai Ranking. From the bump chart we can see that overall the top 10 universities
+                    have successfully managed to maintain their position as a top 10 ranked university for over <span
+                        class='boldtext'>a decade</span>. <span class = 'harvard'>Harvard University</span> in particular is the <span
+                        class='boldtext'>most outstanding</span> university as it maintains the <span
+                        class='boldtext'>number 1 rank</span> for the entire duration.</p>
+                <div id="multi_chart" class="vis"></div>
             </div>
-            <div class="pure-u-1-1">
-                <div id="radar_chart" class = "vis"></div>
-            </div>            
+
+            <div class="pure-u-1">
+                <h2>How are univeristies ranked and compared to each other?</h2>
+            </div>
+            <div class="pure-u-13-24">
+
+                <div id="radar_chart" class="vis"></div>
+            </div>
+
+            <div class="pure-u-11-24">
+                <p>We will now be looking at the metrics used by the Shanghai Ranking to rank the respective
+                    universities and how they compare to another. The Shanghai Ranking highlights universities scores to
+                    ranking indicators, which measure : <br><br>
+                    - Quality of Education, with Alumni (10%) and Award (20%)<br>
+                    - Quality of Faculty, with HiCi (20%) and N&S (20%)<br>
+                    - Research Output, with PUB (20%)<br>
+                    - Per Capita Performance, with PCP (10%)</p>
+            </div>
         </div>
     </div>
     <script type="text/javascript">
@@ -40,8 +69,8 @@
         vegaEmbed('#choropleth_map', choropleth_spec, { "actions": false }).then(function (result) {
         }).catch(console.error);
 
-        var bump_spec = "js/combined.vg.json";
-        vegaEmbed('#bump_chart', bump_spec, { "actions": false }).then(function (result) {
+        var multi_spec = "js/combined.vg.json";
+        vegaEmbed('#multi_chart', multi_spec, { "actions": false }).then(function (result) {
         }).catch(console.error);
 
         var radar_spec = "js/metrics_radarchart.vg.json";
