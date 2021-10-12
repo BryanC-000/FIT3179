@@ -35,6 +35,10 @@
                 ],
                 "name": "University Selection: "
             }
+        },
+        {
+            "name": "pop_text",
+            "expr": "'Population metrics for ' + University_selection"
         }
     ],
     "vconcat": [
@@ -44,7 +48,7 @@
                 "fontSize": 18,
                 "font": "Open Sans"
             },
-            "width": 750,
+            "width": 690,
             "height": 380,
             "data": {
                 "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
@@ -163,6 +167,7 @@
                                 "titleFontSize": 16,
                                 "titleFont": "Open Sans",
                                 "labelFont": "Open Sans",
+                                "labelLimit": 300,
                                 "values": [
                                     "Harvard University",
                                     "Stanford University",
@@ -175,7 +180,8 @@
                                     "California Institute of Technology",
                                     "University of Chicago"
                                 ],
-                                "offset": -160
+                                "offset": -170,
+                                "symbolSize": 150
                             }
                         },
                         "opacity": {
@@ -207,6 +213,34 @@
             ]
         },
         {
+            "layer":[
+                {"mark":{
+                    "type": "text",
+                    "x": 100,
+                    "y":100
+                },
+                "encoding": {
+                    "text":{
+                        "value":"Established in 1636, it is the oldest institution of higher learning in the United States and one of the most prestigious universities across the world."
+                    }
+                }}
+            ]
+            
+        },
+        {
+         
+                "title": {
+                    "text": {
+                        "expr": "pop_text"
+                    },
+                    "fontWeight": "bold",
+                    "fontSize": 18,
+                    "font": "Open Sans",
+                    "offset": 40,
+                    "dx":39
+                },
+                
+            
             "hconcat": [
                 {
                     "title": {
@@ -230,7 +264,7 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 300,
+                    "width": 280,
                     "height": 180,
                     "layer": [
                         {
@@ -286,12 +320,12 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 45,
+                                "x": 42,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
                                 "color": "#3182BD",
-                                "fontWeight":"bold"
+                                "fontWeight": "bold"
                             },
                             "encoding": {
                                 "text": {
@@ -306,11 +340,11 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 255,
+                                "x": 248,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
-                                "fontWeight":"bold",
+                                "fontWeight": "bold",
                                 "color": "#EA202D"
                             },
                             "encoding": {
@@ -332,7 +366,7 @@
                         "fontSize": 16,
                         "offset": 20
                     },
-                    "width": 300,
+                    "width": 280,
                     "height": 200,
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/student_staff_isotype_v2.csv",
@@ -351,6 +385,10 @@
                         {
                             "calculate": "datum.id - datum.col*2",
                             "as": "row"
+                        },
+                        {
+                            "calculate": "'Population metrics for '+ University_selection",
+                            "as": "pop_text"
                         }
                     ],
                     "layer": [
@@ -392,32 +430,12 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 35,
+                                "x": 155,
                                 "y": 8,
                                 "fontSize": 14,
                                 "font": "Open Sans",
-                                "color":"#0047AB",
-                                "fontWeight":"bold"
-                            },
-                            "encoding": {
-                                "text": {
-                                    "condition": {
-                                        "test": "datum.id == 1",
-                                        "value": "Staff"
-                                    },
-                                    "value": ""
-                                }
-                            }
-                        },
-                        {
-                            "mark": {
-                                "type": "text",
-                                "x": 160,
-                                "y": 8,
-                                "fontSize": 14,
-                                "font": "Open Sans",
-                                "color":"#808080",
-                                "fontWeight":"bold"
+                                "color": "#808080",
+                                "fontWeight": "bold"
                             },
                             "encoding": {
                                 "text": {
@@ -428,8 +446,27 @@
                                     "value": ""
                                 }
                             }
+                        },
+                        {
+                            "mark": {
+                                "type": "text",
+                                "x": 32,
+                                "y": 8,
+                                "fontSize": 14,
+                                "font": "Open Sans",
+                                "fontWeight": "bold",
+                                "color": "#0047AB"
+                            },
+                            "encoding": {
+                                "text": {
+                                    "condition": {
+                                        "test": "datum.id == 1",
+                                        "value": "Staff"
+                                    },
+                                    "value": ""
+                                }
+                            }
                         }
-                        
                     ]
                 },
                 {
@@ -454,7 +491,7 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 300,
+                    "width": 280,
                     "height": 180,
                     "layer": [
                         {
@@ -510,12 +547,12 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 40,
+                                "x": 35,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
-                                "color":"#2F4858",
-                                "fontWeight":"bold"
+                                "color": "#2F4858",
+                                "fontWeight": "bold"
                             },
                             "encoding": {
                                 "text": {
@@ -530,11 +567,11 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 270,
+                                "x": 265,
                                 "y": 30,
                                 "fontSize": 14,
                                 "font": "Open Sans",
-                                "fontWeight":"bold",
+                                "fontWeight": "bold",
                                 "color": "#ff6600"
                             },
                             "encoding": {
