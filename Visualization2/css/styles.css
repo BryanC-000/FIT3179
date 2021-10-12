@@ -22,6 +22,7 @@ p{
     font-size: 18px;
     font-family: 'Open Sans';
     text-align: justify;
+    line-height: 26px;
 }
 
 h2{
@@ -37,4 +38,13 @@ h2{
 .harvard {
     font-weight: bolder;
     color: #3182BD;
+}
+
+.shanghai {
+    color: #c85417;
+    font-weight: bolder
+}
+
+#def {
+    text-align: left;
 }
