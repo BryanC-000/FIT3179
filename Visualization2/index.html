@@ -38,8 +38,9 @@
             <div class="pure-u-1">
                 <h2>Where are the top universities from?</h2>
                 <p>Here we have a map showing the distribution of top universities around the world and where they are
-                    located in. At a glance, it is observable that majority of the top universities come from 2
-                    countries that is United States and United Kingdom.</p>
+                    located in. At a glance, it is observable that majority of the top universities come from two
+                    countries that is <span class='country1'>United States</span> and <span class='country1'>United
+                        Kingdom</span>. On the other side of the world the leading countries are <span class='country2'>China</span>, <span class='country2'>Japan</span> and <span class='country2'>Australia</span>.</p>
                 <div id="choropleth_map" class="vis"></div>
             </div>
 
@@ -54,7 +55,8 @@
                         class='boldtext'>number 1 rank</span> for the entire duration.</p>
                 <div id="multi_chart" class="vis"></div>
             </div>
-
+        </div>
+        <div class="pure-g">
             <div class="pure-u-1">
                 <h2>How are universities ranked and compared to each other?</h2>
             </div>
@@ -63,29 +65,51 @@
                 <div id="radar_chart" class="vis"></div>
             </div>
             <div class="pure-u-11-24">
-                <p>We will now be looking at the metrics used by the <span class='shanghai'>Shanghai Ranking</span> to
+                <p>We will now be looking at the metrics used by the <span class='shanghai'>Shanghai Ranking</span>
+                    to
                     rank the respective
                     universities and how they compare to another. The <span class='shanghai'>Shanghai Ranking</span>
                     highlights universities scores to
                     ranking indicators, which measure :
                 </p>
-                <p>- Quality of Education, with Alumni (10%)<br>
-                    - Quality of Faculty, with Award (20%) and HiCi (20%) <br>
-                    - Research Output, with N&S (20%) and PUB (20%)<br>
-                    - Per Capita Performance, with PCP (10%)</p>  <br>
+                <p>- <span class='boldtext'>Quality of Education</span>, with Alumni (10%)<br>
+                    - <span class='boldtext'>Quality of Faculty</span>, with Award (20%) and HiCi (20%) <br>
+                    - <span class='boldtext'>Research Output</span>, with N&S (20%) and PUB (20%)<br>
+                    - <span class='boldtext'>Per Capita Performance</span>, with PCP (10%)</p> <br>
                 <p>
-                    <span class = 'boldtext'>Explanation on indicators used:</span>
-                </p>    
-                <p id = 'def'>
-                    <span class='boldtext'>Alumni: </span>Alumni of an institution winning Nobel Prizes and Fields Medals. <br>
-                    <span class='boldtext'>Award: </span>Staff of an institution winning Nobel Prizes and Fields Medals. <br>
+                    <span class='boldtext'>Explanation on indicators used:</span>
+                </p>
+                <p id='def'>
+                    <span class='boldtext'>Alumni: </span>Alumni of an institution winning Nobel Prizes
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and Fields
+                    Medals. <br>
+                    <span class='boldtext'>Award: </span>Staff of an institution winning Nobel Prizes and
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fields
+                    Medals.
+                    <br>
                     <span class='boldtext'>HiCi: </span>Highly Cited Researchers. <br>
                     <span class='boldtext'>N&S: </span>Papers published in Nature and Science. <br>
-                    <span class='boldtext'>PUB: </span>Papers indexed in Science Citation Index-Expanded and Social Science Citation Index. <br>
+                    <span class='boldtext'>PUB: </span>Papers indexed in Science Citation Index -
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Expanded and Social Science Citation
+                    Index. <br>
                     <span class='boldtext'>PCP: </span>Per capita academic performance of an institution <br>
-                </p>    
+                </p>
             </div>
         </div>
+        <div class="pure-g">
+            <div class="pure-u-1-1" id='reference'>
+                <p>This visualisation is created by <a href="https://github.com/BryanC-000" target="_blank">Bryan Chow </a>
+                    (31925189) for FIT3179 Data Visualisation 2. </p>
+                <p> The data was obtained from <a href="https://www.kaggle.com/mylesoneill/world-university-rankings"
+                        target="_blank">World
+                        University Rankings</href></a> and <a
+                        href="https://public.opendatasoft.com/explore/dataset/shanghai-world-university-ranking/table/?sort=world_rank"
+                        target="_blank">Shanghai World
+                        University Ranking</href>
+                </p>
+            </div>
+        </div>
+
     </div>
     <script type="text/javascript">
         var choropleth_spec = "js/choropleth_map.vg.json";
