@@ -1,23 +1,21 @@
 university_name,country,international_students,international_type,international_percent
-Columbia University,United States,0.28,International,28
-Columbia University,United States,0.28,Local,72
-Harvard University,United States,0.25,International,25
-University of Cambridge,United Kingdom,0.34,International,34
-California Institute of Technology,United States,0.27,International,27
-"University of California, Berkeley",United States,0.15,International,15
-Princeton University,United States,0.27,International,27
-University of Chicago,United States,0.21,International,21
-Stanford University,United States,0.22,International,22
-Massachusetts Institute of Technology,United States,0.33,International,33
-University of Oxford,United Kingdom,0.34,International,34
-
-Harvard University,United States,0.25,Local,75
-University of Cambridge,United Kingdom,0.34,Local,66
-California Institute of Technology,United States,0.27,Local,73
-"University of California, Berkeley",United States,0.15,Local,85
-Princeton University,United States,0.27,Local,73
-University of Chicago,United States,0.21,Local,79
-Stanford University,United States,0.22,Local,78
-Massachusetts Institute of Technology,United States,0.33,Local,67
-University of Oxford,United Kingdom,0.34,Local,66
-
+Harvard University,United States,25%,International,25
+University of Cambridge,United Kingdom,34%,International,34
+California Institute of Technology,United States,27%,International,27
+"University of California, Berkeley",United States,15%,International,15
+Princeton University,United States,27%,International,27
+University of Chicago,United States,21%,International,21
+Stanford University,United States,22%,International,22
+Massachusetts Institute of Technology,United States,33%,International,33
+University of Oxford,United Kingdom,34%,International,34
+Columbia University,United States,28%,International,28
+Harvard University,United States,25%,Local,75
+University of Cambridge,United Kingdom,34%,Local,66
+California Institute of Technology,United States,27%,Local,73
+"University of California, Berkeley",United States,15%,Local,85
+Princeton University,United States,27%,Local,73
+University of Chicago,United States,21%,Local,79
+Stanford University,United States,22%,Local,78
+Massachusetts Institute of Technology,United States,33%,Local,67
+University of Oxford,United Kingdom,34%,Local,66
+Columbia University,United States,28%,Local,72
