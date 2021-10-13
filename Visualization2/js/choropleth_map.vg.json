@@ -2,12 +2,12 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
         "text": "Number of top universities by country",
-        "fontSize": 18,
+        "fontSize": 14,
         "font": "Open Sans"
     },
     "background": "#BFFCFB",
     "width": "container",
-    "height": 500,
+    "height": 400,
     "projection": {
         "type": "equalEarth"
     },
@@ -44,7 +44,7 @@
                     "lookup": "properties.name",
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/week9_homework/data/university_count_by_country.csv"
+                            "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_count_by_country.csv"
                         },
                         "key": "Country",
                         "fields": [
@@ -81,11 +81,11 @@
                     "legend": {
                         "title": "Number Of Universities",
                         "titleFont": "Open Sans",
-                        "titleFontSize": 16,
+                        "titleFontSize": 14,
                         "direction": "horizontal",
                         "orient": "bottom-left",
                         "labelFont": "Open Sans",
-                        "labelFontSize": 14,
+                        "labelFontSize": 12,
                         "gradientLength": 200
                     }
                 },
@@ -101,6 +101,111 @@
                         "title": "Number of top universities"
                     }
                 ]
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.properties.name== 'United States'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "font": "Open Sans",
+                "x": 115,
+                "y": 90,
+                "fontWeight": "bold",
+                "color": "#8B0000",
+                "fontSize": 10
+            },
+            "encoding": {
+                "text": {
+                    "value": "United States"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.properties.name== 'United Kingdom'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "font": "Open Sans",
+                "x": 383,
+                "y": 50,
+                "fontWeight": "bold",
+                "color": "#8B0000",
+                "fontSize": 10
+            },
+            "encoding": {
+                "text": {
+                    "value": "United Kingdom"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.properties.name== 'Japan'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "font": "Open Sans",
+                "x": 730,
+                "y": 100,
+                "fontWeight": "bold",
+                "color": "#fc3939",
+                "fontSize": 10
+            },
+            "encoding": {
+                "text": {
+                    "value": "Japan"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.properties.name== 'China'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "font": "Open Sans",
+                "x": 700,
+                "y": 140,
+                "fontWeight": "bold",
+                "color": "#fc3939",
+                "fontSize": 10
+            },
+            "encoding": {
+                "text": {
+                    "value": "China"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": "datum.properties.name== 'Australia'"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "font": "Open Sans",
+                "x": 640,
+                "y": 300,
+                "fontWeight": "bold",
+                "color": "#fc3939",
+                "fontSize": 10
+            },
+            "encoding": {
+                "text": {
+                    "value": "Australia"
+                }
             }
         }
     ],

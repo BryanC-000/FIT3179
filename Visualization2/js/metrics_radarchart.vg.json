@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "width": 900,
-    "height": 410,
+    "width": 840,
+    "height": 330,
     "padding": 60,
     "autosize": {
         "type": "none",
@@ -10,7 +10,7 @@
     "signals": [
         {
             "name": "radius",
-            "update": "160"
+            "update": "120"
         },
         {
             "name": "Year_selection",
@@ -319,7 +319,7 @@
                         "value": "bold"
                     },
                     "fontSize": {
-                        "value": 14
+                        "value": 12
                     }
                 }
             }
@@ -356,7 +356,7 @@
             "fill": "color",
             "title": "University",
             "orient": "none",
-            "legendX": 155,
+            "legendX": 120,
             "legendY": 40,
             "encode": {
                 "symbols": {
@@ -374,12 +374,12 @@
                     }
                 }
             },
-            "labelFontSize": 14,
-            "titleFontSize": 16,
+            "labelFontSize": 10,
+            "titleFontSize": 12,
             "labelFont": "Open Sans",
             "titleFont": "Open Sans",
-            "symbolSize": 150,
-            "labelLimit":150
+            "symbolSize": 100,
+            "labelLimit":100
         }
     ]
 }

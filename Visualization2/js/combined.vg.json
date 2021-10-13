@@ -37,19 +37,19 @@
             }
         },
         {
-            "name": "pop_text",
-            "expr": "'Population metrics for ' + University_selection"
+            "name": "info_text",
+            "expr": "'Some interesting information about ' + University_selection"
         }
     ],
     "vconcat": [
         {
             "title": {
                 "text": "Ranking of top 10 universities (2005 - 2018)",
-                "fontSize": 18,
+                "fontSize": 14,
                 "font": "Open Sans"
             },
-            "width": 690,
-            "height": 380,
+            "width": 620,
+            "height": 350,
             "data": {
                 "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
                 "format": {
@@ -66,9 +66,9 @@
                     "mark": {
                         "type": "line",
                         "point": {
-                            "size": 300
+                            "size": 250
                         },
-                        "size": 5
+                        "size": 4
                     },
                     "encoding": {
                         "x": {
@@ -76,7 +76,7 @@
                             "type": "ordinal",
                             "axis": {
                                 "title": "Year",
-                                "titleFontSize": 14,
+                                "titleFontSize": 12,
                                 "titleFont": "Open Sans",
                                 "tickCount": 14,
                                 "values": [
@@ -96,7 +96,7 @@
                                     2018
                                 ],
                                 "labelAngle": -45,
-                                "labelFontSize": 14
+                                "labelFontSize": 12
                             }
                         },
                         "y": {
@@ -111,7 +111,7 @@
                             },
                             "axis": {
                                 "title": "World Rank",
-                                "titleFontSize": 14,
+                                "titleFontSize": 12,
                                 "titleFont": "Open Sans",
                                 "tickCount": 10,
                                 "values": [
@@ -126,7 +126,7 @@
                                     9,
                                     10
                                 ],
-                                "labelFontSize": 14
+                                "labelFontSize": 12
                             }
                         },
                         "order": {
@@ -163,11 +163,11 @@
                             },
                             "legend": {
                                 "title": "University",
-                                "labelFontSize": 14,
-                                "titleFontSize": 16,
+                                "labelFontSize": 10,
+                                "titleFontSize": 12,
                                 "titleFont": "Open Sans",
                                 "labelFont": "Open Sans",
-                                "labelLimit": 300,
+                                "labelLimit": 150,
                                 "values": [
                                     "Harvard University",
                                     "Stanford University",
@@ -180,8 +180,8 @@
                                     "California Institute of Technology",
                                     "University of Chicago"
                                 ],
-                                "offset": -170,
-                                "symbolSize": 150
+                                "offset": -110,
+                                "symbolSize": 100
                             }
                         },
                         "opacity": {
@@ -213,40 +213,147 @@
             ]
         },
         {
-            "layer":[
-                {"mark":{
-                    "type": "text",
-                    "x": 100,
-                    "y":100
+            "title": {
+                "text": {
+                    "expr": "info_text"
                 },
-                "encoding": {
-                    "text":{
-                        "value":"Established in 1636, it is the oldest institution of higher learning in the United States and one of the most prestigious universities across the world."
-                    }
-                }}
-            ]
-            
+                "fontSize": 14,
+                "font": "Open Sans",
+                "anchor": "middle",
+                "fontWeight": "bold"
+            },
+            "height": 25,
+            "width": 730,
+            "data": {
+                "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.University == 'Harvard University'"
+                },
+                {
+                    "filter": "datum.Year == 2018"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "font": "Open Sans",
+                "fontSize": 14,
+                "color": "black",
+                "fontWeight": 400
+            },
+            "encoding": {
+                "text": {
+                    "condition": [
+                        {
+                            "test": "University_selection == 'Harvard University'",
+                            "value": [
+                                "Established in 1636, it is the oldest institution of higher learning in the United States and one of the most prestigious",
+                                "universities around the world. Harvard University holds a record number of honors and awards with 161 Nobel Laureates,",
+                                "23 heads of state, and 132 Pulitzer Prize winners. By the end of the first decade of the 21st century, Harvard had",
+                                "educated seven US presidents.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'Stanford University'",
+                            "value": [
+                                "Located in Palo Alto, CA, in the heart of Silicon Valley, Stanford University offers the excellence and prestige of its East",
+                                "Coast Ivy League sisters, Harvard, Princeton, and Yale. However, Stanford offers what many perceive as a distinct",
+                                "advantage over Harvard, Yale and Princeton – sunshine and mild winters. For the undergrad class of 2020, Stanford",
+                                "received 36,175 applications and accepted 1,318 or 3.6%, the lowest in the university’s history and the lowest in the world.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'University of Cambridge'",
+                            "value": [
+                                "University of Cambridge is the second-oldest university in all English-speaking countries. Cambridge University has groomed",
+                                "many notable personalities that have shaped mankind in one way or the other. Many amongst which include; Father of",
+                                "Evolution; Charles Darwin, Sir Isaac Newton, and cosmology director, Stephen Hawking.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'Massachusetts Institute of Technology'",
+                            "value": [
+                                "Massachusetts Institute of Technology (MIT), was founded April 10, 1861, two days before the start of the Civil War. It is a",
+                                "privately controlled coeducational institution of higher learning famous for its scientific and technological training",
+                                "and research.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'University of California, Berkeley'",
+                            "value": [
+                                "The University was founded in 1868 when the private College of California and the public Agricultural, Mining, and Mechanical",
+                                "Arts College merged. UC Berkeley students have won national titles in many sports, including football, men's basketball,",
+                                "baseball, softball, water polo, rugby and crew. In addition, they have won over 100 Olympic medals.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'Princeton University'",
+                            "value": [
+                                "Princeton University is one of the 8 Ivy League colleges. It was the fourth official college in the United States. Princeton's",
+                                "main library, Firestone Library, is one of the biggest university libraries in the world. As a highly prestigious institution,",
+                                "Princeton is extremely tough to get into: the present Princeton acceptance rate is just 5%.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'University of Oxford'",
+                            "value": [
+                                "The University of Oxford is roughly 922 years old, making it the second oldest University in the world. It is beaten in",
+                                "age by the University of Bologna which is around 930 years old. The buildings will likely be familiar to fans of the",
+                                "Harry Potter movies, which used Oxford as filming locations for many scenes.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'Columbia University'",
+                            "value": [
+                                "Columbia University consistently ranks in the top 5 schools in the nation. The university is similar to its Ivy League",
+                                "counterparts Brown and UPenn in that it heavily values academics, but with more of an explicit focus on intellectual",
+                                "diversity. Columbia University is the home of the Pulitzer Prize, an award for achievements in newspaper, magazine and online",
+                                "journalism, literature, and musical composition.",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'California Institute of Technology'",
+                            "value": [
+                                "Caltech was founded as Throop University in 1891 in Pasadena, California, and renamed the California Institute of Technology",
+                                "in 1920. Albert Einstein was a visiting professor at Caltech for three winter terms - 1931, 1932, and 1933. The Big Bang",
+                                "Theory, which is set at Caltech, taped an episode on campus that featured a cameo appearance by world-renowned",
+                                "astrophysicist, Stephen Hawking",
+                                " "
+                            ]
+                        },
+                        {
+                            "test": "University_selection == 'University of Chicago'",
+                            "value": [
+                                "The University of Chicago is a university in Hyde Park, Chicago, Illinois. The university is known for providing good",
+                                "education in economics, linguistics, social science, and mathematics. Physicists at the University of Chicago",
+                                "built the world's first man-made, self-sustaining nuclear reaction",
+                                " "
+                            ]
+                        }
+                    ],
+                    "value": ""
+                }
+            }
         },
         {
-         
-                "title": {
-                    "text": {
-                        "expr": "pop_text"
-                    },
-                    "fontWeight": "bold",
-                    "fontSize": 18,
-                    "font": "Open Sans",
-                    "offset": 40,
-                    "dx":39
-                },
-                
-            
             "hconcat": [
                 {
                     "title": {
                         "text": "Proportion of female students",
                         "font": "Open Sans",
-                        "fontSize": 16,
+                        "fontSize": 14,
                         "offset": 20
                     },
                     "data": {
@@ -264,8 +371,8 @@
                             "as": "percent_text"
                         }
                     ],
-                    "width": 280,
-                    "height": 180,
+                    "width": 230,
+                    "height": 150,
                     "layer": [
                         {
                             "mark": {
@@ -320,9 +427,9 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 42,
+                                "x": 25,
                                 "y": 30,
-                                "fontSize": 14,
+                                "fontSize": 12,
                                 "font": "Open Sans",
                                 "color": "#3182BD",
                                 "fontWeight": "bold"
@@ -340,9 +447,9 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 248,
+                                "x": 210,
                                 "y": 30,
-                                "fontSize": 14,
+                                "fontSize": 12,
                                 "font": "Open Sans",
                                 "fontWeight": "bold",
                                 "color": "#EA202D"
@@ -363,11 +470,11 @@
                     "title": {
                         "text": "Staff to student ratio",
                         "font": "Open Sans",
-                        "fontSize": 16,
+                        "fontSize": 14,
                         "offset": 20
                     },
-                    "width": 280,
-                    "height": 200,
+                    "width": 230,
+                    "height": 180,
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/student_staff_isotype_v2.csv",
                         "format": {
@@ -421,9 +528,9 @@
                                 "size": {
                                     "condition": {
                                         "test": "datum.student_staff_ratio > 12",
-                                        "value": 220
+                                        "value": 180
                                     },
-                                    "value": 320
+                                    "value": 260
                                 }
                             }
                         },
@@ -432,7 +539,7 @@
                                 "type": "text",
                                 "x": 155,
                                 "y": 8,
-                                "fontSize": 14,
+                                "fontSize": 12,
                                 "font": "Open Sans",
                                 "color": "#808080",
                                 "fontWeight": "bold"
@@ -450,9 +557,9 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 32,
+                                "x": 28,
                                 "y": 8,
-                                "fontSize": 14,
+                                "fontSize": 12,
                                 "font": "Open Sans",
                                 "fontWeight": "bold",
                                 "color": "#0047AB"
@@ -473,7 +580,7 @@
                     "title": {
                         "text": "Proportion of international students",
                         "font": "Open Sans",
-                        "fontSize": 16,
+                        "fontSize": 14,
                         "offset": 20
                     },
                     "data": {
@@ -487,12 +594,12 @@
                             "filter": "datum.university_name == University_selection"
                         },
                         {
-                            "calculate": "datum.international_students * 100 + '%'",
+                            "calculate": "datum.international_students",
                             "as": "percent_text"
                         }
                     ],
-                    "width": 280,
-                    "height": 180,
+                    "width": 230,
+                    "height": 150,
                     "layer": [
                         {
                             "mark": {
@@ -547,9 +654,9 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 35,
+                                "x": 25,
                                 "y": 30,
-                                "fontSize": 14,
+                                "fontSize": 12,
                                 "font": "Open Sans",
                                 "color": "#2F4858",
                                 "fontWeight": "bold"
@@ -567,9 +674,9 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 265,
+                                "x": 225,
                                 "y": 30,
-                                "fontSize": 14,
+                                "fontSize": 12,
                                 "font": "Open Sans",
                                 "fontWeight": "bold",
                                 "color": "#ff6600"
@@ -590,6 +697,9 @@
         }
     ],
     "config": {
+        "text": {
+            "fontWeight": "lighter"
+        },
         "style": {
             "cell": {
                 "stroke": "transparent"
