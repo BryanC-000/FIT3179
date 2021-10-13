@@ -1,5 +1,5 @@
 .page {
-    width: 1024px;
+    width: 840px;
     background-color: #BFFCFB;
     margin: auto;
     padding: 50px;
@@ -12,21 +12,21 @@
 }
 
 #title {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;  
     font-family: 'Open Sans';
     text-align: center; 
 }
 
 p{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Open Sans';
     text-align: justify;
-    line-height: 26px;
+    line-height: 20px;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 24px;
     padding-top: 10px;
     padding-bottom: 0px;
 }
@@ -45,6 +45,24 @@ h2{
     font-weight: bolder
 }
 
+.country1 {
+    color: #8B0000;
+    font-weight: bolder;
+}
+
+.country2 {
+    color: #fc3939;
+    font-weight: bolder;
+}
+
 #def {
     text-align: left;
 }
+
+#reference {
+    font-size: 12;
+    padding-top: 30px;
+}
+
+
+    
