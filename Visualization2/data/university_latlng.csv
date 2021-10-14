@@ -62,64 +62,64 @@ University of Saskatchewan,301,Canada,0.0000,0.0000
 Dalhousie University,301,Canada,0.0000,0.0000
 University of Chile,301,Chile,0.0000,0.0000
 Catholic University of Chile,401,Chile,0.0000,0.0000
-Tsinghua University,45,China,0.0000,0.0000
-Peking University,57,China,0.0000,0.0000
-Zhejiang University,67,China,0.0000,0.0000
-The University of Hong Kong,101,China,0.0000,0.0000
-Shanghai Jiao Tong University,101,China,0.0000,0.0000
-University of Science and Technology of China,101,China,0.0000,0.0000
-Fudan University,101,China,0.0000,0.0000
-Xian Jiaotong University,151,China,0.0000,0.0000
-Harbin Institute of Technology,151,China,0.0000,0.0000
-Huazhong University of Science and Technology,151,China,0.0000,0.0000
-Nanjing University,151,China,0.0000,0.0000
-Sichuan University,151,China,0.0000,0.0000
-The Chinese University of Hong Kong,151,China,0.0000,0.0000
-City University of Hong Kong,201,China,0.0000,0.0000
-The Hong Kong University of Science and Technology,201,China,0.0000,0.0000
-Wuhan University,201,China,0.0000,0.0000
-China Medical University (Taichung),201,China,0.0000,0.0000
-Beijing Normal University,201,China,0.0000,0.0000
-Central South University,201,China,0.0000,0.0000
-South China University of Technology,201,China,0.0000,0.0000
-Jilin University,201,China,0.0000,0.0000
-The Hong Kong Polytechnic University,201,China,0.0000,0.0000
-Dalian University of Technology,201,China,0.0000,0.0000
-Soochow University (China),201,China,0.0000,0.0000
-Southeast University,201,China,0.0000,0.0000
-Beihang University,201,China,0.0000,0.0000
-Tianjin University,201,China,0.0000,0.0000
-University of Electronic Science and Technology of China,201,China,0.0000,0.0000
-Shandong University,301,China,0.0000,0.0000
-Lanzhou University,301,China,0.0000,0.0000
-Wuhan University of Technology,301,China,0.0000,0.0000
-Nanjing Agricultural University,301,China,0.0000,0.0000
-Nankai University,301,China,0.0000,0.0000
-Tongji University,301,China,0.0000,0.0000
-China Agricultural University,301,China,0.0000,0.0000
-Nanjing University of Science and Technology,301,China,0.0000,0.0000
-Northwestern Polytechnical University,301,China,0.0000,0.0000
-East China University of Science and Technology,301,China,0.0000,0.0000
-Hunan University,301,China,0.0000,0.0000
-Xiamen University,301,China,0.0000,0.0000
-Beijing University of Chemical Technology,401,China,0.0000,0.0000
-Chongqing University,401,China,0.0000,0.0000
-Peking Union Medical College,401,China,0.0000,0.0000
-Beijing Institute of Technology,401,China,0.0000,0.0000
-Capital Medical University,401,China,0.0000,0.0000
-East China Normal University,401,China,0.0000,0.0000
-Shanghai University,401,China,0.0000,0.0000
-Huazhong Agricultural University,401,China,0.0000,0.0000
-Northeastern University (Shenyang),401,China,0.0000,0.0000
-NanJing Tech University,401,China,0.0000,0.0000
-Nanjing University of Aeronautics and Astronautics,401,China,0.0000,0.0000
-University of Science and Technology Beijing,401,China,0.0000,0.0000
-Nanjing Medical University,401,China,0.0000,0.0000
-Harbin Engineering University,401,China,0.0000,0.0000
-Kaohsiung Medical University,401,China,0.0000,0.0000
-Nanjing University of Information Science & Technology,401,China,0.0000,0.0000
-Chang Gung University,401,China,0.0000,0.0000
-China University of Geosciences (Wuhan),401,China,0.0000,0.0000
+Tsinghua University,45,China,24.7957,120.9969
+Peking University,57,China,39.9869,116.3059
+Zhejiang University,67,China,30.268862,120.12155
+The University of Hong Kong,101,China,22.283,114.1371
+Shanghai Jiao Tong University,101,China,31.3197121.4890,121.489
+University of Science and Technology of China,101,China,31.822,117.2806
+Fudan University,101,China,31.2974,121.5036
+Xian Jiaotong University,151,China,34.2508,108.9837
+Harbin Institute of Technology,151,China,45.747,126.6334
+Huazhong University of Science and Technology,151,China,30.513,114.4203
+Nanjing University,151,China,32.0568,118.779
+Sichuan University,151,China,30.664,104.071
+The Chinese University of Hong Kong,151,China,22.4196,114.2068
+City University of Hong Kong,201,China,22.3367,114.1724
+The Hong Kong University of Science and Technology,201,China,22.3364,114.2655
+Wuhan University,201,China,30.536,114.3643
+China Medical University (Taichung),201,China,24.1561,120.6804
+Beijing Normal University,201,China,39.962,116.3663
+Central South University,201,China,28.1644,112.9325
+South China University of Technology,201,China,23.1513,113.3447
+Jilin University,201,China,43.8257,125.285
+The Hong Kong Polytechnic University,201,China,22.3042,114.1798
+Dalian University of Technology,201,China,38.8804,121.529
+Soochow University (China),201,China,31.3033,120.6519
+Southeast University,201,China,23.7946,90.4047
+Beihang University,201,China,39.97416277 116.33916531,39.97416277 116.33916531
+Tianjin University,201,China,39.1081,117.1762
+University of Electronic Science and Technology of China,201,China,22.5311,113.3896
+Shandong University,301,China,36.6489,117.029
+Lanzhou University,301,China,36.0478,103.8586
+Wuhan University of Technology,301,China,30.5987,114.3425
+Nanjing Agricultural University,301,China,32.0334,118.8426
+Nankai University,301,China,39.1039,117.1742
+Tongji University,301,China,31.2869,121.5009
+China Agricultural University,301,China,40.0042,116.353
+Nanjing University of Science and Technology,301,China,32.0352,118.8553
+Northwestern Polytechnical University,301,China,34.2463,108.9106
+East China University of Science and Technology,301,China,31.1409,121.4252
+Hunan University,301,China,28.1789,112.944
+Xiamen University,301,China,24.4373,118.0979
+Beijing University of Chemical Technology,401,China,39.971,116.4211
+Chongqing University,401,China,29.5649,106.4681
+Peking Union Medical College,401,China,39.9114,116.4148
+Beijing Institute of Technology,401,China,39.9604,116.3124
+Capital Medical University,401,China,39.8652,116.3529
+East China Normal University,401,China,31.2277,121.4068
+Shanghai University,401,China,31.3148,121.3827
+Huazhong Agricultural University,401,China,30.4762,114.3524
+Northeastern University (Shenyang),401,China,41.8057,123.4315
+NanJing Tech University,401,China,32.0668,118.6482
+Nanjing University of Aeronautics and Astronautics,401,China,32.0341,118.8234
+University of Science and Technology Beijing,401,China,39.9895,116.3569
+Nanjing Medical University,401,China,32.0438,118.7748
+Harbin Engineering University,401,China,45.7732,126.6641
+Kaohsiung Medical University,401,China,22.6473,120.3107
+Nanjing University of Information Science & Technology,401,China,32.2054,118.727
+Chang Gung University,401,China,25.0338,121.3899
+China University of Geosciences (Wuhan),401,China,30.5161,114.4025
 Charles University in Prague,201,Czech Republic,0.0000,0.0000
 University of Copenhagen,29,Denmark,0.0000,0.0000
 Aarhus University,65,Denmark,0.0000,0.0000
