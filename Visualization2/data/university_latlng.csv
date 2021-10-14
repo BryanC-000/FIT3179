@@ -1,380 +1,380 @@
 University,WorldRank,Country,Latitude,Longitude
-University of Buenos Aires,201,Argentina,0,0
-The University of Melbourne,38,Australia,0,0
-The University of Queensland,55,Australia,0,0
-University of Sydney,68,Australia,0,0
-The Australian National University,69,Australia,0,0
-Monash University,91,Australia,0,0
-The University of Western Australia,93,Australia,0,0
-The University of New South Wales,101,Australia,0,0
-The University of Adelaide,101,Australia,0,0
-Curtin University,151,Australia,0,0
-Deakin University,201,Australia,0,0
-James Cook University,201,Australia,0,0
-Macquarie University,201,Australia,0,0
-Queensland University of Technology,201,Australia,0,0
-University of Tasmania,201,Australia,0,0
-University of Wollongong,201,Australia,0,0
-Griffith University,301,Australia,0,0
-University of Technology Sydney,301,Australia,0,0
-"The University of Newcastle, Australia",301,Australia,0,0
-RMIT University,301,Australia,0,0
-Swinburne University of Technology,301,Australia,0,0
-La Trobe University,301,Australia,0,0
-University of Western Sydney,401,Australia,0,0
-Flinders University,401,Australia,0,0
-University of Vienna,151,Austria,0,0
-University of Innsbruck,201,Austria,0,0
-Medical University of Vienna,201,Austria,0,0
-Vienna University of Technology,301,Austria,0,0
-University of Graz,401,Austria,0,0
-Medical University of Innsbruck,401,Austria,0,0
-Ghent University,61,Belgium,0,0
-KU Leuven,86,Belgium,0,0
-Catholic University of Louvain,151,Belgium,0,0
-Université libre de Bruxelles (ULB),151,Belgium,0,0
-University of Antwerp,201,Belgium,0,0
-Vrije Universiteit Brussel (VUB),201,Belgium,0,0
-University of Liege,301,Belgium,0,0
-University of Sao Paulo,151,Brazil,0,0
-University of Campinas,301,Brazil,0,0
-UNESP,301,Brazil,0,0
-Federal University of Rio de Janeiro,301,Brazil,0,0
-Federal University of Minas Gerais,401,Brazil,0,0
-Federal University of Rio Grande do Sul,401,Brazil,0,0
-University of Toronto,23,Canada,0,0
-University of British Columbia,43,Canada,0,0
-McGill University,70,Canada,0,0
-McMaster University,86,Canada,0,0
-University of Montreal,101,Canada,0,0
-University of Alberta,101,Canada,0,0
-The University of Calgary,151,Canada,0,0
-University of Ottawa,151,Canada,0,0
-University of Waterloo,151,Canada,0,0
-Queen's University,201,Canada,0,0
-Laval University,201,Canada,0,0
-Western University,201,Canada,0,0
-University of Guelph,301,Canada,0,0
-University of Manitoba,301,Canada,0,0
-University of Victoria,301,Canada,0,0
-Simon Fraser University,301,Canada,0,0
-University of Saskatchewan,301,Canada,0,0
-Dalhousie University,301,Canada,0,0
-University of Chile,301,Chile,0,0
-Catholic University of Chile,401,Chile,0,0
-Tsinghua University,45,China,0,0
-Peking University,57,China,0,0
-Zhejiang University,67,China,0,0
-The University of Hong Kong,101,China,0,0
-Shanghai Jiao Tong University,101,China,0,0
-University of Science and Technology of China,101,China,0,0
-Fudan University,101,China,0,0
-Xian Jiaotong University,151,China,0,0
-Harbin Institute of Technology,151,China,0,0
-Huazhong University of Science and Technology,151,China,0,0
-Nanjing University,151,China,0,0
-Sichuan University,151,China,0,0
-The Chinese University of Hong Kong,151,China,0,0
-City University of Hong Kong,201,China,0,0
-The Hong Kong University of Science and Technology,201,China,0,0
-Wuhan University,201,China,0,0
-China Medical University (Taichung),201,China,0,0
-Beijing Normal University,201,China,0,0
-Central South University,201,China,0,0
-South China University of Technology,201,China,0,0
-Jilin University,201,China,0,0
-The Hong Kong Polytechnic University,201,China,0,0
-Dalian University of Technology,201,China,0,0
-Soochow University (China),201,China,0,0
-Southeast University,201,China,0,0
-Beihang University,201,China,0,0
-Tianjin University,201,China,0,0
-University of Electronic Science and Technology of China,201,China,0,0
-Shandong University,301,China,0,0
-Lanzhou University,301,China,0,0
-Wuhan University of Technology,301,China,0,0
-Nanjing Agricultural University,301,China,0,0
-Nankai University,301,China,0,0
-Tongji University,301,China,0,0
-China Agricultural University,301,China,0,0
-Nanjing University of Science and Technology,301,China,0,0
-Northwestern Polytechnical University,301,China,0,0
-East China University of Science and Technology,301,China,0,0
-Hunan University,301,China,0,0
-Xiamen University,301,China,0,0
-Beijing University of Chemical Technology,401,China,0,0
-Chongqing University,401,China,0,0
-Peking Union Medical College,401,China,0,0
-Beijing Institute of Technology,401,China,0,0
-Capital Medical University,401,China,0,0
-East China Normal University,401,China,0,0
-Shanghai University,401,China,0,0
-Huazhong Agricultural University,401,China,0,0
-Northeastern University (Shenyang),401,China,0,0
-NanJing Tech University,401,China,0,0
-Nanjing University of Aeronautics and Astronautics,401,China,0,0
-University of Science and Technology Beijing,401,China,0,0
-Nanjing Medical University,401,China,0,0
-Harbin Engineering University,401,China,0,0
-Kaohsiung Medical University,401,China,0,0
-Nanjing University of Information Science & Technology,401,China,0,0
-Chang Gung University,401,China,0,0
-China University of Geosciences (Wuhan),401,China,0,0
-Charles University in Prague,201,Czech Republic,0,0
-University of Copenhagen,29,Denmark,0,0
-Aarhus University,65,Denmark,0,0
-Technical University of Denmark,151,Denmark,0,0
-Aalborg University,201,Denmark,0,0
-University of Southern Denmark,301,Denmark,0,0
-Cairo University,401,Egypt,0,0
-University of Tartu,301,Estonia,0,0
-University of Helsinki,57,Finland,0,0
-Aalto University,301,Finland,0,0
-University of Turku,301,Finland,0,0
-University of Duisburg-Essen,301,Finland,0,0
-University of Eastern Finland,401,Finland,0,0
-Sorbonne University,36,France,0,0
-University of Paris-Sud (Paris 11),42,France,0,0
-Ecole Normale Superieure - Paris,64,France,0,0
-University of Strasbourg,101,France,0,0
-Aix Marseille University,101,France,0,0
-University Paris Diderot - Paris 7,101,France,0,0
-Université Grenoble Alpes,151,France,0,0
-University of Paris Descartes (Paris 5),151,France,0,0
-University of Lorraine,201,France,0,0
-Claude Bernard University Lyon 1,201,France,0,0
-University of Montpellier,201,France,0,0
-Paul Sabatier University (Toulouse 3),201,France,0,0
-University of Bordeaux,201,France,0,0
-Paris Dauphine University (Paris 9),301,France,0,0
-ESPCI ParisTech,301,France,0,0
-Ecole Normale Superieure - Lyon,301,France,0,0
-MINES ParisTech,401,France,0,0
-Ecole Polytechnique,401,France,0,0
-Heidelberg University,47,Germany,0,0
-Technical University Munich,48,Germany,0,0
-University of Munich,53,Germany,0,0
-University of Goettingen,99,Germany,0,0
-University of Frankfurt,101,Germany,0,0
-University of Freiburg,101,Germany,0,0
-University of Bonn,101,Germany,0,0
-TU Dresden,151,Germany,0,0
-University of Cologne,151,Germany,0,0
-University of Muenster,151,Germany,0,0
-University of Wuerzburg,151,Germany,0,0
-University of Tuebingen,151,Germany,0,0
-University of Leipzig,151,Germany,0,0
-University of Hamburg,151,Germany,0,0
-University of Mainz,201,Germany,0,0
-University of Kiel,201,Germany,0,0
-University of Ulm,201,Germany,0,0
-RWTH Aachen University,201,Germany,0,0
-University of Erlangen-Nuremberg,201,Germany,0,0
-Karlsruhe Institute of Technology (KIT),201,Germany,0,0
-University of Bochum,301,Germany,0,0
-University of Duesseldorf,301,Germany,0,0
-University of Duisburg-Essen,301,Germany,0,0
-Hannover Medical School,301,Germany,0,0
-University of Jena,301,Germany,0,0
-Technical University of Berlin,301,Germany,0,0
-University of Stuttgart,301,Germany,0,0
-University of Marburg,301,Germany,0,0
-University of Rostock,401,Germany,0,0
-Technical University Darmstadt,401,Germany,0,0
-Bielefeld University,401,Germany,0,0
-University of Halle-Wittenberg,401,Germany,0,0
-University of Bayreuth,401,Germany,0,0
-University of Bremen,401,Germany,0,0
-University of Hannover,401,Germany,0,0
-University of Konstanz,401,Germany,0,0
-National and Kapodistrian University of Athens,301,Greece,0,0
-Aristotle University of Thessaloniki,401,Greece,0,0
-National Technical University of Athens,401,Greece,0,0
-The University of Hong Kong,101,"Hong Kong, China",0,0
-The Chinese University of Hong Kong,151,"Hong Kong, China",0,0
-The Hong Kong University of Science and Technology,201,"Hong Kong, China",0,0
-The Hong Kong Polytechnic University,201,"Hong Kong, China",0,0
-City University of Hong Kong,201,"Hong Kong, China",0,0
-Indian Institute of Science,401,India,0,0
-University of Tehran,301,"Iran, Islamic Rep. of",0,0
-Amirkabir University of Technology,401,"Iran, Islamic Rep. of",0,0
-Trinity College Dublin,151,Ireland,0,0
-University College Dublin,301,Ireland,0,0
-"National University of Ireland, Galway",401,Ireland,0,0
-University College Cork,401,Ireland,0,0
-Technion-Israel Institute of Technology,77,Israel,0,0
-The Hebrew University of Jerusalem,95,Israel,0,0
-Weizmann Institute of Science,101,Israel,0,0
-Tel Aviv University,151,Israel,0,0
-Bar-Ilan University,401,Israel,0,0
-Ben-Gurion University of the Negev,401,Israel,0,0
-University of Milan,151,Italy,0,0
-University of Bologna,201,Italy,0,0
-Sapienza University of Rome,201,Italy,0,0
-University of Naples Federico II,201,Italy,0,0
-University of Turin,201,Italy,0,0
-Polytechnic Institute of Milan,201,Italy,0,0
-University of Padua,201,Italy,0,0
-University of Pisa,201,Italy,0,0
-University of Pavia,301,Italy,0,0
-University of Florence,301,Italy,0,0
-Vita-Salute San Raffaele University,401,Italy,0,0
-University of Ferrara,401,Italy,0,0
-University of Milan - Bicocca,401,Italy,0,0
-University of Palermo,401,Italy,0,0
-University of Parma,401,Italy,0,0
-The University of Tokyo,22,Japan,35.7127,139.762
+University of Buenos Aires,201,Argentina,0.0000,0.0000
+The University of Melbourne,38,Australia,-37.7983,144.9610
+The University of Queensland,55,Australia,-27.4975,153.0137
+University of Sydney,68,Australia,-33.8886,151.1873
+The Australian National University,69,Australia,-35.2777,149.1185
+Monash University,91,Australia,-37.8774,145.0450
+The University of Western Australia,93,Australia,-31.9789,115.8181
+The University of New South Wales,101,Australia,-33.9173,151.2313
+The University of Adelaide,101,Australia,-34.9206,138.6062
+Curtin University,151,Australia,-32.0062,115.8944
+Deakin University,201,Australia, -35.3141,149.1081
+James Cook University,201,Australia,-19.3259,146.7567
+Macquarie University,201,Australia,-33.7810,151.1230
+Queensland University of Technology,201,Australia,-27.4773,153.0289
+University of Tasmania,201,Australia,-42.8789,147.3298
+University of Wollongong,201,Australia,-34.4054,150.8784
+Griffith University,301,Australia,-27.9628,153.3814
+University of Technology Sydney,301,Australia,-33.8832,151.2005
+"The University of Newcastle, Australia",301,Australia,-32.9167,151.7500
+RMIT University,301,Australia,-37.6769,145.0728
+Swinburne University of Technology,301,Australia,-37.8222,145.0390
+La Trobe University,301,Australia,-37.7219,145.0505
+University of Western Sydney,401,Australia,-33.8139,151.0066
+Flinders University,401,Australia,-35.0255,138.5719
+University of Vienna,151,Austria,0.0000,0.0000
+University of Innsbruck,201,Austria,0.0000,0.0000
+Medical University of Vienna,201,Austria,0.0000,0.0000
+Vienna University of Technology,301,Austria,0.0000,0.0000
+University of Graz,401,Austria,0.0000,0.0000
+Medical University of Innsbruck,401,Austria,0.0000,0.0000
+Ghent University,61,Belgium,0.0000,0.0000
+KU Leuven,86,Belgium,0.0000,0.0000
+Catholic University of Louvain,151,Belgium,0.0000,0.0000
+Université libre de Bruxelles (ULB),151,Belgium,0.0000,0.0000
+University of Antwerp,201,Belgium,0.0000,0.0000
+Vrije Universiteit Brussel (VUB),201,Belgium,0.0000,0.0000
+University of Liege,301,Belgium,0.0000,0.0000
+University of Sao Paulo,151,Brazil,0.0000,0.0000
+University of Campinas,301,Brazil,0.0000,0.0000
+UNESP,301,Brazil,0.0000,0.0000
+Federal University of Rio de Janeiro,301,Brazil,0.0000,0.0000
+Federal University of Minas Gerais,401,Brazil,0.0000,0.0000
+Federal University of Rio Grande do Sul,401,Brazil,0.0000,0.0000
+University of Toronto,23,Canada,0.0000,0.0000
+University of British Columbia,43,Canada,0.0000,0.0000
+McGill University,70,Canada,0.0000,0.0000
+McMaster University,86,Canada,0.0000,0.0000
+University of Montreal,101,Canada,0.0000,0.0000
+University of Alberta,101,Canada,0.0000,0.0000
+The University of Calgary,151,Canada,0.0000,0.0000
+University of Ottawa,151,Canada,0.0000,0.0000
+University of Waterloo,151,Canada,0.0000,0.0000
+Queen's University,201,Canada,0.0000,0.0000
+Laval University,201,Canada,0.0000,0.0000
+Western University,201,Canada,0.0000,0.0000
+University of Guelph,301,Canada,0.0000,0.0000
+University of Manitoba,301,Canada,0.0000,0.0000
+University of Victoria,301,Canada,0.0000,0.0000
+Simon Fraser University,301,Canada,0.0000,0.0000
+University of Saskatchewan,301,Canada,0.0000,0.0000
+Dalhousie University,301,Canada,0.0000,0.0000
+University of Chile,301,Chile,0.0000,0.0000
+Catholic University of Chile,401,Chile,0.0000,0.0000
+Tsinghua University,45,China,0.0000,0.0000
+Peking University,57,China,0.0000,0.0000
+Zhejiang University,67,China,0.0000,0.0000
+The University of Hong Kong,101,China,0.0000,0.0000
+Shanghai Jiao Tong University,101,China,0.0000,0.0000
+University of Science and Technology of China,101,China,0.0000,0.0000
+Fudan University,101,China,0.0000,0.0000
+Xian Jiaotong University,151,China,0.0000,0.0000
+Harbin Institute of Technology,151,China,0.0000,0.0000
+Huazhong University of Science and Technology,151,China,0.0000,0.0000
+Nanjing University,151,China,0.0000,0.0000
+Sichuan University,151,China,0.0000,0.0000
+The Chinese University of Hong Kong,151,China,0.0000,0.0000
+City University of Hong Kong,201,China,0.0000,0.0000
+The Hong Kong University of Science and Technology,201,China,0.0000,0.0000
+Wuhan University,201,China,0.0000,0.0000
+China Medical University (Taichung),201,China,0.0000,0.0000
+Beijing Normal University,201,China,0.0000,0.0000
+Central South University,201,China,0.0000,0.0000
+South China University of Technology,201,China,0.0000,0.0000
+Jilin University,201,China,0.0000,0.0000
+The Hong Kong Polytechnic University,201,China,0.0000,0.0000
+Dalian University of Technology,201,China,0.0000,0.0000
+Soochow University (China),201,China,0.0000,0.0000
+Southeast University,201,China,0.0000,0.0000
+Beihang University,201,China,0.0000,0.0000
+Tianjin University,201,China,0.0000,0.0000
+University of Electronic Science and Technology of China,201,China,0.0000,0.0000
+Shandong University,301,China,0.0000,0.0000
+Lanzhou University,301,China,0.0000,0.0000
+Wuhan University of Technology,301,China,0.0000,0.0000
+Nanjing Agricultural University,301,China,0.0000,0.0000
+Nankai University,301,China,0.0000,0.0000
+Tongji University,301,China,0.0000,0.0000
+China Agricultural University,301,China,0.0000,0.0000
+Nanjing University of Science and Technology,301,China,0.0000,0.0000
+Northwestern Polytechnical University,301,China,0.0000,0.0000
+East China University of Science and Technology,301,China,0.0000,0.0000
+Hunan University,301,China,0.0000,0.0000
+Xiamen University,301,China,0.0000,0.0000
+Beijing University of Chemical Technology,401,China,0.0000,0.0000
+Chongqing University,401,China,0.0000,0.0000
+Peking Union Medical College,401,China,0.0000,0.0000
+Beijing Institute of Technology,401,China,0.0000,0.0000
+Capital Medical University,401,China,0.0000,0.0000
+East China Normal University,401,China,0.0000,0.0000
+Shanghai University,401,China,0.0000,0.0000
+Huazhong Agricultural University,401,China,0.0000,0.0000
+Northeastern University (Shenyang),401,China,0.0000,0.0000
+NanJing Tech University,401,China,0.0000,0.0000
+Nanjing University of Aeronautics and Astronautics,401,China,0.0000,0.0000
+University of Science and Technology Beijing,401,China,0.0000,0.0000
+Nanjing Medical University,401,China,0.0000,0.0000
+Harbin Engineering University,401,China,0.0000,0.0000
+Kaohsiung Medical University,401,China,0.0000,0.0000
+Nanjing University of Information Science & Technology,401,China,0.0000,0.0000
+Chang Gung University,401,China,0.0000,0.0000
+China University of Geosciences (Wuhan),401,China,0.0000,0.0000
+Charles University in Prague,201,Czech Republic,0.0000,0.0000
+University of Copenhagen,29,Denmark,0.0000,0.0000
+Aarhus University,65,Denmark,0.0000,0.0000
+Technical University of Denmark,151,Denmark,0.0000,0.0000
+Aalborg University,201,Denmark,0.0000,0.0000
+University of Southern Denmark,301,Denmark,0.0000,0.0000
+Cairo University,401,Egypt,0.0000,0.0000
+University of Tartu,301,Estonia,0.0000,0.0000
+University of Helsinki,57,Finland,0.0000,0.0000
+Aalto University,301,Finland,0.0000,0.0000
+University of Turku,301,Finland,0.0000,0.0000
+University of Duisburg-Essen,301,Finland,0.0000,0.0000
+University of Eastern Finland,401,Finland,0.0000,0.0000
+Sorbonne University,36,France,0.0000,0.0000
+University of Paris-Sud (Paris 11),42,France,0.0000,0.0000
+Ecole Normale Superieure - Paris,64,France,0.0000,0.0000
+University of Strasbourg,101,France,0.0000,0.0000
+Aix Marseille University,101,France,0.0000,0.0000
+University Paris Diderot - Paris 7,101,France,0.0000,0.0000
+Université Grenoble Alpes,151,France,0.0000,0.0000
+University of Paris Descartes (Paris 5),151,France,0.0000,0.0000
+University of Lorraine,201,France,0.0000,0.0000
+Claude Bernard University Lyon 1,201,France,0.0000,0.0000
+University of Montpellier,201,France,0.0000,0.0000
+Paul Sabatier University (Toulouse 3),201,France,0.0000,0.0000
+University of Bordeaux,201,France,0.0000,0.0000
+Paris Dauphine University (Paris 9),301,France,0.0000,0.0000
+ESPCI ParisTech,301,France,0.0000,0.0000
+Ecole Normale Superieure - Lyon,301,France,0.0000,0.0000
+MINES ParisTech,401,France,0.0000,0.0000
+Ecole Polytechnique,401,France,0.0000,0.0000
+Heidelberg University,47,Germany,0.0000,0.0000
+Technical University Munich,48,Germany,0.0000,0.0000
+University of Munich,53,Germany,0.0000,0.0000
+University of Goettingen,99,Germany,0.0000,0.0000
+University of Frankfurt,101,Germany,0.0000,0.0000
+University of Freiburg,101,Germany,0.0000,0.0000
+University of Bonn,101,Germany,0.0000,0.0000
+TU Dresden,151,Germany,0.0000,0.0000
+University of Cologne,151,Germany,0.0000,0.0000
+University of Muenster,151,Germany,0.0000,0.0000
+University of Wuerzburg,151,Germany,0.0000,0.0000
+University of Tuebingen,151,Germany,0.0000,0.0000
+University of Leipzig,151,Germany,0.0000,0.0000
+University of Hamburg,151,Germany,0.0000,0.0000
+University of Mainz,201,Germany,0.0000,0.0000
+University of Kiel,201,Germany,0.0000,0.0000
+University of Ulm,201,Germany,0.0000,0.0000
+RWTH Aachen University,201,Germany,0.0000,0.0000
+University of Erlangen-Nuremberg,201,Germany,0.0000,0.0000
+Karlsruhe Institute of Technology (KIT),201,Germany,0.0000,0.0000
+University of Bochum,301,Germany,0.0000,0.0000
+University of Duesseldorf,301,Germany,0.0000,0.0000
+University of Duisburg-Essen,301,Germany,0.0000,0.0000
+Hannover Medical School,301,Germany,0.0000,0.0000
+University of Jena,301,Germany,0.0000,0.0000
+Technical University of Berlin,301,Germany,0.0000,0.0000
+University of Stuttgart,301,Germany,0.0000,0.0000
+University of Marburg,301,Germany,0.0000,0.0000
+University of Rostock,401,Germany,0.0000,0.0000
+Technical University Darmstadt,401,Germany,0.0000,0.0000
+Bielefeld University,401,Germany,0.0000,0.0000
+University of Halle-Wittenberg,401,Germany,0.0000,0.0000
+University of Bayreuth,401,Germany,0.0000,0.0000
+University of Bremen,401,Germany,0.0000,0.0000
+University of Hannover,401,Germany,0.0000,0.0000
+University of Konstanz,401,Germany,0.0000,0.0000
+National and Kapodistrian University of Athens,301,Greece,0.0000,0.0000
+Aristotle University of Thessaloniki,401,Greece,0.0000,0.0000
+National Technical University of Athens,401,Greece,0.0000,0.0000
+The University of Hong Kong,101,"Hong Kong, China",0.0000,0.0000
+The Chinese University of Hong Kong,151,"Hong Kong, China",0.0000,0.0000
+The Hong Kong University of Science and Technology,201,"Hong Kong, China",0.0000,0.0000
+The Hong Kong Polytechnic University,201,"Hong Kong, China",0.0000,0.0000
+City University of Hong Kong,201,"Hong Kong, China",0.0000,0.0000
+Indian Institute of Science,401,India,0.0000,0.0000
+University of Tehran,301,"Iran, Islamic Rep. of",0.0000,0.0000
+Amirkabir University of Technology,401,"Iran, Islamic Rep. of",0.0000,0.0000
+Trinity College Dublin,151,Ireland,0.0000,0.0000
+University College Dublin,301,Ireland,0.0000,0.0000
+"National University of Ireland, Galway",401,Ireland,0.0000,0.0000
+University College Cork,401,Ireland,0.0000,0.0000
+Technion-Israel Institute of Technology,77,Israel,0.0000,0.0000
+The Hebrew University of Jerusalem,95,Israel,0.0000,0.0000
+Weizmann Institute of Science,101,Israel,0.0000,0.0000
+Tel Aviv University,151,Israel,0.0000,0.0000
+Bar-Ilan University,401,Israel,0.0000,0.0000
+Ben-Gurion University of the Negev,401,Israel,0.0000,0.0000
+University of Milan,151,Italy,0.0000,0.0000
+University of Bologna,201,Italy,0.0000,0.0000
+Sapienza University of Rome,201,Italy,0.0000,0.0000
+University of Naples Federico II,201,Italy,0.0000,0.0000
+University of Turin,201,Italy,0.0000,0.0000
+Polytechnic Institute of Milan,201,Italy,0.0000,0.0000
+University of Padua,201,Italy,0.0000,0.0000
+University of Pisa,201,Italy,0.0000,0.0000
+University of Pavia,301,Italy,0.0000,0.0000
+University of Florence,301,Italy,0.0000,0.0000
+Vita-Salute San Raffaele University,401,Italy,0.0000,0.0000
+University of Ferrara,401,Italy,0.0000,0.0000
+University of Milan - Bicocca,401,Italy,0.0000,0.0000
+University of Palermo,401,Italy,0.0000,0.0000
+University of Parma,401,Italy,0.0000,0.0000
+The University of Tokyo,22,Japan,35.7127,139.7620
 Kyoto University,35,Japan,35.0262,135.7808
 Nagoya University,83,Japan,35.1539,136.9682
 Tohoku University,101,Japan,38.2538,140.8741
-Osaka University,101,Japan,34.822,135.5245
-Hokkaido University,151,Japan,43.078,141.34
+Osaka University,101,Japan,34.8220,135.5245
+Hokkaido University,151,Japan,43.0780,141.3400
 Tokyo Institute of Technology,151,Japan,35.6051,139.6835
-Kyushu University,201,Japan,33.6267,130.425
+Kyushu University,201,Japan,33.6267,130.4250
 University of Tsukuba,201,Japan,36.1068,140.1019
-Keio University,301,Japan,35.649,139.7429
+Keio University,301,Japan,35.6490,139.7429
 Okayama University,301,Japan,34.6871,133.9222
 Chiba University,301,Japan,35.6278,140.1031
 Waseda University,401,Japan,35.7087,139.7196
 Kobe University,401,Japan,34.7253,135.2346
 The University of Tokushima,401,Japan,34.0699,134.5598
 Tokyo University of Science,401,Japan,35.6998,139.7414
-Seoul National University,101,"Korea, Republic of",0,0
-Sungkyunkwan University,151,"Korea, Republic of",0,0
-Korea Advanced Institute of Science and Technology,201,"Korea, Republic of",0,0
-Korea University,201,"Korea, Republic of",0,0
-Hanyang University,201,"Korea, Republic of",0,0
-Yonsei University,301,"Korea, Republic of",0,0
-Ulsan National Institute of Science and Technology,301,"Korea, Republic of",0,0
-Kyung Hee University,301,"Korea, Republic of",0,0
-Pohang University of Science and Technology,401,"Korea, Republic of",0,0
-University of Ulsan,401,"Korea, Republic of",0,0
-University of Malaya,301,Malaysia,0,0
-"University of Science, Malaysia",401,Malaysia,0,0
-National Autonomous University of Mexico,201,Mexico,0,0
-Utrecht University,51,Netherlands,0,0
-University of Groningen,66,Netherlands,0,0
-Leiden University,74,Netherlands,0,0
-Erasmus University Rotterdam,79,Netherlands,0,0
-University of Wageningen,101,Netherlands,0,0
-University of Amsterdam,101,Netherlands,0,0
-Radboud University Nijmegen,101,Netherlands,0,0
-VU University Amsterdam,101,Netherlands,0,0
-Delft University of Technology,151,Netherlands,0,0
-Maastricht University,201,Netherlands,0,0
-Eindhoven University of Technology,301,Netherlands,0,0
-The University of Auckland,201,New Zealand,0,0
-University of Otago,301,New Zealand,0,0
-Victoria University of Wellington,301,New Zealand,0,0
-University of Canterbury,401,New Zealand,0,0
-University of Oslo,62,Norway,0,0
-Norwegian University of Science and Technology - NTNU,101,Norway,0,0
-University of Bergen,201,Norway,0,0
-University of Warsaw,301,Poland,0,0
-Jagiellonian University,401,Poland,0,0
-University of Lisbon,151,Portugal,0,0
-University of Porto,301,Portugal,0,0
-University of Aveiro,401,Portugal,0,0
-University of Minho,401,Portugal,0,0
-Moscow State University,86,Russian Federation,0,0
-Saint Petersburg State University,301,Russian Federation,0,0
-Novosibirsk State University,401,Russian Federation,0,0
-Moscow Institute of Physics and Technology,401,Russian Federation,0,0
-King Saud University,101,Saudi Arabia,0,0
-King Abdulaziz University,101,Saudi Arabia,0,0
-King Abdullah University of Science and Technology,201,Saudi Arabia,0,0
-King Fahd University of Petroleum & Minerals,301,Saudi Arabia,0,0
-University of Belgrade,301,Serbia,0,0
-National University of Singapore,85,Singapore,0,0
-Nanyang Technological University,96,Singapore,0,0
-University of Ljubljana,401,Slovenia,0,0
-University of the Witwatersrand,201,South Africa,0,0
-University of Cape Town,301,South Africa,0,0
-Stellenbosch University,401,South Africa,0,0
-University of Pretoria,401,South Africa,0,0
-University of Barcelona,151,Spain,0,0
-Pompeu Fabra University,201,Spain,0,0
-University of Granada,201,Spain,0,0
-Complutense University of Madrid,201,Spain,0,0
-Autonomous University of Barcelona,301,Spain,0,0
-University of the Basque Country,301,Spain,0,0
-Autonomous University of Madrid,301,Spain,0,0
-University of Valencia,401,Spain,0,0
-University of Santiago Compostela,401,Spain,0,0
-Polytechnic University of Valencia,401,Spain,0,0
-Karolinska Institute,44,Sweden,0,0
-Uppsala University,63,Sweden,0,0
-Stockholm University,77,Sweden,0,0
-University of Gothenburg,101,Sweden,0,0
-Lund University,101,Sweden,0,0
-KTH Royal Institute of Technology,201,Sweden,0,0
-Chalmers University of Technology,201,Sweden,0,0
-Swedish University of Agricultural Sciences,201,Sweden,0,0
-Linkoping University,301,Sweden,0,0
-Umea University,401,Sweden,0,0
-Swiss Federal Institute of Technology Zurich,19,Switzerland,0,0
-University of Zurich,54,Switzerland,0,0
-University of Geneva,59,Switzerland,0,0
-Swiss Federal Institute of Technology Lausanne,81,Switzerland,0,0
-University of Basel,96,Switzerland,0,0
-University of Bern,101,Switzerland,0,0
-University of Lausanne,101,Switzerland,0,0
-University of Fribourg,301,Switzerland,0,0
-Sun Yat-sen University,101,"Taiwan, China",0,0
-National Taiwan University,151,"Taiwan, China",0,0
-National Cheng Kung University,301,"Taiwan, China",0,0
-National Tsing Hua University,401,"Taiwan, China",0,0
-Istanbul University,401,Turkey,0,0
+Seoul National University,101,"Korea, Republic of",0.0000,0.0000
+Sungkyunkwan University,151,"Korea, Republic of",0.0000,0.0000
+Korea Advanced Institute of Science and Technology,201,"Korea, Republic of",0.0000,0.0000
+Korea University,201,"Korea, Republic of",0.0000,0.0000
+Hanyang University,201,"Korea, Republic of",0.0000,0.0000
+Yonsei University,301,"Korea, Republic of",0.0000,0.0000
+Ulsan National Institute of Science and Technology,301,"Korea, Republic of",0.0000,0.0000
+Kyung Hee University,301,"Korea, Republic of",0.0000,0.0000
+Pohang University of Science and Technology,401,"Korea, Republic of",0.0000,0.0000
+University of Ulsan,401,"Korea, Republic of",0.0000,0.0000
+University of Malaya,301,Malaysia,0.0000,0.0000
+"University of Science, Malaysia",401,Malaysia,0.0000,0.0000
+National Autonomous University of Mexico,201,Mexico,0.0000,0.0000
+Utrecht University,51,Netherlands,0.0000,0.0000
+University of Groningen,66,Netherlands,0.0000,0.0000
+Leiden University,74,Netherlands,0.0000,0.0000
+Erasmus University Rotterdam,79,Netherlands,0.0000,0.0000
+University of Wageningen,101,Netherlands,0.0000,0.0000
+University of Amsterdam,101,Netherlands,0.0000,0.0000
+Radboud University Nijmegen,101,Netherlands,0.0000,0.0000
+VU University Amsterdam,101,Netherlands,0.0000,0.0000
+Delft University of Technology,151,Netherlands,0.0000,0.0000
+Maastricht University,201,Netherlands,0.0000,0.0000
+Eindhoven University of Technology,301,Netherlands,0.0000,0.0000
+The University of Auckland,201,New Zealand,0.0000,0.0000
+University of Otago,301,New Zealand,0.0000,0.0000
+Victoria University of Wellington,301,New Zealand,0.0000,0.0000
+University of Canterbury,401,New Zealand,0.0000,0.0000
+University of Oslo,62,Norway,0.0000,0.0000
+Norwegian University of Science and Technology - NTNU,101,Norway,0.0000,0.0000
+University of Bergen,201,Norway,0.0000,0.0000
+University of Warsaw,301,Poland,0.0000,0.0000
+Jagiellonian University,401,Poland,0.0000,0.0000
+University of Lisbon,151,Portugal,0.0000,0.0000
+University of Porto,301,Portugal,0.0000,0.0000
+University of Aveiro,401,Portugal,0.0000,0.0000
+University of Minho,401,Portugal,0.0000,0.0000
+Moscow State University,86,Russian Federation,0.0000,0.0000
+Saint Petersburg State University,301,Russian Federation,0.0000,0.0000
+Novosibirsk State University,401,Russian Federation,0.0000,0.0000
+Moscow Institute of Physics and Technology,401,Russian Federation,0.0000,0.0000
+King Saud University,101,Saudi Arabia,0.0000,0.0000
+King Abdulaziz University,101,Saudi Arabia,0.0000,0.0000
+King Abdullah University of Science and Technology,201,Saudi Arabia,0.0000,0.0000
+King Fahd University of Petroleum & Minerals,301,Saudi Arabia,0.0000,0.0000
+University of Belgrade,301,Serbia,0.0000,0.0000
+National University of Singapore,85,Singapore,0.0000,0.0000
+Nanyang Technological University,96,Singapore,0.0000,0.0000
+University of Ljubljana,401,Slovenia,0.0000,0.0000
+University of the Witwatersrand,201,South Africa,0.0000,0.0000
+University of Cape Town,301,South Africa,0.0000,0.0000
+Stellenbosch University,401,South Africa,0.0000,0.0000
+University of Pretoria,401,South Africa,0.0000,0.0000
+University of Barcelona,151,Spain,0.0000,0.0000
+Pompeu Fabra University,201,Spain,0.0000,0.0000
+University of Granada,201,Spain,0.0000,0.0000
+Complutense University of Madrid,201,Spain,0.0000,0.0000
+Autonomous University of Barcelona,301,Spain,0.0000,0.0000
+University of the Basque Country,301,Spain,0.0000,0.0000
+Autonomous University of Madrid,301,Spain,0.0000,0.0000
+University of Valencia,401,Spain,0.0000,0.0000
+University of Santiago Compostela,401,Spain,0.0000,0.0000
+Polytechnic University of Valencia,401,Spain,0.0000,0.0000
+Karolinska Institute,44,Sweden,0.0000,0.0000
+Uppsala University,63,Sweden,0.0000,0.0000
+Stockholm University,77,Sweden,0.0000,0.0000
+University of Gothenburg,101,Sweden,0.0000,0.0000
+Lund University,101,Sweden,0.0000,0.0000
+KTH Royal Institute of Technology,201,Sweden,0.0000,0.0000
+Chalmers University of Technology,201,Sweden,0.0000,0.0000
+Swedish University of Agricultural Sciences,201,Sweden,0.0000,0.0000
+Linkoping University,301,Sweden,0.0000,0.0000
+Umea University,401,Sweden,0.0000,0.0000
+Swiss Federal Institute of Technology Zurich,19,Switzerland,0.0000,0.0000
+University of Zurich,54,Switzerland,0.0000,0.0000
+University of Geneva,59,Switzerland,0.0000,0.0000
+Swiss Federal Institute of Technology Lausanne,81,Switzerland,0.0000,0.0000
+University of Basel,96,Switzerland,0.0000,0.0000
+University of Bern,101,Switzerland,0.0000,0.0000
+University of Lausanne,101,Switzerland,0.0000,0.0000
+University of Fribourg,301,Switzerland,0.0000,0.0000
+Sun Yat-sen University,101,"Taiwan, China",0.0000,0.0000
+National Taiwan University,151,"Taiwan, China",0.0000,0.0000
+National Cheng Kung University,301,"Taiwan, China",0.0000,0.0000
+National Tsing Hua University,401,"Taiwan, China",0.0000,0.0000
+Istanbul University,401,Turkey,0.0000,0.0000
 University of Cambridge,3,United Kingdom,52.2043,0.1149
-University of Oxford,7,United Kingdom,0,0
-University College London,17,United Kingdom,0,0
-Imperial College London,24,United Kingdom,0,0
-The University of Edinburgh,32,United Kingdom,0,0
-The University of Manchester,34,United Kingdom,0,0
-King's College London,56,United Kingdom,0,0
-University of Bristol,74,United Kingdom,0,0
-University of Warwick,101,United Kingdom,0,0
-University of Southampton,101,United Kingdom,0,0
-University of Leeds,101,United Kingdom,0,0
-University of Liverpool,101,United Kingdom,0,0
-University of Nottingham,101,United Kingdom,0,0
-Cardiff University,101,United Kingdom,0,0
-University of Birmingham,101,United Kingdom,0,0
-The University of Sheffield,101,United Kingdom,0,0
-The University of Glasgow,151,United Kingdom,0,0
-Queen Mary University of London,151,United Kingdom,0,0
-University of Exeter,151,United Kingdom,0,0
-London School of Hygiene & Tropical Medicine,151,United Kingdom,0,0
-Newcastle University,201,United Kingdom,0,0
-University of Leicester,201,United Kingdom,0,0
-University of Aberdeen,201,United Kingdom,0,0
-Queen's University,201,United Kingdom,0,0
-The University of Reading,201,United Kingdom,0,0
-University of East Anglia,201,United Kingdom,0,0
-University of Sussex,201,United Kingdom,0,0
-Durham University,201,United Kingdom,0,0
-University of St Andrews,301,United Kingdom,0,0
-University of Surrey,301,United Kingdom,0,0
-University of York,301,United Kingdom,0,0
-Queen's University Belfast,301,United Kingdom,0,0
-The University of Dundee,301,United Kingdom,0,0
-Lancaster University,301,United Kingdom,0,0
-Heriot-Watt University,401,United Kingdom,0,0
-University of Kent,401,United Kingdom,0,0
-Brunel University,401,United Kingdom,0,0
-St George's Hospital Medical School,401,United Kingdom,0,0
-University of Bath,401,United Kingdom,0,0
-Arizona State University,101,United States,33.424564,-111.928001
+University of Oxford,7,United Kingdom,0.0000,0.0000
+University College London,17,United Kingdom,0.0000,0.0000
+Imperial College London,24,United Kingdom,0.0000,0.0000
+The University of Edinburgh,32,United Kingdom,0.0000,0.0000
+The University of Manchester,34,United Kingdom,0.0000,0.0000
+King's College London,56,United Kingdom,0.0000,0.0000
+University of Bristol,74,United Kingdom,0.0000,0.0000
+University of Warwick,101,United Kingdom,0.0000,0.0000
+University of Southampton,101,United Kingdom,0.0000,0.0000
+University of Leeds,101,United Kingdom,0.0000,0.0000
+University of Liverpool,101,United Kingdom,0.0000,0.0000
+University of Nottingham,101,United Kingdom,0.0000,0.0000
+Cardiff University,101,United Kingdom,0.0000,0.0000
+University of Birmingham,101,United Kingdom,0.0000,0.0000
+The University of Sheffield,101,United Kingdom,0.0000,0.0000
+The University of Glasgow,151,United Kingdom,0.0000,0.0000
+Queen Mary University of London,151,United Kingdom,0.0000,0.0000
+University of Exeter,151,United Kingdom,0.0000,0.0000
+London School of Hygiene & Tropical Medicine,151,United Kingdom,0.0000,0.0000
+Newcastle University,201,United Kingdom,0.0000,0.0000
+University of Leicester,201,United Kingdom,0.0000,0.0000
+University of Aberdeen,201,United Kingdom,0.0000,0.0000
+Queen's University,201,United Kingdom,0.0000,0.0000
+The University of Reading,201,United Kingdom,0.0000,0.0000
+University of East Anglia,201,United Kingdom,0.0000,0.0000
+University of Sussex,201,United Kingdom,0.0000,0.0000
+Durham University,201,United Kingdom,0.0000,0.0000
+University of St Andrews,301,United Kingdom,0.0000,0.0000
+University of Surrey,301,United Kingdom,0.0000,0.0000
+University of York,301,United Kingdom,0.0000,0.0000
+Queen's University Belfast,301,United Kingdom,0.0000,0.0000
+The University of Dundee,301,United Kingdom,0.0000,0.0000
+Lancaster University,301,United Kingdom,0.0000,0.0000
+Heriot-Watt University,401,United Kingdom,0.0000,0.0000
+University of Kent,401,United Kingdom,0.0000,0.0000
+Brunel University,401,United Kingdom,0.0000,0.0000
+St George's Hospital Medical School,401,United Kingdom,0.0000,0.0000
+University of Bath,401,United Kingdom,0.0000,0.0000
+Arizona State University,101,United States,33.4246,-111.9280
 Baylor College of Medicine,101,United States,29.7105,-95.3965
 Boston College,301,United States,42.3355,-71.1685
 Boston University,70,United States,42.3505,-71.1054
 Brandeis University,201,United States,42.3657,-71.2586
 Brigham Young University,401,United States,40.2518,-111.6493
 Brown University,101,United States,41.8268,-71.4025
-California Institute of Technology,9,United States,34.138,-118.125
+California Institute of Technology,9,United States,34.1380,-118.1250
 Carnegie Mellon University,91,United States,40.4432,-79.9428
 Case Western Reserve University,101,United States,41.5043,-81.6084
-City University of New York City College,401,United States,40.82, -73.9493
+City University of New York City College,401,United States,40.8200, -73.9493
 Colorado State University,201,United States,40.5734,-105.0865
 Columbia University,8,United States,40.8075,-73.9626
 Cornell University,12,United States,42.4534,-76.4735
@@ -387,7 +387,7 @@ Florida State University,201,United States,30.4419,-84.2985
 George Mason University,201,United States,38.8298,-77.3074
 Georgetown University,201,United States,38.9076,-77.0723
 Georgia Institute of Technology,79,United States,33.7756,-84.3963
-Harvard University,1,United States,42.377,-71.1167
+Harvard University,1,United States,42.3770,-71.1167
 Icahn School of Medicine at Mount Sinai,101,United States,40.7882,-73.9531
 Indiana University Bloomington,101,United States,39.1754,-86.5126
 Indiana University-Purdue University at Indianapolis,301,United States,40.4237,-86.9212
@@ -395,20 +395,20 @@ Iowa State University,201,United States,42.0267,-93.6465
 Johns Hopkins University,18,United States,39.3299,-76.6205
 Kansas State University,401,United States,39.1974,-96.5847
 Kent State University,401,United States,41.1456,-81.3393
-Louisiana State University - Baton Rouge,301,United States,30.4133,-91.18
+Louisiana State University - Baton Rouge,301,United States,30.4133,-91.1800
 Massachusetts Institute of Technology,4,United States,42.3601,-71.0942
 Mayo Medical School,81,United States,44.0224,-92.4668
-Medical University of South Carolina,301,United States,32.785,-79.9478
+Medical University of South Carolina,301,United States,32.7850,-79.9478
 Michigan State University,101,United States,42.7018,-84.4822
 Mississippi State University,401,United States,33.4552,-88.7944
 New York University,32,United States,40.7295,-73.9965
 North Carolina State University - Raleigh,151,United States,35.7847,-78.6821
 Northeastern University (Boston),201,United States,42.3398,-71.0892
 Northwestern University,25,United States,22.7825,-89.5504
-Oklahoma State University,401,United States,36.127,-97.0737
+Oklahoma State University,401,United States,36.1270,-97.0737
 Oregon Health and Science University,151,United States,45.4981,-122.6856
 Oregon State University,151,United States,44.5638,-123.2794
-Pennsylvania State University - University Park,74,United States,40.798214,-77.859909
+Pennsylvania State University - University Park,74,United States,40.7982,-77.8599
 Princeton University,6,United States,40.3431,-74.6551
 Purdue University - West Lafayette,70,United States,40.4237,-86.9212
 Rice University,70,United States,29.7174,-95.4018
@@ -417,63 +417,63 @@ Rush University,401,United States,41.8746,-87.6688
 "Rutgers, The State University of New Jersey - New Brunswick",101,United States,40.5008,-74.4474
 Saint Louis University,401,United States,38.6359,-90.2342
 Stanford University,2,United States,37.4275,-122.1697
-Stony Brook University,301,United States,40.9048,-73.124
+Stony Brook University,301,United States,40.9048,-73.1240
 Temple University,301,United States,39.9812,-75.1497
 Texas A&M University,151,United States,30.6187,-96.3365
 Texas Tech University,401,United States,33.5843,-101.8783
 The George Washington University,201,United States,38.8997,-77.0486
 The Ohio State University - Columbus,94,United States,40.0067,-83.0305
-The University of Georgia,201,United States,33.948,-83.3773
+The University of Georgia,201,United States,33.9480,-83.3773
 The University of New Mexico - Albuquerque,301,United States,35.0843,-106.6198
 The University of Texas at Austin,40,United States,30.2849,-97.7341
 The University of Texas at Dallas,301,United States,32.9858,-96.7501
 The University of Texas Health Science Center at Houston,301,United States,29.7032,-95.4032
 The University of Texas Health Science Center at San Antonio,301,United States,29.5075,-98.5754
 The University of Texas M. D. Anderson Cancer Center,100,United States,29.7068,-95.3972
-The University of Texas Medical Branch at Galveston,401,United States,29.3109,-94.777
+The University of Texas Medical Branch at Galveston,401,United States,29.3109,-94.7770
 The University of Texas Southwestern Medical Center at Dallas,48,United States,32.8138,-96.8402
-Thomas Jefferson University,401,United States,39.948,-75.1567
+Thomas Jefferson University,401,United States,39.9480,-75.1567
 Tufts University,151,United States,42.4085,-71.1183
-University at Albany (State University of New York),401,United States,42.685,-73.8248
-"University at Buffalo, the State University of New York",301,United States,43.0008,-78.789
-University of Alabama at Birmingham,201,United States,33.214,-87.5391
+University at Albany (State University of New York),401,United States,42.6850,-73.8248
+"University at Buffalo, the State University of New York",301,United States,43.0008,-78.7890
+University of Alabama at Birmingham,201,United States,33.2140,-87.5391
 University of Arizona,101,United States,32.2319,-110.9501
 "University of California, Berkeley",5,United States,37.8719,-122.2585
 "University of California, Davis",96,United States,38.5382,-121.7617
 "University of California, Irvine",83,United States,33.6405,-117.8443
 "University of California, Los Angeles",11,United States,34.0689,-118.4452
 "University of California, Riverside",151,United States,33.9737,-117.3281
-"University of California, San Diego",15,United States,32.8801,-117.234
+"University of California, San Diego",15,United States,32.8801,-117.2340
 "University of California, San Francisco",21,United States,37.8719,-122.2585
-"University of California, Santa Barbara",46,United States,34.414,-119.8489
+"University of California, Santa Barbara",46,United States,34.4140,-119.8489
 "University of California, Santa Cruz",101,United States,36.9881,-122.0582
 University of Central Florida,301,United States,28.6024,-81.2001
 University of Chicago,10,United States,41.7886,-87.5987
-University of Cincinnati,301,United States,39.1329,-84.515
+University of Cincinnati,301,United States,39.1329,-84.5150
 University of Colorado at Boulder,38,United States,40.0076,-105.2659
 University of Colorado at Denver,201,United States,39.7431,-104.9926
-University of Connecticut,301,United States,41.8077,-72.254
-University of Delaware,201,United States,39.678,-75.7506
+University of Connecticut,301,United States,41.8077,-72.2540
+University of Delaware,201,United States,39.6780,-75.7506
 University of Florida,86,United States,29.6436,-82.3549
 University of Hawaii at Manoa,201,United States,21.2969,-157.8171
 University of Houston,201,United States,29.7199,-95.3422
 University of Illinois at Chicago,201,United States,41.8696,-87.6496
-University of Illinois at Urbana-Champaign,41,United States,40.102,-88.2272
-University of Iowa,151,United States,41.6627,-91.555
+University of Illinois at Urbana-Champaign,41,United States,40.1020,-88.2272
+University of Iowa,151,United States,41.6627,-91.5550
 University of Kansas,201,United States,38.9543,-95.2558
-University of Kentucky,301,United States,38.0307,-84.504
+University of Kentucky,301,United States,38.0307,-84.5040
 University of Maine,401,United States,44.9019,-68.6688
 "University of Maryland, Baltimore",201,United States,39.2892,-76.6261
 "University of Maryland, College Park",51,United States,38.9869,-76.9426
 University of Massachusetts Amherst,151,United States,42.3868,-72.5301
 University of Massachusetts Medical School - Worcester,151,United States,42.2786,-71.7633
 University of Miami,201,United States,25.7179,-80.2746
-University of Michigan-Ann Arbor,27,United States,42.278,-83.7382
-"University of Minnesota, Twin Cities",37,United States,44.974,-93.2277
+University of Michigan-Ann Arbor,27,United States,42.2780,-83.7382
+"University of Minnesota, Twin Cities",37,United States,44.9740,-93.2277
 University of Missouri - Columbia,201,United States,38.9404,-92.3277
 University of Montana - Missoula,401,United States,46.8601,-113.9852
 University of Nebraska - Lincoln,201,United States,40.8202,-96.7005
-University of New Hampshire - Durham,401,United States,43.1389,-70.937
+University of New Hampshire - Durham,401,United States,43.1389,-70.9370
 University of North Carolina at Chapel Hill,30,United States,35.9049,-79.0469
 University of North Texas,301,United States,33.2075,-97.1526
 University of Notre Dame,201,United States,41.6991,-86.2388
@@ -481,17 +481,17 @@ University of Oklahoma - Norman,401,United States,35.2059,-97.4457
 University of Oregon,301,United States,44.0448,-123.0726
 University of Pennsylvania,16,United States,39.9522,-75.1932
 "University of Pittsburgh, Pittsburgh Campus",90,United States,40.4444,-79.9608
-University of Rochester,151,United States,43.1306,-77.626
+University of Rochester,151,United States,43.1306,-77.6260
 University of South Carolina - Columbia,301,United States,33.9938,-81.0299
 University of South Florida,201,United States,28.0587,-82.4139
 University of Southern California,60,United States,34.0224,-118.2851
 University of Tennessee - Knoxville,201,United States,35.9544,-83.9295
 University of Utah,101,United States,40.7649,-111.8421
 University of Vermont,301,United States,44.4779,-73.1965
-University of Virginia,151,United States,38.0336,-78.508
+University of Virginia,151,United States,38.0336,-78.5080
 University of Washington,14,United States,47.2357,-122.5504
 University of Wisconsin - Madison,28,United States,43.0766,-89.4125
-University of Wisconsin-Milwaukee,401,United States,43.0783,-87.882
+University of Wisconsin-Milwaukee,401,United States,43.0783,-87.8820
 University of Wyoming,401,United States,41.3149,-105.5666
 Utah State University,401,United States,41.7452,-111.8097
 Vanderbilt University,50,United States,36.1447,-86.8027
@@ -500,6 +500,6 @@ Virginia Polytechnic Institute and State University,201,United States,37.2284,-8
 Washington State University,301,United States,46.7319,-117.1542
 Washington University in St. Louis,20,United States,38.6488,-90.3108
 Wayne State University,401,United States,42.3591,-83.0665
-West Virginia University,401,United States,39.648,-79.9697
+West Virginia University,401,United States,39.6480,-79.9697
 Yale University,12,United States,41.3163,-72.9223
-Yeshiva University,301,United States,40.8505,-73.929
+Yeshiva University,301,United States,40.8505,-73.9290
