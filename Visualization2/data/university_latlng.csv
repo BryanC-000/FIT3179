@@ -1,7 +1,7 @@
 University,WorldRank,Country,Latitude,Longitude
-University of Buenos Aires,201,Argentina,-34.60,-58.37
-The University of Melbourne,38,Australia,-37.80,144.96
-The University of Queensland,55,Australia,-27.50,153.01
+University of Buenos Aires,201,Argentina,-34.6,-58.37
+The University of Melbourne,38,Australia,-37.8,144.96
+The University of Queensland,55,Australia,-27.5,153.01
 University of Sydney,68,Australia,-33.89,151.19
 The Australian National University,69,Australia,-35.28,149.12
 Monash University,91,Australia,-37.88,145.05
@@ -9,14 +9,14 @@ The University of Western Australia,93,Australia,-31.98,115.82
 The University of New South Wales,101,Australia,-33.92,151.23
 The University of Adelaide,101,Australia,-34.92,138.61
 Curtin University,151,Australia,-32.01,115.89
-Deakin University,201,Australia, -38.1979,144.30
+Deakin University,201,Australia, -38.1979,144.3
 James Cook University,201,Australia,-19.33,146.76
 Macquarie University,201,Australia,-33.78,151.12
 Queensland University of Technology,201,Australia,-27.48,153.03
 University of Tasmania,201,Australia,-42.88,147.33
 University of Wollongong,201,Australia,-34.41,150.88
 Griffith University,301,Australia,-27.96,153.38
-University of Technology Sydney,301,Australia,-33.88,151.20
+University of Technology Sydney,301,Australia,-33.88,151.2
 "The University of Newcastle, Australia",301,Australia,-32.92,151.75
 RMIT University,301,Australia,-37.68,145.07
 Swinburne University of Technology,301,Australia,-37.82,145.04
@@ -26,11 +26,11 @@ Flinders University,401,Australia,-35.03,138.57
 University of Vienna,151,Austria,48.21,16.36
 University of Innsbruck,201,Austria,47.26,11.38
 Medical University of Vienna,201,Austria,48.22,16.35
-Vienna University of Technology,301,Austria,48.20,16.37
+Vienna University of Technology,301,Austria,48.2,16.37
 University of Graz,401,Austria,47.07,15.44
 Medical University of Innsbruck,401,Austria,47.26,11.39
 Ghent University,61,Belgium,51.02,3.73
-KU Leuven,86,Belgium,50.88,4.70
+KU Leuven,86,Belgium,50.88,4.7
 Catholic University of Louvain,151,Belgium,50.67,4.62
 Université libre de Bruxelles (ULB),151,Belgium,50.81,4.38
 University of Antwerp,201,Belgium,51.22,4.41
@@ -42,16 +42,16 @@ UNESP,301,Brazil,-22.13,-51.41
 Federal University of Rio de Janeiro,301,Brazil,-22.86,-43.22
 Federal University of Minas Gerais,401,Brazil,-19.87,-43.97
 Federal University of Rio Grande do Sul,401,Brazil,-30.03,-51.22
-University of Toronto,23,Canada,43.66,-79.40
+University of Toronto,23,Canada,43.66,-79.4
 University of British Columbia,43,Canada,49.26,-123.25
-McGill University,70,Canada,45.50,-73.58
+McGill University,70,Canada,45.5,-73.58
 McMaster University,86,Canada,43.26,-79.92
 University of Montreal,101,Canada,45.51,-73.61
 University of Alberta,101,Canada,53.52,-113.53
 The University of Calgary,151,Canada,51.08,-114.14
 University of Ottawa,151,Canada,45.42,-75.68
 University of Waterloo,151,Canada,43.47,-80.54
-Queen's University,201,Canada,44.23,-76.50
+Queen's University,201,Canada,44.23,-76.5
 Laval University,201,Canada,46.78,-71.27
 Western University,201,Canada,43.01,-81.27
 University of Guelph,301,Canada,43.53,-80.23
@@ -62,13 +62,13 @@ University of Saskatchewan,301,Canada,52.13,-106.63
 Dalhousie University,301,Canada,44.64,-63.59
 University of Chile,301,Chile,-33.44,-70.65
 Catholic University of Chile,401,Chile,-33.44,-70.64
-Tsinghua University,45,China,24.80,121.00
+Tsinghua University,45,China,24.8,121
 Peking University,57,China,39.99,116.31
 Zhejiang University,67,China,30.27,120.12
 The University of Hong Kong,101,China,22.28,114.14
 Shanghai Jiao Tong University,101,China,31.32,121.49
 University of Science and Technology of China,101,China,31.82,117.28
-Fudan University,101,China,31.30,121.50
+Fudan University,101,China,31.3,121.5
 Xian Jiaotong University,151,China,34.25,108.98
 Harbin Institute of Technology,151,China,45.75,126.63
 Huazhong University of Science and Technology,151,China,30.51,114.42
@@ -83,25 +83,25 @@ Beijing Normal University,201,China,39.96,116.37
 Central South University,201,China,28.16,112.93
 South China University of Technology,201,China,23.15,113.34
 Jilin University,201,China,43.83,125.29
-The Hong Kong Polytechnic University,201,China,22.30,114.18
+The Hong Kong Polytechnic University,201,China,22.3,114.18
 Dalian University of Technology,201,China,38.88,121.53
-Soochow University (China),201,China,31.30,120.65
-Southeast University,201,China,23.79,90.40
+Soochow University (China),201,China,31.3,120.65
+Southeast University,201,China,23.79,90.4
 Beihang University,201,China,39.97,116.34
 Tianjin University,201,China,39.11,117.18
 University of Electronic Science and Technology of China,201,China,22.53,113.39
 Shandong University,301,China,36.65,117.03
 Lanzhou University,301,China,36.05,103.86
-Wuhan University of Technology,301,China,30.60,114.34
+Wuhan University of Technology,301,China,30.6,114.34
 Nanjing Agricultural University,301,China,32.03,118.84
-Nankai University,301,China,39.10,117.17
-Tongji University,301,China,31.29,121.50
-China Agricultural University,301,China,40.00,116.35
+Nankai University,301,China,39.1,117.17
+Tongji University,301,China,31.29,121.5
+China Agricultural University,301,China,40,116.35
 Nanjing University of Science and Technology,301,China,32.04,118.86
 Northwestern Polytechnical University,301,China,34.25,108.91
 East China University of Science and Technology,301,China,31.14,121.43
 Hunan University,301,China,28.18,112.94
-Xiamen University,301,China,24.44,118.10
+Xiamen University,301,China,24.44,118.1
 Beijing University of Chemical Technology,401,China,39.97,116.42
 Chongqing University,401,China,29.56,106.47
 Peking Union Medical College,401,China,39.91,116.41
@@ -119,110 +119,110 @@ Harbin Engineering University,401,China,45.77,126.66
 Kaohsiung Medical University,401,China,22.65,120.31
 Nanjing University of Information Science & Technology,401,China,32.21,118.73
 Chang Gung University,401,China,25.03,121.39
-China University of Geosciences (Wuhan),401,China,30.52,114.40
+China University of Geosciences (Wuhan),401,China,30.52,114.4
 Charles University in Prague,201,Czech Republic,50.09,14.42
-University of Copenhagen,29,Denmark,0.00,0.00
-Aarhus University,65,Denmark,0.00,0.00
-Technical University of Denmark,151,Denmark,0.00,0.00
-Aalborg University,201,Denmark,0.00,0.00
-University of Southern Denmark,301,Denmark,0.00,0.00
-Cairo University,401,Egypt,0.00,0.00
-University of Tartu,301,Estonia,0.00,0.00
-University of Helsinki,57,Finland,0.00,0.00
-Aalto University,301,Finland,0.00,0.00
-University of Turku,301,Finland,0.00,0.00
-University of Duisburg-Essen,301,Finland,0.00,0.00
-University of Eastern Finland,401,Finland,0.00,0.00
-Sorbonne University,36,France,0.00,0.00
-University of Paris-Sud (Paris 11),42,France,0.00,0.00
-Ecole Normale Superieure - Paris,64,France,0.00,0.00
-University of Strasbourg,101,France,0.00,0.00
-Aix Marseille University,101,France,0.00,0.00
-University Paris Diderot - Paris 7,101,France,0.00,0.00
-Université Grenoble Alpes,151,France,0.00,0.00
-University of Paris Descartes (Paris 5),151,France,0.00,0.00
-University of Lorraine,201,France,0.00,0.00
-Claude Bernard University Lyon 1,201,France,0.00,0.00
-University of Montpellier,201,France,0.00,0.00
-Paul Sabatier University (Toulouse 3),201,France,0.00,0.00
-University of Bordeaux,201,France,0.00,0.00
-Paris Dauphine University (Paris 9),301,France,0.00,0.00
-ESPCI ParisTech,301,France,0.00,0.00
-Ecole Normale Superieure - Lyon,301,France,0.00,0.00
-MINES ParisTech,401,France,0.00,0.00
-Ecole Polytechnique,401,France,0.00,0.00
-Heidelberg University,47,Germany,0.00,0.00
-Technical University Munich,48,Germany,0.00,0.00
-University of Munich,53,Germany,0.00,0.00
-University of Goettingen,99,Germany,0.00,0.00
-University of Frankfurt,101,Germany,0.00,0.00
-University of Freiburg,101,Germany,0.00,0.00
-University of Bonn,101,Germany,0.00,0.00
-TU Dresden,151,Germany,0.00,0.00
-University of Cologne,151,Germany,0.00,0.00
-University of Muenster,151,Germany,0.00,0.00
-University of Wuerzburg,151,Germany,0.00,0.00
-University of Tuebingen,151,Germany,0.00,0.00
-University of Leipzig,151,Germany,0.00,0.00
-University of Hamburg,151,Germany,0.00,0.00
-University of Mainz,201,Germany,0.00,0.00
-University of Kiel,201,Germany,0.00,0.00
-University of Ulm,201,Germany,0.00,0.00
-RWTH Aachen University,201,Germany,0.00,0.00
-University of Erlangen-Nuremberg,201,Germany,0.00,0.00
-Karlsruhe Institute of Technology (KIT),201,Germany,0.00,0.00
-University of Bochum,301,Germany,0.00,0.00
-University of Duesseldorf,301,Germany,0.00,0.00
-University of Duisburg-Essen,301,Germany,0.00,0.00
-Hannover Medical School,301,Germany,0.00,0.00
-University of Jena,301,Germany,0.00,0.00
-Technical University of Berlin,301,Germany,0.00,0.00
-University of Stuttgart,301,Germany,0.00,0.00
-University of Marburg,301,Germany,0.00,0.00
-University of Rostock,401,Germany,0.00,0.00
-Technical University Darmstadt,401,Germany,0.00,0.00
-Bielefeld University,401,Germany,0.00,0.00
-University of Halle-Wittenberg,401,Germany,0.00,0.00
-University of Bayreuth,401,Germany,0.00,0.00
-University of Bremen,401,Germany,0.00,0.00
-University of Hannover,401,Germany,0.00,0.00
-University of Konstanz,401,Germany,0.00,0.00
-National and Kapodistrian University of Athens,301,Greece,0.00,0.00
-Aristotle University of Thessaloniki,401,Greece,0.00,0.00
-National Technical University of Athens,401,Greece,0.00,0.00
-The University of Hong Kong,101,"Hong Kong, China",0.00,0.00
-The Chinese University of Hong Kong,151,"Hong Kong, China",0.00,0.00
-The Hong Kong University of Science and Technology,201,"Hong Kong, China",0.00,0.00
-The Hong Kong Polytechnic University,201,"Hong Kong, China",0.00,0.00
-City University of Hong Kong,201,"Hong Kong, China",0.00,0.00
-Indian Institute of Science,401,India,0.00,0.00
-University of Tehran,301,"Iran, Islamic Rep. of",0.00,0.00
-Amirkabir University of Technology,401,"Iran, Islamic Rep. of",0.00,0.00
-Trinity College Dublin,151,Ireland,0.00,0.00
-University College Dublin,301,Ireland,0.00,0.00
-"National University of Ireland, Galway",401,Ireland,0.00,0.00
-University College Cork,401,Ireland,0.00,0.00
-Technion-Israel Institute of Technology,77,Israel,0.00,0.00
-The Hebrew University of Jerusalem,95,Israel,0.00,0.00
-Weizmann Institute of Science,101,Israel,0.00,0.00
-Tel Aviv University,151,Israel,0.00,0.00
-Bar-Ilan University,401,Israel,0.00,0.00
-Ben-Gurion University of the Negev,401,Israel,0.00,0.00
-University of Milan,151,Italy,0.00,0.00
-University of Bologna,201,Italy,0.00,0.00
-Sapienza University of Rome,201,Italy,0.00,0.00
-University of Naples Federico II,201,Italy,0.00,0.00
-University of Turin,201,Italy,0.00,0.00
-Polytechnic Institute of Milan,201,Italy,0.00,0.00
-University of Padua,201,Italy,0.00,0.00
-University of Pisa,201,Italy,0.00,0.00
-University of Pavia,301,Italy,0.00,0.00
-University of Florence,301,Italy,0.00,0.00
-Vita-Salute San Raffaele University,401,Italy,0.00,0.00
-University of Ferrara,401,Italy,0.00,0.00
-University of Milan - Bicocca,401,Italy,0.00,0.00
-University of Palermo,401,Italy,0.00,0.00
-University of Parma,401,Italy,0.00,0.00
+University of Copenhagen,29,Denmark,55.6802,12.5724
+Aarhus University,65,Denmark,56.1681,10.203
+Technical University of Denmark,151,Denmark,55.7856,12.5214
+Aalborg University,201,Denmark,57.0142,9.9847
+University of Southern Denmark,301,Denmark,55.369,10.4282
+Cairo University,401,Egypt,30.0272,31.2087
+University of Tartu,301,Estonia,58.3811,26.7199
+University of Helsinki,57,Finland,60.1726,24.951
+Aalto University,301,Finland,24.8277,24.8277
+University of Turku,301,Finland,60.4563, 22.2851
+University of Duisburg-Essen,301,Finland,51.4277,6.801
+University of Eastern Finland,401,Finland,62.8939,27.6404
+Sorbonne University,36,France,48.8506,2.3403
+University of Paris-Sud (Paris 11),42,France,48.7035,2.1815
+Ecole Normale Superieure - Paris,64,France,48.8422,2.3452
+University of Strasbourg,101,France,48.5791,7.7665
+Aix Marseille University,101,France,43.526302,5.445429
+University Paris Diderot - Paris 7,101,France,48.8276,2.3822
+Université Grenoble Alpes,151,France,45.1914,5.7673
+University of Paris Descartes (Paris 5),151,France,48.8511,2.3407
+University of Lorraine,201,France,48.6962,6.1765
+Claude Bernard University Lyon 1,201,France,45.7796,4.8656
+University of Montpellier,201,France,43.6339,3.8489
+Paul Sabatier University (Toulouse 3),201,France,43.562,1.4699
+University of Bordeaux,201,France,44.8245,-0.6059
+Paris Dauphine University (Paris 9),301,France,48.8701,2.2736
+ESPCI ParisTech,301,France,48.8415,2.3469
+Ecole Normale Superieure - Lyon,301,France,48.8422,2.3452
+MINES ParisTech,401,France,48.8456, 2.3396
+Ecole Polytechnique,401,France,48.8342,2.2833
+Heidelberg University,47,Germany,49.3988,8.6724
+Technical University Munich,48,Germany,48.1497,11.5679
+University of Munich,53,Germany,48.1505,11.5802
+University of Goettingen,99,Germany,51.5408,9.9374
+University of Frankfurt,101,Germany,50.1271,8.6678
+University of Freiburg,101,Germany,47.9935,7.8459
+University of Bonn,101,Germany,50.7268,7.0865
+TU Dresden,151,Germany,51.0286, 13.7314
+University of Cologne,151,Germany,50.9283,6.9294
+University of Muenster,151,Germany,51.9636,7.6133
+University of Wuerzburg,151,Germany,49.7882,9.9353
+University of Tuebingen,151,Germany,48.5295,9.0438
+University of Leipzig,151,Germany,51.3386,12.3785
+University of Hamburg,151,Germany,53.5666,9.9846
+University of Mainz,201,Germany,49.9926,8.2416
+University of Kiel,201,Germany,54.3461,10.1147
+University of Ulm,201,Germany,48.4234,9.9552
+RWTH Aachen University,201,Germany,50.7801,6.0657
+University of Erlangen-Nuremberg,201,Germany,49.5979,11.0046
+Karlsruhe Institute of Technology (KIT),201,Germany,49.0119,8.417
+University of Bochum,301,Germany,51.4457,7.2616
+University of Duesseldorf,301,Germany,51.1913,6.7941
+University of Duisburg-Essen,301,Germany,51.4277,6.801
+Hannover Medical School,301,Germany,52.3816,9.8097
+University of Jena,301,Germany,50.9294,11.5897
+Technical University of Berlin,301,Germany,52.5125,13.3269
+University of Stuttgart,301,Germany,48.7815,9.1736
+University of Marburg,301,Germany,50.8107,8.7742
+University of Rostock,401,Germany,54.0755,12.1035
+Technical University Darmstadt,401,Germany,49.8748,8.6563
+Bielefeld University,401,Germany,52.0302,8.5325
+University of Halle-Wittenberg,401,Germany,51.4861,11.9695
+University of Bayreuth,401,Germany,49.9262,11.5852
+University of Bremen,401,Germany,53.1068,8.8521
+University of Hannover,401,Germany,52.383, 9.7197
+University of Konstanz,401,Germany,47.6895,9.1868
+National and Kapodistrian University of Athens,301,Greece,37.9682,23.7787
+Aristotle University of Thessaloniki,401,Greece,40.6308,22.9592
+National Technical University of Athens,401,Greece,37.9877,23.7319
+The University of Hong Kong,101,"Hong Kong, China",22.283,114.1371
+The Chinese University of Hong Kong,151,"Hong Kong, China",22.4196,114.2068
+The Hong Kong University of Science and Technology,201,"Hong Kong, China",22.3364,114.2655
+The Hong Kong Polytechnic University,201,"Hong Kong, China",22.3042,114.1798
+City University of Hong Kong,201,"Hong Kong, China",22.3367,114.1724
+Indian Institute of Science,401,India,13.0219,77.5671
+University of Tehran,301,"Iran, Islamic Rep. of",35.7058,51.4021
+Amirkabir University of Technology,401,"Iran, Islamic Rep. of",35.7032,51.4096
+Trinity College Dublin,151,Ireland,53.3438,-6.2546
+University College Dublin,301,Ireland,53.3065,-6.2255
+"National University of Ireland, Galway",401,Ireland,53.2792,-9.0617
+University College Cork,401,Ireland,51.8935,-8.4921
+Technion-Israel Institute of Technology,77,Israel,32.7768,35.0231
+The Hebrew University of Jerusalem,95,Israel,31.7946,35.2414
+Weizmann Institute of Science,101,Israel,31.9038,34.808
+Tel Aviv University,151,Israel,32.1133,34.8044
+Bar-Ilan University,401,Israel,32.0692,34.8431
+Ben-Gurion University of the Negev,401,Israel,31.2622,34.8015
+University of Milan,151,Italy,45.4601,9.1946
+University of Bologna,201,Italy,44.4962,11.3542
+Sapienza University of Rome,201,Italy,41.9038,12.5144
+University of Naples Federico II,201,Italy,40.8466,14.2568
+University of Turin,201,Italy,45.0694,7.6889
+Polytechnic Institute of Milan,201,Italy,45.4782,9.2284
+University of Padua,201,Italy,45.4068,11.8774
+University of Pisa,201,Italy,43.7167,10.3989
+University of Pavia,301,Italy,45.1867,9.1571
+University of Florence,301,Italy,43.7776,11.2598
+Vita-Salute San Raffaele University,401,Italy,45.5069,9.2673
+University of Ferrara,401,Italy,44.8334,11.6263
+University of Milan - Bicocca,401,Italy,45.518,9.2137
+University of Palermo,401,Italy,38.1177,13.3699
+University of Parma,401,Italy,44.8008,10.3259
 The University of Tokyo,22,Japan,35.71,139.76
 Kyoto University,35,Japan,35.03,135.78
 Nagoya University,83,Japan,35.15,136.97
@@ -231,14 +231,14 @@ Osaka University,101,Japan,34.82,135.52
 Hokkaido University,151,Japan,43.08,141.34
 Tokyo Institute of Technology,151,Japan,35.61,139.68
 Kyushu University,201,Japan,33.63,130.43
-University of Tsukuba,201,Japan,36.11,140.10
+University of Tsukuba,201,Japan,36.11,140.1
 Keio University,301,Japan,35.65,139.74
 Okayama University,301,Japan,34.69,133.92
-Chiba University,301,Japan,35.63,140.10
+Chiba University,301,Japan,35.63,140.1
 Waseda University,401,Japan,35.71,139.72
 Kobe University,401,Japan,34.73,135.23
 The University of Tokushima,401,Japan,34.07,134.56
-Tokyo University of Science,401,Japan,35.70,139.74
+Tokyo University of Science,401,Japan,35.7,139.74
 Seoul National University,101,"Korea, Republic of",37.46,126.95
 Sungkyunkwan University,151,"Korea, Republic of",37.59,126.99
 Korea Advanced Institute of Science and Technology,201,"Korea, Republic of",36.37,127.36
@@ -250,7 +250,7 @@ Kyung Hee University,301,"Korea, Republic of",37.24,127.08
 Pohang University of Science and Technology,401,"Korea, Republic of",36.01,129.32
 University of Ulsan,401,"Korea, Republic of",35.55,129.32
 University of Malaya,301,Malaysia,3.12,101.65
-"University of Science, Malaysia",401,Malaysia,5.36,100.30
+"University of Science, Malaysia",401,Malaysia,5.36,100.3
 National Autonomous University of Mexico,201,Mexico,19.34,-99.19
 Utrecht University,51,Netherlands,52.09,5.18
 University of Groningen,66,Netherlands,53.22,6.56
@@ -260,7 +260,7 @@ University of Wageningen,101,Netherlands,51.98,5.67
 University of Amsterdam,101,Netherlands,52.36,4.96
 Radboud University Nijmegen,101,Netherlands,51.82,5.86
 VU University Amsterdam,101,Netherlands,52.33,4.87
-Delft University of Technology,151,Netherlands,52.00,4.37
+Delft University of Technology,151,Netherlands,52,4.37
 Maastricht University,201,Netherlands,50.85,5.69
 Eindhoven University of Technology,301,Netherlands,51.45,5.49
 The University of Auckland,201,New Zealand,-36.85,174.77
@@ -268,35 +268,35 @@ University of Otago,301,New Zealand,-45.86,170.51
 Victoria University of Wellington,301,New Zealand,-41.29,174.77
 University of Canterbury,401,New Zealand,-43.52, 172.5794
 University of Oslo,62,Norway,59.94,10.72
-Norwegian University of Science and Technology - NTNU,101,Norway,63.42,10.40
+Norwegian University of Science and Technology - NTNU,101,Norway,63.42,10.4
 University of Bergen,201,Norway,60.39,5.32
 University of Warsaw,301,Poland,52.24,21.02
 Jagiellonian University,401,Poland,50.06,19.93
 University of Lisbon,151,Portugal,38.75,-9.16
 University of Porto,301,Portugal,41.15,-8.62
 University of Aveiro,401,Portugal,40.63,-8.66
-University of Minho,401,Portugal,41.56,-8.40
-Moscow State University,86,Russian Federation,55.70, 37.5287
-Saint Petersburg State University,301,Russian Federation,59.94,30.30
+University of Minho,401,Portugal,41.56,-8.4
+Moscow State University,86,Russian Federation,55.7, 37.5287
+Saint Petersburg State University,301,Russian Federation,59.94,30.3
 Novosibirsk State University,401,Russian Federation,54.85,83.09
 Moscow Institute of Physics and Technology,401,Russian Federation,55.93,37.52
 King Saud University,101,Saudi Arabia,24.72,46.63
 King Abdulaziz University,101,Saudi Arabia,21.49,39.24
-King Abdullah University of Science and Technology,201,Saudi Arabia,22.31,39.10
+King Abdullah University of Science and Technology,201,Saudi Arabia,22.31,39.1
 King Fahd University of Petroleum & Minerals,301,Saudi Arabia,26.31,50.15
 University of Belgrade,301,Serbia,44.82,20.46
-National University of Singapore,85,Singapore,1.30,103.78
+National University of Singapore,85,Singapore,1.3,103.78
 Nanyang Technological University,96,Singapore,1.35,103.68
-University of Ljubljana,401,Slovenia,46.05,14.50
+University of Ljubljana,401,Slovenia,46.05,14.5
 University of the Witwatersrand,201,South Africa,-26.19,28.03
 University of Cape Town,301,South Africa,-33.96,18.46
 Stellenbosch University,401,South Africa,-33.93,18.86
 University of Pretoria,401,South Africa,-25.75,28.23
 University of Barcelona,151,Spain,41.39,2.16
 Pompeu Fabra University,201,Spain,41.38,2.18
-University of Granada,201,Spain,37.19,-3.60
+University of Granada,201,Spain,37.19,-3.6
 Complutense University of Madrid,201,Spain,40.45,-3.73
-Autonomous University of Barcelona,301,Spain,41.50,2.10
+Autonomous University of Barcelona,301,Spain,41.5,2.1
 University of the Basque Country,301,Spain,43.33,-2.97
 Autonomous University of Madrid,301,Spain,40.55,-3.69
 University of Valencia,401,Spain,39.48,-0.36
@@ -305,38 +305,38 @@ Polytechnic University of Valencia,401,Spain,39.48,-0.34
 Karolinska Institute,44,Sweden,59.35,18.02
 Uppsala University,63,Sweden,59.85,17.63
 Stockholm University,77,Sweden,59.36,18.06
-University of Gothenburg,101,Sweden,57.70,11.97
-Lund University,101,Sweden,55.71,13.20
+University of Gothenburg,101,Sweden,57.7,11.97
+Lund University,101,Sweden,55.71,13.2
 KTH Royal Institute of Technology,201,Sweden,59.35,18.07
 Chalmers University of Technology,201,Sweden,57.69,11.97
 Swedish University of Agricultural Sciences,201,Sweden,59.82,17.66
-Linkoping University,301,Sweden,58.40,15.58
+Linkoping University,301,Sweden,58.4,15.58
 Umea University,401,Sweden,63.82,20.31
 Swiss Federal Institute of Technology Zurich,19,Switzerland,47.38,8.55
 University of Zurich,54,Switzerland,47.37,8.55
-University of Geneva,59,Switzerland,46.20,6.15
+University of Geneva,59,Switzerland,46.2,6.15
 Swiss Federal Institute of Technology Lausanne,81,Switzerland,46.52,6.57
 University of Basel,96,Switzerland,47.56,7.58
 University of Bern,101,Switzerland,46.95,7.44
 University of Lausanne,101,Switzerland,46.52,6.58
 University of Fribourg,301,Switzerland,46.81,7.15
-Sun Yat-sen University,101,"Taiwan, China",23.10,113.30
+Sun Yat-sen University,101,"Taiwan, China",23.1,113.3
 National Taiwan University,151,"Taiwan, China",25.02,121.54
-National Cheng Kung University,301,"Taiwan, China",23.00,120.22
-National Tsing Hua University,401,"Taiwan, China",24.80,121.00
+National Cheng Kung University,301,"Taiwan, China",23,120.22
+National Tsing Hua University,401,"Taiwan, China",24.8,121
 Istanbul University,401,Turkey,41.01,28.96
-University of Cambridge,3,United Kingdom,52.20,0.11
+University of Cambridge,3,United Kingdom,52.2,0.11
 University of Oxford,7,United Kingdom,51.75,-1.25
 University College London,17,United Kingdom,51.52,-0.13
-Imperial College London,24,United Kingdom,51.50,-0.17
+Imperial College London,24,United Kingdom,51.5,-0.17
 The University of Edinburgh,32,United Kingdom,55.94,-3.19
 The University of Manchester,34,United Kingdom,53.47,-2.23
 King's College London,56,United Kingdom,51.51,-0.12
-University of Bristol,74,United Kingdom,51.46,-2.60
+University of Bristol,74,United Kingdom,51.46,-2.6
 University of Warwick,101,United Kingdom,52.38,-1.56
-University of Southampton,101,United Kingdom,50.94,-1.40
+University of Southampton,101,United Kingdom,50.94,-1.4
 University of Leeds,101,United Kingdom,53.81,-1.56
-University of Liverpool,101,United Kingdom,53.40,-2.97
+University of Liverpool,101,United Kingdom,53.4,-2.97
 University of Nottingham,101,United Kingdom,52.94,-1.19
 Cardiff University,101,United Kingdom,51.49,-3.18
 University of Birmingham,101,United Kingdom,52.45,-1.93
@@ -347,7 +347,7 @@ University of Exeter,151,United Kingdom,50.74,-3.54
 London School of Hygiene & Tropical Medicine,151,United Kingdom,51.52,-0.13
 Newcastle University,201,United Kingdom,54.98,-1.61
 University of Leicester,201,United Kingdom,52.62,-1.12
-University of Aberdeen,201,United Kingdom,57.16,-2.10
+University of Aberdeen,201,United Kingdom,57.16,-2.1
 Queen's University,201,United Kingdom,54.58,-5.93
 The University of Reading,201,United Kingdom,51.44,-0.94
 University of East Anglia,201,United Kingdom,52.62,1.24
@@ -360,82 +360,82 @@ Queen's University Belfast,301,United Kingdom,54.58,-5.93
 The University of Dundee,301,United Kingdom,56.46,-2.98
 Lancaster University,301,United Kingdom,54.01,-2.79
 Heriot-Watt University,401,United Kingdom,55.91,-3.32
-University of Kent,401,United Kingdom,51.30,1.07
+University of Kent,401,United Kingdom,51.3,1.07
 Brunel University,401,United Kingdom,51.53,-0.47
 St George's Hospital Medical School,401,United Kingdom,51.43,-0.17
 University of Bath,401,United Kingdom,51.38,-2.33
 Arizona State University,101,United States,33.42,-111.93
-Baylor College of Medicine,101,United States,29.71,-95.40
+Baylor College of Medicine,101,United States,29.71,-95.4
 Boston College,301,United States,42.34,-71.17
 Boston University,70,United States,42.35,-71.11
 Brandeis University,201,United States,42.37,-71.26
 Brigham Young University,401,United States,40.25,-111.65
-Brown University,101,United States,41.83,-71.40
+Brown University,101,United States,41.83,-71.4
 California Institute of Technology,9,United States,34.14,-118.13
 Carnegie Mellon University,91,United States,40.44,-79.94
-Case Western Reserve University,101,United States,41.50,-81.61
+Case Western Reserve University,101,United States,41.5,-81.61
 City University of New York City College,401,United States,40.82, -73.9493
 Colorado State University,201,United States,40.57,-105.09
 Columbia University,8,United States,40.81,-73.96
 Cornell University,12,United States,42.45,-76.47
-Dartmouth College,201,United States,43.70,-72.29
+Dartmouth College,201,United States,43.7,-72.29
 Drexel University,301,United States,39.96,-75.19
-Duke University,26,United States,36.00,-78.94
-Emory University,101,United States,33.80,-84.32
+Duke University,26,United States,36,-78.94
+Emory University,101,United States,33.8,-84.32
 Florida International University,401,United States,29.65,-82.35
-Florida State University,201,United States,30.44,-84.30
+Florida State University,201,United States,30.44,-84.3
 George Mason University,201,United States,38.83,-77.31
 Georgetown University,201,United States,38.91,-77.07
-Georgia Institute of Technology,79,United States,33.78,-84.40
+Georgia Institute of Technology,79,United States,33.78,-84.4
 Harvard University,1,United States,42.38,-71.12
 Icahn School of Medicine at Mount Sinai,101,United States,40.79,-73.95
 Indiana University Bloomington,101,United States,39.18,-86.51
 Indiana University-Purdue University at Indianapolis,301,United States,40.42,-86.92
 Iowa State University,201,United States,42.03,-93.65
 Johns Hopkins University,18,United States,39.33,-76.62
-Kansas State University,401,United States,39.20,-96.58
+Kansas State University,401,United States,39.2,-96.58
 Kent State University,401,United States,41.15,-81.34
 Louisiana State University - Baton Rouge,301,United States,30.41,-91.18
 Massachusetts Institute of Technology,4,United States,42.36,-71.09
 Mayo Medical School,81,United States,44.02,-92.47
 Medical University of South Carolina,301,United States,32.79,-79.95
-Michigan State University,101,United States,42.70,-84.48
+Michigan State University,101,United States,42.7,-84.48
 Mississippi State University,401,United States,33.46,-88.79
-New York University,32,United States,40.73,-74.00
+New York University,32,United States,40.73,-74
 North Carolina State University - Raleigh,151,United States,35.78,-78.68
 Northeastern University (Boston),201,United States,42.34,-71.09
 Northwestern University,25,United States,22.78,-89.55
 Oklahoma State University,401,United States,36.13,-97.07
-Oregon Health and Science University,151,United States,45.50,-122.69
+Oregon Health and Science University,151,United States,45.5,-122.69
 Oregon State University,151,United States,44.56,-123.28
-Pennsylvania State University - University Park,74,United States,40.80,-77.86
+Pennsylvania State University - University Park,74,United States,40.8,-77.86
 Princeton University,6,United States,40.34,-74.66
 Purdue University - West Lafayette,70,United States,40.42,-86.92
-Rice University,70,United States,29.72,-95.40
+Rice University,70,United States,29.72,-95.4
 Rockefeller University,30,United States,40.76,-73.96
 Rush University,401,United States,41.87,-87.67
-"Rutgers, The State University of New Jersey - New Brunswick",101,United States,40.50,-74.45
+"Rutgers, The State University of New Jersey - New Brunswick",101,United States,40.5,-74.45
 Saint Louis University,401,United States,38.64,-90.23
 Stanford University,2,United States,37.43,-122.17
-Stony Brook University,301,United States,40.90,-73.12
+Stony Brook University,301,United States,40.9,-73.12
 Temple University,301,United States,39.98,-75.15
 Texas A&M University,151,United States,30.62,-96.34
 Texas Tech University,401,United States,33.58,-101.88
-The George Washington University,201,United States,38.90,-77.05
+The George Washington University,201,United States,38.9,-77.05
 The Ohio State University - Columbus,94,United States,40.01,-83.03
 The University of Georgia,201,United States,33.95,-83.38
 The University of New Mexico - Albuquerque,301,United States,35.08,-106.62
 The University of Texas at Austin,40,United States,30.28,-97.73
 The University of Texas at Dallas,301,United States,32.99,-96.75
-The University of Texas Health Science Center at Houston,301,United States,29.70,-95.40
+The University of Texas Health Science Center at Houston,301,United States,29.7,-95.4
 The University of Texas Health Science Center at San Antonio,301,United States,29.51,-98.58
-The University of Texas M. D. Anderson Cancer Center,100,United States,29.71,-95.40
+The University of Texas M. D. Anderson Cancer Center,100,United States,29.71,-95.4
 The University of Texas Medical Branch at Galveston,401,United States,29.31,-94.78
 The University of Texas Southwestern Medical Center at Dallas,48,United States,32.81,-96.84
 Thomas Jefferson University,401,United States,39.95,-75.16
 Tufts University,151,United States,42.41,-71.12
 University at Albany (State University of New York),401,United States,42.69,-73.82
-"University at Buffalo, the State University of New York",301,United States,43.00,-78.79
+"University at Buffalo, the State University of New York",301,United States,43,-78.79
 University of Alabama at Birmingham,201,United States,33.21,-87.54
 University of Arizona,101,United States,32.23,-110.95
 "University of California, Berkeley",5,United States,37.87,-122.26
@@ -447,22 +447,22 @@ University of Arizona,101,United States,32.23,-110.95
 "University of California, San Francisco",21,United States,37.87,-122.26
 "University of California, Santa Barbara",46,United States,34.41,-119.85
 "University of California, Santa Cruz",101,United States,36.99,-122.06
-University of Central Florida,301,United States,28.60,-81.20
-University of Chicago,10,United States,41.79,-87.60
+University of Central Florida,301,United States,28.6,-81.2
+University of Chicago,10,United States,41.79,-87.6
 University of Cincinnati,301,United States,39.13,-84.52
 University of Colorado at Boulder,38,United States,40.01,-105.27
 University of Colorado at Denver,201,United States,39.74,-104.99
 University of Connecticut,301,United States,41.81,-72.25
 University of Delaware,201,United States,39.68,-75.75
 University of Florida,86,United States,29.64,-82.35
-University of Hawaii at Manoa,201,United States,21.30,-157.82
+University of Hawaii at Manoa,201,United States,21.3,-157.82
 University of Houston,201,United States,29.72,-95.34
 University of Illinois at Chicago,201,United States,41.87,-87.65
-University of Illinois at Urbana-Champaign,41,United States,40.10,-88.23
+University of Illinois at Urbana-Champaign,41,United States,40.1,-88.23
 University of Iowa,151,United States,41.66,-91.56
 University of Kansas,201,United States,38.95,-95.26
-University of Kentucky,301,United States,38.03,-84.50
-University of Maine,401,United States,44.90,-68.67
+University of Kentucky,301,United States,38.03,-84.5
+University of Maine,401,United States,44.9,-68.67
 "University of Maryland, Baltimore",201,United States,39.29,-76.63
 "University of Maryland, College Park",51,United States,38.99,-76.94
 University of Massachusetts Amherst,151,United States,42.39,-72.53
@@ -472,11 +472,11 @@ University of Michigan-Ann Arbor,27,United States,42.28,-83.74
 "University of Minnesota, Twin Cities",37,United States,44.97,-93.23
 University of Missouri - Columbia,201,United States,38.94,-92.33
 University of Montana - Missoula,401,United States,46.86,-113.99
-University of Nebraska - Lincoln,201,United States,40.82,-96.70
+University of Nebraska - Lincoln,201,United States,40.82,-96.7
 University of New Hampshire - Durham,401,United States,43.14,-70.94
-University of North Carolina at Chapel Hill,30,United States,35.90,-79.05
+University of North Carolina at Chapel Hill,30,United States,35.9,-79.05
 University of North Texas,301,United States,33.21,-97.15
-University of Notre Dame,201,United States,41.70,-86.24
+University of Notre Dame,201,United States,41.7,-86.24
 University of Oklahoma - Norman,401,United States,35.21,-97.45
 University of Oregon,301,United States,44.04,-123.07
 University of Pennsylvania,16,United States,39.95,-75.19
@@ -487,14 +487,14 @@ University of South Florida,201,United States,28.06,-82.41
 University of Southern California,60,United States,34.02,-118.29
 University of Tennessee - Knoxville,201,United States,35.95,-83.93
 University of Utah,101,United States,40.76,-111.84
-University of Vermont,301,United States,44.48,-73.20
+University of Vermont,301,United States,44.48,-73.2
 University of Virginia,151,United States,38.03,-78.51
 University of Washington,14,United States,47.24,-122.55
 University of Wisconsin - Madison,28,United States,43.08,-89.41
 University of Wisconsin-Milwaukee,401,United States,43.08,-87.88
 University of Wyoming,401,United States,41.31,-105.57
 Utah State University,401,United States,41.75,-111.81
-Vanderbilt University,50,United States,36.14,-86.80
+Vanderbilt University,50,United States,36.14,-86.8
 Virginia Commonwealth University,201,United States,37.55,-77.45
 Virginia Polytechnic Institute and State University,201,United States,37.23,-80.42
 Washington State University,301,United States,46.73,-117.15
