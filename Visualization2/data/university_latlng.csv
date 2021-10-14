@@ -9,7 +9,7 @@ The University of Western Australia,93,Australia,-31.98,115.82
 The University of New South Wales,101,Australia,-33.92,151.23
 The University of Adelaide,101,Australia,-34.92,138.61
 Curtin University,151,Australia,-32.01,115.89
-Deakin University,201,Australia, -38.1979,144.3
+Deakin University,201,Australia,-38.1979,144.3
 James Cook University,201,Australia,-19.33,146.76
 Macquarie University,201,Australia,-33.78,151.12
 Queensland University of Technology,201,Australia,-27.48,153.03
@@ -130,7 +130,7 @@ Cairo University,401,Egypt,30.0272,31.2087
 University of Tartu,301,Estonia,58.3811,26.7199
 University of Helsinki,57,Finland,60.1726,24.951
 Aalto University,301,Finland,24.8277,24.8277
-University of Turku,301,Finland,60.4563, 22.2851
+University of Turku,301,Finland,60.4563,22.2851
 University of Duisburg-Essen,301,Finland,51.4277,6.801
 University of Eastern Finland,401,Finland,62.8939,27.6404
 Sorbonne University,36,France,48.8506,2.3403
@@ -276,7 +276,7 @@ University of Lisbon,151,Portugal,38.75,-9.16
 University of Porto,301,Portugal,41.15,-8.62
 University of Aveiro,401,Portugal,40.63,-8.66
 University of Minho,401,Portugal,41.56,-8.4
-Moscow State University,86,Russian Federation,55.7, 37.5287
+Moscow State University,86,Russian Federation,55.7,37.5287
 Saint Petersburg State University,301,Russian Federation,59.94,30.3
 Novosibirsk State University,401,Russian Federation,54.85,83.09
 Moscow Institute of Physics and Technology,401,Russian Federation,55.93,37.52
