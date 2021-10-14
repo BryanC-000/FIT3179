@@ -1,5 +1,5 @@
 University,WorldRank,Country,Latitude,Longitude
-University of Buenos Aires,201,Argentina,0.0000,0.0000
+University of Buenos Aires,201,Argentina,-34.5999,-58.3731
 The University of Melbourne,38,Australia,-37.7983,144.9610
 The University of Queensland,55,Australia,-27.4975,153.0137
 University of Sydney,68,Australia,-33.8886,151.1873
@@ -23,25 +23,25 @@ Swinburne University of Technology,301,Australia,-37.8222,145.0390
 La Trobe University,301,Australia,-37.7219,145.0505
 University of Western Sydney,401,Australia,-33.8139,151.0066
 Flinders University,401,Australia,-35.0255,138.5719
-University of Vienna,151,Austria,0.0000,0.0000
-University of Innsbruck,201,Austria,0.0000,0.0000
-Medical University of Vienna,201,Austria,0.0000,0.0000
-Vienna University of Technology,301,Austria,0.0000,0.0000
-University of Graz,401,Austria,0.0000,0.0000
-Medical University of Innsbruck,401,Austria,0.0000,0.0000
-Ghent University,61,Belgium,0.0000,0.0000
-KU Leuven,86,Belgium,0.0000,0.0000
-Catholic University of Louvain,151,Belgium,0.0000,0.0000
-Université libre de Bruxelles (ULB),151,Belgium,0.0000,0.0000
-University of Antwerp,201,Belgium,0.0000,0.0000
-Vrije Universiteit Brussel (VUB),201,Belgium,0.0000,0.0000
-University of Liege,301,Belgium,0.0000,0.0000
-University of Sao Paulo,151,Brazil,0.0000,0.0000
-University of Campinas,301,Brazil,0.0000,0.0000
-UNESP,301,Brazil,0.0000,0.0000
-Federal University of Rio de Janeiro,301,Brazil,0.0000,0.0000
-Federal University of Minas Gerais,401,Brazil,0.0000,0.0000
-Federal University of Rio Grande do Sul,401,Brazil,0.0000,0.0000
+University of Vienna,151,Austria,48.2132,16.3601
+University of Innsbruck,201,Austria,47.2634,11.3838
+Medical University of Vienna,201,Austria,48.2197,16.3515
+Vienna University of Technology,301,Austria,48.1987,16.3685
+University of Graz,401,Austria,47.0707,15.4395
+Medical University of Innsbruck,401,Austria,47.2597,11.387
+Ghent University,61,Belgium,51.0247,3.7253
+KU Leuven,86,Belgium,50.8798,4.7005
+Catholic University of Louvain,151,Belgium,50.6697,4.6159
+Université libre de Bruxelles (ULB),151,Belgium,50.8132,4.3822
+University of Antwerp,201,Belgium,51.2228,4.4102
+Vrije Universiteit Brussel (VUB),201,Belgium,50.8219,4.3949
+University of Liege,301,Belgium,50.5831,5.5591
+University of Sao Paulo,151,Brazil,-23.5614,-46.7308
+University of Campinas,301,Brazil,-22.8184,-47.0647
+UNESP,301,Brazil,-22.1284,-51.4131
+Federal University of Rio de Janeiro,301,Brazil,-22.8625,-43.2235
+Federal University of Minas Gerais,401,Brazil,-19.8707,-43.9677
+Federal University of Rio Grande do Sul,401,Brazil,-30.0332,-51.2207
 University of Toronto,23,Canada,0.0000,0.0000
 University of British Columbia,43,Canada,0.0000,0.0000
 McGill University,70,Canada,0.0000,0.0000
