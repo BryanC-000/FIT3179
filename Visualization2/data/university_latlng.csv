@@ -42,26 +42,26 @@ UNESP,301,Brazil,-22.1284,-51.4131
 Federal University of Rio de Janeiro,301,Brazil,-22.8625,-43.2235
 Federal University of Minas Gerais,401,Brazil,-19.8707,-43.9677
 Federal University of Rio Grande do Sul,401,Brazil,-30.0332,-51.2207
-University of Toronto,23,Canada,0.0000,0.0000
-University of British Columbia,43,Canada,0.0000,0.0000
-McGill University,70,Canada,0.0000,0.0000
-McMaster University,86,Canada,0.0000,0.0000
-University of Montreal,101,Canada,0.0000,0.0000
-University of Alberta,101,Canada,0.0000,0.0000
-The University of Calgary,151,Canada,0.0000,0.0000
-University of Ottawa,151,Canada,0.0000,0.0000
-University of Waterloo,151,Canada,0.0000,0.0000
-Queen's University,201,Canada,0.0000,0.0000
-Laval University,201,Canada,0.0000,0.0000
-Western University,201,Canada,0.0000,0.0000
-University of Guelph,301,Canada,0.0000,0.0000
-University of Manitoba,301,Canada,0.0000,0.0000
-University of Victoria,301,Canada,0.0000,0.0000
-Simon Fraser University,301,Canada,0.0000,0.0000
-University of Saskatchewan,301,Canada,0.0000,0.0000
-Dalhousie University,301,Canada,0.0000,0.0000
-University of Chile,301,Chile,0.0000,0.0000
-Catholic University of Chile,401,Chile,0.0000,0.0000
+University of Toronto,23,Canada,43.6609,-79.3960
+University of British Columbia,43,Canada,49.2606,-123.2460
+McGill University,70,Canada,45.5048,-73.5772
+McMaster University,86,Canada,43.2609,-79.9192
+University of Montreal,101,Canada,45.5056,-73.6138
+University of Alberta,101,Canada,53.5232,-113.5263
+The University of Calgary,151,Canada,51.0776,-114.1407
+University of Ottawa,151,Canada,45.4231,-75.6831
+University of Waterloo,151,Canada,43.4723,-80.5449
+Queen's University,201,Canada,44.2253,-76.4951
+Laval University,201,Canada,46.7817,-71.2747
+Western University,201,Canada,43.0096,-81.2737
+University of Guelph,301,Canada,43.5327,-80.2262
+University of Manitoba,301,Canada,49.8075,-97.1366
+University of Victoria,301,Canada,48.4634,-123.3117
+Simon Fraser University,301,Canada,49.2846,-123.1115
+University of Saskatchewan,301,Canada,52.1334,-106.6314
+Dalhousie University,301,Canada,44.6366,-63.5917
+University of Chile,301,Chile,-33.4445,-70.6509
+Catholic University of Chile,401,Chile,-33.4418,-70.6400
 Tsinghua University,45,China,24.7957,120.9969
 Peking University,57,China,39.9869,116.3059
 Zhejiang University,67,China,30.268862,120.12155
@@ -87,7 +87,7 @@ The Hong Kong Polytechnic University,201,China,22.3042,114.1798
 Dalian University of Technology,201,China,38.8804,121.529
 Soochow University (China),201,China,31.3033,120.6519
 Southeast University,201,China,23.7946,90.4047
-Beihang University,201,China,39.97416277 116.33916531,39.97416277 116.33916531
+Beihang University,201,China,39.9742,116.3392
 Tianjin University,201,China,39.1081,117.1762
 University of Electronic Science and Technology of China,201,China,22.5311,113.3896
 Shandong University,301,China,36.6489,117.029
@@ -120,7 +120,7 @@ Kaohsiung Medical University,401,China,22.6473,120.3107
 Nanjing University of Information Science & Technology,401,China,32.2054,118.727
 Chang Gung University,401,China,25.0338,121.3899
 China University of Geosciences (Wuhan),401,China,30.5161,114.4025
-Charles University in Prague,201,Czech Republic,0.0000,0.0000
+Charles University in Prague,201,Czech Republic,50.0871,14.4235
 University of Copenhagen,29,Denmark,0.0000,0.0000
 Aarhus University,65,Denmark,0.0000,0.0000
 Technical University of Denmark,151,Denmark,0.0000,0.0000
@@ -326,44 +326,44 @@ National Cheng Kung University,301,"Taiwan, China",0.0000,0.0000
 National Tsing Hua University,401,"Taiwan, China",0.0000,0.0000
 Istanbul University,401,Turkey,0.0000,0.0000
 University of Cambridge,3,United Kingdom,52.2043,0.1149
-University of Oxford,7,United Kingdom,0.0000,0.0000
-University College London,17,United Kingdom,0.0000,0.0000
-Imperial College London,24,United Kingdom,0.0000,0.0000
-The University of Edinburgh,32,United Kingdom,0.0000,0.0000
-The University of Manchester,34,United Kingdom,0.0000,0.0000
-King's College London,56,United Kingdom,0.0000,0.0000
-University of Bristol,74,United Kingdom,0.0000,0.0000
-University of Warwick,101,United Kingdom,0.0000,0.0000
-University of Southampton,101,United Kingdom,0.0000,0.0000
-University of Leeds,101,United Kingdom,0.0000,0.0000
-University of Liverpool,101,United Kingdom,0.0000,0.0000
-University of Nottingham,101,United Kingdom,0.0000,0.0000
-Cardiff University,101,United Kingdom,0.0000,0.0000
-University of Birmingham,101,United Kingdom,0.0000,0.0000
-The University of Sheffield,101,United Kingdom,0.0000,0.0000
-The University of Glasgow,151,United Kingdom,0.0000,0.0000
-Queen Mary University of London,151,United Kingdom,0.0000,0.0000
-University of Exeter,151,United Kingdom,0.0000,0.0000
-London School of Hygiene & Tropical Medicine,151,United Kingdom,0.0000,0.0000
-Newcastle University,201,United Kingdom,0.0000,0.0000
-University of Leicester,201,United Kingdom,0.0000,0.0000
-University of Aberdeen,201,United Kingdom,0.0000,0.0000
-Queen's University,201,United Kingdom,0.0000,0.0000
-The University of Reading,201,United Kingdom,0.0000,0.0000
-University of East Anglia,201,United Kingdom,0.0000,0.0000
-University of Sussex,201,United Kingdom,0.0000,0.0000
-Durham University,201,United Kingdom,0.0000,0.0000
-University of St Andrews,301,United Kingdom,0.0000,0.0000
-University of Surrey,301,United Kingdom,0.0000,0.0000
-University of York,301,United Kingdom,0.0000,0.0000
-Queen's University Belfast,301,United Kingdom,0.0000,0.0000
-The University of Dundee,301,United Kingdom,0.0000,0.0000
-Lancaster University,301,United Kingdom,0.0000,0.0000
-Heriot-Watt University,401,United Kingdom,0.0000,0.0000
-University of Kent,401,United Kingdom,0.0000,0.0000
-Brunel University,401,United Kingdom,0.0000,0.0000
-St George's Hospital Medical School,401,United Kingdom,0.0000,0.0000
-University of Bath,401,United Kingdom,0.0000,0.0000
+University of Oxford,7,United Kingdom,51.7548,-1.2544
+University College London,17,United Kingdom,51.5246,-0.1340
+Imperial College London,24,United Kingdom,51.4988,-0.1749
+The University of Edinburgh,32,United Kingdom,55.9445,-3.1892
+The University of Manchester,34,United Kingdom,53.4668,-2.2339
+King's College London,56,United Kingdom,51.5115,-0.1160
+University of Bristol,74,United Kingdom,51.4584,-2.6030
+University of Warwick,101,United Kingdom,52.3793,-1.5615
+University of Southampton,101,United Kingdom,50.9351,-1.3958
+University of Leeds,101,United Kingdom,53.8067,-1.5550
+University of Liverpool,101,United Kingdom,53.4048,-2.9653
+University of Nottingham,101,United Kingdom,52.9398,-1.1930
+Cardiff University,101,United Kingdom,51.4866,-3.1789
+University of Birmingham,101,United Kingdom,52.4508,-1.9305
+The University of Sheffield,101,United Kingdom,53.3814,-1.4884
+The University of Glasgow,151,United Kingdom,55.8724,-4.2900
+Queen Mary University of London,151,United Kingdom,51.5241,-0.0404
+University of Exeter,151,United Kingdom,50.7371,-3.5351
+London School of Hygiene & Tropical Medicine,151,United Kingdom,51.5209,-0.1303
+Newcastle University,201,United Kingdom,54.9792,-1.6147
+University of Leicester,201,United Kingdom,52.6211,-1.1246
+University of Aberdeen,201,United Kingdom,57.1648,-2.1015
+Queen's University,201,United Kingdom,54.5844,-5.9340
+The University of Reading,201,United Kingdom,51.4414,-0.9418
+University of East Anglia,201,United Kingdom,52.6219,1.2392
+University of Sussex,201,United Kingdom,50.8677,-0.0875
+Durham University,201,United Kingdom,54.765,-1.5782
+University of St Andrews,301,United Kingdom,56.3417,-2.7943
+University of Surrey,301,United Kingdom,51.2431,-0.5895
+University of York,301,United Kingdom,53.9461,-1.0518
+Queen's University Belfast,301,United Kingdom,54.5844,-5.9340
+The University of Dundee,301,United Kingdom,56.4582,-2.9821
+Lancaster University,301,United Kingdom,54.0104,-2.7877
+Heriot-Watt University,401,United Kingdom,55.9112,-3.3217
+University of Kent,401,United Kingdom,51.2983,1.0694
+Brunel University,401,United Kingdom,51.5321,-0.4727
+St George's Hospital Medical School,401,United Kingdom,51.427,-0.1739
+University of Bath,401,United Kingdom,51.3782,-2.3264
 Arizona State University,101,United States,33.4246,-111.9280
 Baylor College of Medicine,101,United States,29.7105,-95.3965
 Boston College,301,United States,42.3355,-71.1685
