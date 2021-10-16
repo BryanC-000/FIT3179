@@ -9,11 +9,11 @@
     "width": "container",
     "height": 400,
     "data": {
-                "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_latlng.csv",
-                "format": {
-                    "type": "csv"
-                }
-            },
+        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_latlng.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
     "layer": [
         {
             "data": {
@@ -41,7 +41,6 @@
             }
         },
         {
-            
             "projection": {
                 "type": "equalEarth"
             },
@@ -56,13 +55,32 @@
                     "type": "quantitative"
                 },
                 "size": {
-                    "value": 10
+                   
+                    "value": 20
                 },
-                "opacity":{
+                "opacity": {
+                    
                     "value": 0.5
                 },
                 "color": {
-                    "value": "steelblue"
+                    "field": "Type",
+                    "type": "nominal",
+                    "scale": {
+                        "type": "band",
+                        "domain": ["Top 10", "Top 100", "Top 500"],
+                        "range": ["#393b79", "#6c7fb2", "#9cb5db"]
+                    },
+                    "legend": {
+                        "title": "Rank",
+                        "titleFont": "Open Sans",
+                        "titleFontSize": 14,
+                        "direction": "horizontal",
+                        "orient": "bottom-left",
+                        "labelFont": "Open Sans",
+                        "labelFontSize": 12,
+                        "gradientLength": 200,
+                        "symbolOpacity": 1
+                    }
                 },
                 "tooltip": [
                     {
@@ -73,9 +91,9 @@
                     }
                 ]
             }
+            
         },
         {
-          
             "transform": [
                 {
                     "filter": "datum.Country == 'Argentina'"
