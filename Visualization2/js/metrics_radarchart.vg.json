@@ -162,11 +162,11 @@
                 "field": "university"
             },
             "range": [
-                "#3182BD",
+                "#4f7994",
                 "#EA202D",
                 "#2F4858",
                 "#FF6600",
-                "#F9F871",
+                "#006400",
                 "#00A2CE",
                 "#00BCAB",
                 "#008092",
@@ -379,7 +379,7 @@
             "labelFont": "Open Sans",
             "titleFont": "Open Sans",
             "symbolSize": 100,
-            "labelLimit":100
+            "labelLimit": 100
         }
     ]
 }

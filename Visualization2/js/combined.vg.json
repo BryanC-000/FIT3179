@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "background": "#BFFCFB",
+    "background": "#FFF8E8",
     "params": [
         {
             "name": "University_selection",
@@ -8,7 +8,6 @@
             "bind": {
                 "input": "select",
                 "options": [
-                    null,
                     "Harvard University",
                     "Stanford University",
                     "University of Cambridge",
@@ -21,7 +20,6 @@
                     "University of Chicago"
                 ],
                 "labels": [
-                    "No university selected",
                     "Harvard University",
                     "Stanford University",
                     "University of Cambridge",
@@ -63,6 +61,14 @@
             ],
             "layer": [
                 {
+                    "selection": {
+                        "university_highlight": {
+                            "type": "multi",
+                            "fields": [
+                                "University"
+                            ]
+                        }
+                    },
                     "mark": {
                         "type": "line",
                         "point": {
@@ -149,11 +155,11 @@
                                     "University of Chicago"
                                 ],
                                 "range": [
+                                    "#4f7994",
+                                    "#FF6600",
                                     "#3182BD",
                                     "#EA202D",
-                                    "#2F4858",
-                                    "#FF6600",
-                                    "#F9F871",
+                                    "#006400",
                                     "#00A2CE",
                                     "#00BCAB",
                                     "#008092",
@@ -167,7 +173,7 @@
                                 "titleFontSize": 12,
                                 "titleFont": "Open Sans",
                                 "labelFont": "Open Sans",
-                                "labelLimit": 150,
+                                "labelLimit": 130,
                                 "values": [
                                     "Harvard University",
                                     "Stanford University",
@@ -180,13 +186,13 @@
                                     "California Institute of Technology",
                                     "University of Chicago"
                                 ],
-                                "offset": -110,
-                                "symbolSize": 100
+                                "symbolSize": 100,
+                                "offset": -115
                             }
                         },
                         "opacity": {
                             "condition": {
-                                "test": "datum.University == University_selection || University_selection == null",
+                                "selection": "university_highlight",
                                 "value": 1
                             },
                             "value": 0.1
@@ -223,7 +229,7 @@
                 "fontWeight": "bold"
             },
             "height": 25,
-            "width": 730,
+            "width": 745,
             "data": {
                 "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/university_ranking_shanghai_bumpchart.csv",
                 "format": {
@@ -251,74 +257,71 @@
                         {
                             "test": "University_selection == 'Harvard University'",
                             "value": [
-                                "Established in 1636, it is the oldest institution of higher learning in the United States and one of the most prestigious",
-                                "universities around the world. Harvard University holds a record number of honors and awards with 161 Nobel Laureates,",
-                                "23 heads of state, and 132 Pulitzer Prize winners. By the end of the first decade of the 21st century, Harvard had",
-                                "educated seven US presidents.",
+                                "Established in 1636, it is the oldest institution of higher learning in the United States and one of",
+                                "the most prestigious universities around the world. By the end of the first decade of the 21st century,",
+                                "Harvard had educated seven US presidents.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'Stanford University'",
                             "value": [
-                                "Located in Palo Alto, CA, in the heart of Silicon Valley, Stanford University offers the excellence and prestige of its East",
-                                "Coast Ivy League sisters, Harvard, Princeton, and Yale. However, Stanford offers what many perceive as a distinct",
-                                "advantage over Harvard, Yale and Princeton – sunshine and mild winters. For the undergrad class of 2020, Stanford",
-                                "received 36,175 applications and accepted 1,318 or 3.6%, the lowest in the university’s history and the lowest in the world.",
+                                "Located in Palo Alto, CA, in the heart of Silicon Valley, Stanford University offers the excellence",
+                                "and prestige of its East Coast Ivy League sisters, Harvard, Princeton, and Yale. However, Stanford",
+                                "offers what many perceive as a distinct advantage over the East coast – sunshine and mild winters.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'University of Cambridge'",
                             "value": [
-                                "University of Cambridge is the second-oldest university in all English-speaking countries. Cambridge University has groomed",
-                                "many notable personalities that have shaped mankind in one way or the other. Many amongst which include; Father of",
-                                "Evolution; Charles Darwin, Sir Isaac Newton, and cosmology director, Stephen Hawking.",
+                                "University of Cambridge is the second-oldest university in all English-speaking countries. Cambridge",
+                                "University has groomed many notable personalities  which include; Father of Evolution; Charles Darwin,",
+                                "Sir Isaac Newton, and cosmology director, Stephen Hawking.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'Massachusetts Institute of Technology'",
                             "value": [
-                                "Massachusetts Institute of Technology (MIT), was founded April 10, 1861, two days before the start of the Civil War. It is a",
-                                "privately controlled coeducational institution of higher learning famous for its scientific and technological training",
-                                "and research.",
+                                "Massachusetts Institute of Technology (MIT), was founded April 10, 1861, two days before the start,",
+                                "of the Civil War. It is a privately controlled coeducational institution of higher learning famous",
+                                "for its scientific and technological training and research.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'University of California, Berkeley'",
                             "value": [
-                                "The University was founded in 1868 when the private College of California and the public Agricultural, Mining, and Mechanical",
-                                "Arts College merged. UC Berkeley students have won national titles in many sports, including football, men's basketball,",
-                                "baseball, softball, water polo, rugby and crew. In addition, they have won over 100 Olympic medals.",
+                                "The University of California, Berkeley was founded in 1868  UC Berkeley students have won national",
+                                "titles in many sports, including football, men's basketball, baseball, softball, water polo, rugby",
+                                "and crew. In addition, they have won over 100 Olympic medals.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'Princeton University'",
                             "value": [
-                                "Princeton University is one of the 8 Ivy League colleges. It was the fourth official college in the United States. Princeton's",
-                                "main library, Firestone Library, is one of the biggest university libraries in the world. As a highly prestigious institution,",
-                                "Princeton is extremely tough to get into: the present Princeton acceptance rate is just 5%.",
+                                "Princeton University is one of the 8 Ivy League colleges. It was the fourth official college in",
+                                "the United States. Princeton's main library, Firestone Library, is one of the biggest university",
+                                "libraries in the world.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'University of Oxford'",
                             "value": [
-                                "The University of Oxford is roughly 922 years old, making it the second oldest University in the world. It is beaten in",
-                                "age by the University of Bologna which is around 930 years old. The buildings will likely be familiar to fans of the",
-                                "Harry Potter movies, which used Oxford as filming locations for many scenes.",
+                                "The University of Oxford is roughly 922 years old, making it the second oldest University in",
+                                "the world. The buildings will likely be familiar to fans of the Harry Potter movies, which",
+                                "used Oxford as filming locations for many scenes.",
                                 " "
                             ]
                         },
                         {
                             "test": "University_selection == 'Columbia University'",
                             "value": [
-                                "Columbia University consistently ranks in the top 5 schools in the nation. The university is similar to its Ivy League",
-                                "counterparts Brown and UPenn in that it heavily values academics, but with more of an explicit focus on intellectual",
-                                "diversity. Columbia University is the home of the Pulitzer Prize, an award for achievements in newspaper, magazine and online",
+                                "Columbia University consistently ranks in the top 5 schools in the nation. Columbia University",
+                                "is the home of the Pulitzer Prize, an award for achievements in newspaper, magazine and online",
                                 "journalism, literature, and musical composition.",
                                 " "
                             ]
@@ -326,9 +329,9 @@
                         {
                             "test": "University_selection == 'California Institute of Technology'",
                             "value": [
-                                "Caltech was founded as Throop University in 1891 in Pasadena, California, and renamed the California Institute of Technology",
-                                "in 1920. Albert Einstein was a visiting professor at Caltech for three winter terms - 1931, 1932, and 1933. The Big Bang",
-                                "Theory, which is set at Caltech, taped an episode on campus that featured a cameo appearance by world-renowned",
+                                "Caltech was founded as Throop University in 1891 in Pasadena, California. Albert Einstein was a",
+                                "visiting professor at Caltech for three winter terms - 1931, 1932, and 1933. The Big Bang Theory,",
+                                "which is set at Caltech, taped an episode on campus that featured a cameo appearance by world-renowned",
                                 "astrophysicist, Stephen Hawking",
                                 " "
                             ]
@@ -336,9 +339,8 @@
                         {
                             "test": "University_selection == 'University of Chicago'",
                             "value": [
-                                "The University of Chicago is a university in Hyde Park, Chicago, Illinois. The university is known for providing good",
-                                "education in economics, linguistics, social science, and mathematics. Physicists at the University of Chicago",
-                                "built the world's first man-made, self-sustaining nuclear reaction",
+                                "The University of Chicago is a university in Hyde Park, Chicago, Illinois. Physicists at the",
+                                "University of Chicago built the world's first man-made, self-sustaining nuclear reaction.",
                                 " "
                             ]
                         }
@@ -351,13 +353,13 @@
             "hconcat": [
                 {
                     "title": {
-                        "text": "Proportion of female students",
+                        "text": "International to local ratio",
                         "font": "Open Sans",
                         "fontSize": 14,
                         "offset": 20
                     },
                     "data": {
-                        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/gender_pie.csv",
+                        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/international_pie.csv",
                         "format": {
                             "type": "csv"
                         }
@@ -367,11 +369,11 @@
                             "filter": "datum.university_name == University_selection"
                         },
                         {
-                            "calculate": "datum.female_male_ratio * 100 + '%'",
+                            "calculate": "datum.international_students",
                             "as": "percent_text"
                         }
                     ],
-                    "width": 230,
+                    "width": 210,
                     "height": 150,
                     "layer": [
                         {
@@ -381,16 +383,16 @@
                             },
                             "encoding": {
                                 "theta": {
-                                    "field": "gender_percent",
+                                    "field": "international_percent",
                                     "type": "quantitative"
                                 },
                                 "color": {
-                                    "field": "gender",
+                                    "field": "international_type",
                                     "type": "nominal",
                                     "scale": {
                                         "domain": [
-                                            "Male",
-                                            "Female"
+                                            "Local",
+                                            "International"
                                         ]
                                     }
                                 },
@@ -401,12 +403,12 @@
                                         "title": "University"
                                     },
                                     {
-                                        "field": "gender",
+                                        "field": "international_type",
                                         "type": "nominal",
                                         "title": "Type"
                                     },
                                     {
-                                        "field": "gender_percent",
+                                        "field": "international_percent",
                                         "type": "quantitative",
                                         "title": "Percent"
                                     }
@@ -427,18 +429,18 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 25,
-                                "y": 30,
+                                "x": 18,
+                                "y": 15,
                                 "fontSize": 12,
                                 "font": "Open Sans",
-                                "color": "#3182BD",
+                                "color": "#4f7994",
                                 "fontWeight": "bold"
                             },
                             "encoding": {
                                 "text": {
                                     "condition": {
-                                        "test": "datum.gender == 'Male'",
-                                        "value": "Male"
+                                        "test": "datum.international_type == 'Local'",
+                                        "value": "Local"
                                     },
                                     "value": ""
                                 }
@@ -447,18 +449,18 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 210,
-                                "y": 30,
+                                "x": 203,
+                                "y": 15,
                                 "fontSize": 12,
                                 "font": "Open Sans",
                                 "fontWeight": "bold",
-                                "color": "#EA202D"
+                                "color": "#ff6600"
                             },
                             "encoding": {
                                 "text": {
                                     "condition": {
-                                        "test": "datum.gender == 'Female'",
-                                        "value": "Female"
+                                        "test": "datum.international_type == 'International'",
+                                        "value": "International"
                                     },
                                     "value": ""
                                 }
@@ -473,7 +475,7 @@
                         "fontSize": 14,
                         "offset": 20
                     },
-                    "width": 230,
+                    "width": 240,
                     "height": 180,
                     "data": {
                         "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/student_staff_isotype_v2.csv",
@@ -578,13 +580,13 @@
                 },
                 {
                     "title": {
-                        "text": "Proportion of international students",
+                        "text": "Female to male ratio",
                         "font": "Open Sans",
                         "fontSize": 14,
                         "offset": 20
                     },
                     "data": {
-                        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/international_pie.csv",
+                        "url": "https://raw.githubusercontent.com/BryanC-000/FIT3179/main/Visualization2/data/gender_pie.csv",
                         "format": {
                             "type": "csv"
                         }
@@ -594,11 +596,11 @@
                             "filter": "datum.university_name == University_selection"
                         },
                         {
-                            "calculate": "datum.international_students",
+                            "calculate": "datum.female_male_ratio * 100 + '%'",
                             "as": "percent_text"
                         }
                     ],
-                    "width": 230,
+                    "width": 240,
                     "height": 150,
                     "layer": [
                         {
@@ -608,16 +610,16 @@
                             },
                             "encoding": {
                                 "theta": {
-                                    "field": "international_percent",
+                                    "field": "gender_percent",
                                     "type": "quantitative"
                                 },
                                 "color": {
-                                    "field": "international_type",
+                                    "field": "gender",
                                     "type": "nominal",
                                     "scale": {
                                         "domain": [
-                                            "Local",
-                                            "International"
+                                            "Male",
+                                            "Female"
                                         ]
                                     }
                                 },
@@ -628,12 +630,12 @@
                                         "title": "University"
                                     },
                                     {
-                                        "field": "international_type",
+                                        "field": "gender",
                                         "type": "nominal",
                                         "title": "Type"
                                     },
                                     {
-                                        "field": "international_percent",
+                                        "field": "gender_percent",
                                         "type": "quantitative",
                                         "title": "Percent"
                                     }
@@ -654,18 +656,18 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 25,
+                                "x": 30,
                                 "y": 30,
                                 "fontSize": 12,
                                 "font": "Open Sans",
-                                "color": "#2F4858",
+                                "color": "#3182BD",
                                 "fontWeight": "bold"
                             },
                             "encoding": {
                                 "text": {
                                     "condition": {
-                                        "test": "datum.international_type == 'Local'",
-                                        "value": "Local"
+                                        "test": "datum.gender == 'Male'",
+                                        "value": "Male"
                                     },
                                     "value": ""
                                 }
@@ -674,18 +676,18 @@
                         {
                             "mark": {
                                 "type": "text",
-                                "x": 225,
+                                "x": 210,
                                 "y": 30,
                                 "fontSize": 12,
                                 "font": "Open Sans",
                                 "fontWeight": "bold",
-                                "color": "#ff6600"
+                                "color": "#EA202D"
                             },
                             "encoding": {
                                 "text": {
                                     "condition": {
-                                        "test": "datum.international_type == 'International'",
-                                        "value": "International"
+                                        "test": "datum.gender == 'Female'",
+                                        "value": "Female"
                                     },
                                     "value": ""
                                 }
