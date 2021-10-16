@@ -37,15 +37,11 @@
         <div class="pure-g">
             <div class="pure-u-1">
                 <h2>Where are the top universities from?</h2>
-                <p>Here we have a map showing the distribution of top universities around the world and where they are
-                    located in. At a glance, it is observable that majority of the top universities come from two
-                    countries that is <span class='country1'>United States</span> and <span class='country1'>United
+                <p>At a glance, it is observable that majority of the top universities come from two main continents, North America and Europe.
+                    It is observed that the top 10 ranked universities and majority of the universities are from two countries being <span class='country1'>United States</span> and <span class='country1'>United
                         Kingdom</span>. On the other side of the world the leading countries are <span
                         class='country2'>China</span>, <span class='country2'>Japan</span> and <span
                         class='country2'>Australia</span>.</p>
-                <div id="choropleth_map" class="vis"></div>
-            </div>
-            <div class="pure-u-1">
                 <div id="dot_map" class="vis"></div>
             </div>
 
@@ -103,7 +99,8 @@
         </div>
         <div class="pure-g">
             <div class="pure-u-1-1" id='reference'>
-                <p>This visualisation is created by <a href="https://github.com/BryanC-000" target="_blank">Bryan Chow</a>
+                <p>This visualisation is created by <a href="https://github.com/BryanC-000" target="_blank">Bryan
+                        Chow</a>
                     for FIT3179 Data Visualisation 2. </p>
                 <p> The data was obtained from <a href="https://www.kaggle.com/mylesoneill/world-university-rankings"
                         target="_blank">World
@@ -117,10 +114,6 @@
 
     </div>
     <script type="text/javascript">
-        var choropleth_spec = "js/choropleth_map.vg.json";
-        vegaEmbed('#choropleth_map', choropleth_spec, { "actions": false }).then(function (result) {
-        }).catch(console.error);
-
         var dot_spec = "js/dotmap.vg.json";
         vegaEmbed('#dot_map', dot_spec, { "actions": false }).then(function (result) {
         }).catch(console.error);
