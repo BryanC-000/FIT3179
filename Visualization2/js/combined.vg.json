@@ -36,7 +36,7 @@
         },
         {
             "name": "info_text",
-            "expr": "'Some interesting information about ' + University_selection"
+            "expr": "'Interesting information about ' + University_selection"
         }
     ],
     "vconcat": [
