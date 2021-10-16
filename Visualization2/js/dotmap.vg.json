@@ -59,8 +59,11 @@
                     "value": 20
                 },
                 "opacity": {
-                    
-                    "value": 0.5
+                    "condition":{
+                        "test": "datum.Type == 'Top 10'",
+                        "value": 1
+                    },
+                    "value": 0.65
                 },
                 "color": {
                     "field": "Type",
