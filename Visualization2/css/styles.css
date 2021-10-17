@@ -32,25 +32,30 @@ h2{
 }
 
 .boldtext{
+    font-size: 15px;
     font-weight: bolder;
 }
 
 .harvard {
+    font-size: 15px;
     font-weight: bolder;
     color: #4f7994;
 }
 
 .shanghai {
+    font-size: 15px;
     color: #c85417;
     font-weight: bolder
 }
 
 .country1 {
+    font-size: 15px;
     color: #8B0000;
     font-weight: bolder;
 }
 
 .country2 {
+    font-size: 15px;
     color: #fc3939;
     font-weight: bolder;
 }
